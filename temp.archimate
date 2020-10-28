@@ -8521,14 +8521,18 @@ VI ønsker oss beskrivelse av datamodell og begreper som finnes i begrepskatalog
 </documentation>
     </element>
     <element xsi:type="archimate:ApplicationService" name="UHF sentralisert selvbetjeningstjeneste for administrasjon av integrasjoner og APIer" id="id-a5857bbbb6e948fea43c09eb04869c0c"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Gravitee access manager" id="id-790edbc925b24187adbccb11b66a37b4">
-      <property key="difi:abstractionLevel" value="sbb"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Intern Oauth2 autorizaton server (logisk sentralisert installasjon - transisjon må vi finne ut av)" id="id-790edbc925b24187adbccb11b66a37b4">
+      <documentation>Benyttes til å registerere APIer når man kommuniserer server-server internt i sektoren, eller når den aksesseres på vegne av en bruker.&#xD;
+&#xD;
+Benytte Intern Oauth2 server for utstedelse av tokens for oppslag internt i sektoren, ellers bruker man Maskinporten.</documentation>
+      <property key="difi:abstractionLevel" value="abb"/>
     </element>
     <element xsi:type="archimate:ApplicationService" name="Registrering av UHF  applikasjonser " id="id-0d562775c7a74cd6992af4a584d3e129">
       <documentation>Vi har som målbildet å bruke fellesformat for tilganger. I første omgang vil det nå være slik Gravitee gjør det.</documentation>
     </element>
-    <element xsi:type="archimate:ApplicationComponent" name="Gravitee API manager" id="id-46f10831ae0b41d292a6f0c8e89f9db0">
-      <property key="difi:abstractionLevel" value="sbb"/>
+    <element xsi:type="archimate:ApplicationComponent" name="API manager (logisk sentralisert intsallasjon i målbildet)" id="id-46f10831ae0b41d292a6f0c8e89f9db0">
+      <documentation>Tilganger defineres i API manager og eventuelt dupliseres til Maskinporten???</documentation>
+      <property key="difi:abstractionLevel" value="abb"/>
     </element>
     <element xsi:type="archimate:ApplicationService" name="UHF registreringstjeneste for API-brukere" id="id-82e46134305b4431ae3c203c436bf2bb"/>
   </folder>
@@ -20644,6 +20648,9 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:ServingRelationship" id="id-4640367bd46243d4b6492e732aee3e0c" source="id-82e46134305b4431ae3c203c436bf2bb" target="8f899729-16a6-4b20-8438-fb3ccdfd837e"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-4b3b468ed3d84762a9978502a76be8eb" source="id-790edbc925b24187adbccb11b66a37b4" target="6d908f89-0a8f-4ba1-aeb4-b3e9f27e75e6"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-20a446a9d63d4786a103dde8c703dc63" source="id-790edbc925b24187adbccb11b66a37b4" target="fd7e1845-c763-4b67-a13d-50897a14a779"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-2cdf073ef778454d891727998496a64c" source="d242a840-0fa2-4f8d-997c-2298194f1c4a" target="id-a5857bbbb6e948fea43c09eb04869c0c"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-9011bd9742794bfea62c6d9123af7b02" source="id-790edbc925b24187adbccb11b66a37b4" target="997e9993-2339-49a8-9935-fb3794fdbb46"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-fb9f1371cbd64a12b69b511d12878892" source="id-79d5bb2a2ac64ca2a82207bcfd2945b6" target="2715d0e5-cfea-4699-aa85-ac696c2e155d"/>
   </folder>
   <folder name="Views" id="id-0ad38d6c238f4fb9b713e53aa221c21e" type="diagrams">
     <folder name="1. Gjeldende bibliotek" id="074262ac-6dab-4f0f-8f3b-cc81cc2590f1">
@@ -31257,9 +31264,6 @@ Prosesser for å dele data som åpne data&#xD;
             <child xsi:type="archimate:DiagramObject" id="id-74111237503a45e19496e76868b9a451" targetConnections="id-1abc9cf098674318b76797c2e7ffdd1f id-e55b953fe4c74e6ca6d8791fa4109279" textPosition="1" archimateElement="0dca40ec-4234-4292-8cf0-60788303f50b">
               <bounds x="48" y="157" width="133" height="71"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-5ef596c940ea435cac2e1ebccb014069" archimateElement="55f43c8e-3fe4-4613-b4dc-5c09667de368" type="1">
-              <bounds x="744" y="576" width="133" height="71"/>
-            </child>
             <documentation>Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten.</documentation>
             <property key="difi:language" value="no"/>
             <property key="difi:name_no" value="Avgi forespurte data gjennom API - løsningsmønster"/>
@@ -31543,11 +31547,11 @@ Prosesser for å dele data som åpne data&#xD;
               <sourceConnection xsi:type="archimate:Connection" id="id-07bf48596fe9486fbc4df62f59ba4f33" source="id-070ab27fb006460c91d2a58f362ab654" target="id-ff81b89f653244f1863edda441168db1" archimateRelationship="284deedd-5f0e-41bb-8cc4-cd5fc1c24f17"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-363d96fbad5849e7a0513c44ef2beefc" fillColor="#00ffff" textPosition="1" archimateElement="d242a840-0fa2-4f8d-997c-2298194f1c4a">
-              <bounds x="312" y="476" width="133" height="70"/>
+              <bounds x="300" y="481" width="133" height="70"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-34d55eaa2f3f4fc9ac8375f8788daab0" source="id-363d96fbad5849e7a0513c44ef2beefc" target="id-3972e2752ddf4fa084abd74ca596f4c3" archimateRelationship="d76b1315-6ba9-474e-bb92-dda9819cd179"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-baf9cb0674ea48f7a3b55573b966ddb0" fillColor="#00ffff" textPosition="1" archimateElement="f62ede33-8269-4ea4-ad18-813afceec80d">
-              <bounds x="576" y="396" width="133" height="71"/>
+              <bounds x="624" y="480" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-bcb9ee314d11416ca6a71d237ae4e34d" source="id-baf9cb0674ea48f7a3b55573b966ddb0" target="id-ff81b89f653244f1863edda441168db1" archimateRelationship="ecb3cb49-d784-4900-85da-23b2b6739624"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-700b30c4eace4ae1af2d97c82430335e" textPosition="1" archimateElement="c777850b-1ce0-4af0-b1b2-d180411baaca">
@@ -31555,7 +31559,7 @@ Prosesser for å dele data som åpne data&#xD;
               <sourceConnection xsi:type="archimate:Connection" id="id-c07d41ef29074a42ad9ac0a4fb134996" source="id-700b30c4eace4ae1af2d97c82430335e" target="id-407efa63405b457a8a2b15a45be036ee" archimateRelationship="4e1b6ee5-c029-43a1-9fcc-98bb37c4c552"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-ff81b89f653244f1863edda441168db1" targetConnections="id-07bf48596fe9486fbc4df62f59ba4f33 id-bcb9ee314d11416ca6a71d237ae4e34d id-f3ad8e4f443c4edda68b52246a54386a" textPosition="1" archimateElement="fd7e1845-c763-4b67-a13d-50897a14a779" type="1">
-              <bounds x="636" y="289" width="133" height="71"/>
+              <bounds x="612" y="289" width="157" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c339dbcc32ee4840a53882e389059486" source="id-ff81b89f653244f1863edda441168db1" target="id-6358ec4be0754c7ca325ea2f1664b56f" archimateRelationship="77e2fcef-2e7d-4270-a2dc-4ef82012b5e7"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-f61c5b821d51416da535dc8348b5548a" archimateElement="4d506c4b-360e-41c7-8d16-e80804280f51">
@@ -31602,19 +31606,19 @@ Prosesser for å dele data som åpne data&#xD;
               <content>Vi antar at konsumenten er applikasjonen</content>
             </child>
             <child xsi:type="archimate:Note" id="id-8b5c7accbd2c4c7e9186e230c2129e15" textAlignment="1">
-              <bounds x="60" y="384" width="231" height="189"/>
+              <bounds x="24" y="384" width="231" height="189"/>
               <content>Hva med scenariet med  tilgang til et antall  forskningsdata sett fra mange kilder? &#xD;
 Godkjenning gjennom en søknadsprosess skal gi tlgang til alle APIene som inngikk i datasettet som var koblet til godkjenning. Forskerteamet står ansvarlig for databehandlingsansvar. Da er vel ikke Maskinporten den rette til å gi tilgang?&#xD;
 Dette er hverken samtykke eller virksomhetsbasert godkjenning.&#xD;
 </content>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-30bb7fc44def46f9b798e645923732e6" fillColor="#00ffff" archimateElement="id-790edbc925b24187adbccb11b66a37b4">
-              <bounds x="432" y="396" width="133" height="71"/>
+              <bounds x="432" y="396" width="241" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-f658933ae1624c7088dc567644007c38" source="id-30bb7fc44def46f9b798e645923732e6" target="id-3972e2752ddf4fa084abd74ca596f4c3" archimateRelationship="id-4b3b468ed3d84762a9978502a76be8eb"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-f3ad8e4f443c4edda68b52246a54386a" source="id-30bb7fc44def46f9b798e645923732e6" target="id-ff81b89f653244f1863edda441168db1" archimateRelationship="id-20a446a9d63d4786a103dde8c703dc63"/>
             </child>
             <child xsi:type="archimate:Note" id="id-d9efc179531a4483958ab5ee5e3fd77b" textAlignment="1">
-              <bounds x="636" y="480" width="181" height="61"/>
+              <bounds x="780" y="490" width="181" height="61"/>
               <content>Hvorfor er Altinn autorisasjon her? Skal ikke den benyttes for å generere tokenet?</content>
             </child>
             <child xsi:type="archimate:Note" id="id-7868b22f75e846299379751ff40dcb7b" textAlignment="1">
@@ -31693,6 +31697,10 @@ Kan det kjøre vegne av enkeltbrukere?</content>
               <bounds x="804" y="288" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-cb89983d250c4e8ab1f83ebe795b1648" source="id-36e501499f514493ab0033cfe0b312ce" target="id-a380a50056cd4c0f9f7b5750b334cd76" archimateRelationship="id-4640367bd46243d4b6492e732aee3e0c"/>
             </child>
+            <child xsi:type="archimate:Note" id="id-b7613d2a14734c2fbbc177a927524d48" textAlignment="1">
+              <bounds x="588" y="316" width="185" height="80"/>
+              <content>Hvorfor vises ikke scopes her?</content>
+            </child>
             <documentation>Tjeneste for å registrere og vedlikeholde API-definisjoner og scopes i Maskinporten.</documentation>
             <property key="difi:language" value="no"/>
             <property key="difi:name_no" value="Få tilgang til API - løsningsmønster"/>
@@ -31705,14 +31713,14 @@ Kan det kjøre vegne av enkeltbrukere?</content>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Innhente data - løsningsmønster UHF" id="id-0070f590adf24abd9c9cc7a89be64beb">
             <child xsi:type="archimate:DiagramObject" id="id-ce58222bea9d4412bad203dc2b38d95e" fillColor="#00ffff" textPosition="1" archimateElement="d242a840-0fa2-4f8d-997c-2298194f1c4a">
-              <bounds x="648" y="572" width="133" height="70"/>
+              <bounds x="696" y="624" width="133" height="70"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c1a47763fbf3461793f08e8dbc50036c" source="id-ce58222bea9d4412bad203dc2b38d95e" target="id-9deaf9eb5ff14599ad8eedff9b7eabf4" archimateRelationship="11967e2e-5aac-4a16-b845-97be6e96e100"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-4986646b68004bdcbf3a56c0d86631e9" textPosition="1" archimateElement="0442a2d9-0a27-4aee-ac78-82b12deccf85">
               <bounds x="72" y="62" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-696670a3323b43baa55c7862eb831d3f" source="id-4986646b68004bdcbf3a56c0d86631e9" target="id-d485e0dd0ddd4801a6eb91e26ff172ca" archimateRelationship="fd176e3e-ba41-4702-bba4-5a4dd73bed5a"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-9deaf9eb5ff14599ad8eedff9b7eabf4" targetConnections="id-c1a47763fbf3461793f08e8dbc50036c id-a287acc972974418b655b2542f958bb9" fillColor="#00ffff" textPosition="1" archimateElement="997e9993-2339-49a8-9935-fb3794fdbb46" type="1">
+            <child xsi:type="archimate:DiagramObject" id="id-9deaf9eb5ff14599ad8eedff9b7eabf4" targetConnections="id-c1a47763fbf3461793f08e8dbc50036c id-a287acc972974418b655b2542f958bb9 id-ababa0a58aa3477bbe1f0f9f993a98ea" fillColor="#00ffff" textPosition="1" archimateElement="997e9993-2339-49a8-9935-fb3794fdbb46" type="1">
               <bounds x="648" y="372" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-1c284683ae8849d7bf8890ea8455abe6" source="id-9deaf9eb5ff14599ad8eedff9b7eabf4" target="id-861a27830c6449e0a92c6671817e8720" archimateRelationship="5bf275d1-8cc3-4d0f-b9d0-a52292a2ff5a"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-fdcd804cf33d4fb1bdb1ed3d47f5dfd9" source="id-9deaf9eb5ff14599ad8eedff9b7eabf4" target="id-70b7bc41b03d4f42b907c4e28347d60b" archimateRelationship="f232a4e1-fd87-499f-ae4f-778270046977"/>
@@ -31780,10 +31788,10 @@ Kan det kjøre vegne av enkeltbrukere?</content>
               <sourceConnection xsi:type="archimate:Connection" id="id-fa04b378fe1045588ebac6eed4f9650f" source="id-e919771aa7b743e0bd78097862d814d2" target="id-3e0cf78cf6d542f0a004b7f04b61a9a3" archimateRelationship="098c78e3-5308-4b0d-8ba4-0dc639d0f840"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-37ed7e2b1d504e378048349b415cbaa5" fillColor="#00ffff" textPosition="1" archimateElement="143eec21-4a9f-48d9-ae4b-5f6d74e151f0">
-              <bounds x="420" y="576" width="133" height="67"/>
+              <bounds x="384" y="644" width="133" height="67"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-400e04d8bb6440128d0fa3596a876d17" source="id-37ed7e2b1d504e378048349b415cbaa5" target="id-6fdb8824c01e40d091b1749e0574ea18" archimateRelationship="6f7c6c61-babf-4b63-9f3a-66172d926f56"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-6fdb8824c01e40d091b1749e0574ea18" targetConnections="id-400e04d8bb6440128d0fa3596a876d17" textPosition="1" archimateElement="2715d0e5-cfea-4699-aa85-ac696c2e155d" type="1">
+            <child xsi:type="archimate:DiagramObject" id="id-6fdb8824c01e40d091b1749e0574ea18" targetConnections="id-400e04d8bb6440128d0fa3596a876d17 id-28bc86ec820a4c4dbf9dd27247b9cb81" textPosition="1" archimateElement="2715d0e5-cfea-4699-aa85-ac696c2e155d" type="1">
               <bounds x="420" y="374" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-71ee0507960b44229a57b93acef3bea6" source="id-6fdb8824c01e40d091b1749e0574ea18" target="id-559596e3616e4c4abd4fb7e23d5232b6" archimateRelationship="6a3460d2-2fb1-4f0c-969a-34b6e118e764"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-741103c0a2a0488c93161a0b9afd2d82" source="id-6fdb8824c01e40d091b1749e0574ea18" target="id-f917228c40254cb8adc800e1abe92511" archimateRelationship="eee1e591-f945-4e8e-afab-eba361188c62"/>
@@ -31803,6 +31811,14 @@ Kan det kjøre vegne av enkeltbrukere?</content>
             <child xsi:type="archimate:DiagramObject" id="id-d004bc4f9ec240db9b3b92496294689c" fillColor="#0080ff" archimateElement="id-96514499518349619a8e277dfafc274b">
               <bounds x="972" y="571" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-0cfc7f03e322469dba8c432ddef868bd" source="id-d004bc4f9ec240db9b3b92496294689c" target="id-97e312921d184d28a81830dab19700e7" archimateRelationship="id-449ce7100bfa441fbd216dc4386125ce"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-f2c63194e2b149f1863c31429ed7da05" archimateElement="id-790edbc925b24187adbccb11b66a37b4">
+              <bounds x="588" y="574" width="133" height="71"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-ababa0a58aa3477bbe1f0f9f993a98ea" source="id-f2c63194e2b149f1863c31429ed7da05" target="id-9deaf9eb5ff14599ad8eedff9b7eabf4" archimateRelationship="id-9011bd9742794bfea62c6d9123af7b02"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-80bdbf6f58a74bccba013ee0ea5c701c" archimateElement="id-79d5bb2a2ac64ca2a82207bcfd2945b6">
+              <bounds x="444" y="571" width="133" height="71"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-28bc86ec820a4c4dbf9dd27247b9cb81" source="id-80bdbf6f58a74bccba013ee0ea5c701c" target="id-6fdb8824c01e40d091b1749e0574ea18" archimateRelationship="id-fb9f1371cbd64a12b69b511d12878892"/>
             </child>
             <property key="difi:language" value="no"/>
             <property key="difi:name_no" value="Slå opp data gjennom et API - løsningsmønster"/>
@@ -31854,36 +31870,34 @@ Kan det kjøre vegne av enkeltbrukere?</content>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-59eaadb3dedc49e290ee63ab96b96e57" fillColor="#00ffff" textPosition="1" archimateElement="d242a840-0fa2-4f8d-997c-2298194f1c4a">
-              <bounds x="492" y="459" width="289" height="70"/>
+              <bounds x="276" y="553" width="478" height="70"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-49ca3a811a2b445887402a75dbb6a04a" source="id-59eaadb3dedc49e290ee63ab96b96e57" target="id-edce663c40d5425a8a421ef56079b858" archimateRelationship="dd52d5c5-54e9-4b6f-80b0-902a749adcf7">
                 <bendpoint startX="-54" startY="-50" endX="-6" endY="46"/>
               </sourceConnection>
-              <sourceConnection xsi:type="archimate:Connection" id="id-267db4a92629473d9910565122dd70e6" source="id-59eaadb3dedc49e290ee63ab96b96e57" target="id-7a0814049e8e4f2481ca4598b9267904" archimateRelationship="2f9c376e-7b97-4fb8-a285-e6699b12abfe">
-                <bendpoint startX="246" startY="-50" endX="-6" endY="46"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-267db4a92629473d9910565122dd70e6" source="id-59eaadb3dedc49e290ee63ab96b96e57" target="id-7a0814049e8e4f2481ca4598b9267904" archimateRelationship="2f9c376e-7b97-4fb8-a285-e6699b12abfe"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-147430e2181d4868a7ba1ea97f1453ec" source="id-59eaadb3dedc49e290ee63ab96b96e57" target="id-6c949adeea0b4a51ac44d31ce469b280" archimateRelationship="7446b7ec-c4cc-4dc1-b989-dd55e0f5df45"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-52a0af6fc22d4bdd885c80bc1fb436ee" source="id-59eaadb3dedc49e290ee63ab96b96e57" target="id-87a4339360fd4c2da0de360d39754f11" archimateRelationship="id-f39a6acc7b7a4dba95d688792207c437">
+                <bendpoint startX="169" startY="-156" endX="18" endY="145"/>
               </sourceConnection>
-              <sourceConnection xsi:type="archimate:Connection" id="id-147430e2181d4868a7ba1ea97f1453ec" source="id-59eaadb3dedc49e290ee63ab96b96e57" target="id-6c949adeea0b4a51ac44d31ce469b280" archimateRelationship="7446b7ec-c4cc-4dc1-b989-dd55e0f5df45">
-                <bendpoint startX="-276" startY="-2" endX="42" endY="94"/>
-              </sourceConnection>
-              <sourceConnection xsi:type="archimate:Connection" id="id-52a0af6fc22d4bdd885c80bc1fb436ee" source="id-59eaadb3dedc49e290ee63ab96b96e57" target="id-87a4339360fd4c2da0de360d39754f11" archimateRelationship="id-f39a6acc7b7a4dba95d688792207c437"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-881898a9b1f442d3a6cf9ff621080f6b" source="id-59eaadb3dedc49e290ee63ab96b96e57" target="id-87a4339360fd4c2da0de360d39754f11" archimateRelationship="id-f39a6acc7b7a4dba95d688792207c437"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-c06ab01d6e1940829eb8fa3cb79844d2" source="id-59eaadb3dedc49e290ee63ab96b96e57" target="id-f9a66404cfc345b4a34182fc750022c6" archimateRelationship="id-2cdf073ef778454d891727998496a64c"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-3c692abb9d034fbca9d0ed5631d6c5aa" fillColor="#00ffff" textPosition="1" archimateElement="f62ede33-8269-4ea4-ad18-813afceec80d">
-              <bounds x="816" y="458" width="133" height="71"/>
+              <bounds x="876" y="552" width="157" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-9220c00ef49740af8cc956d8382e8569" source="id-3c692abb9d034fbca9d0ed5631d6c5aa" target="id-7327717a5d964288b3a3079a94659566" archimateRelationship="5071b103-8695-4a4e-b9a9-6b9c88f77632"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-8616ebac2e5841f3bdb3e3052d72c6cf" source="id-3c692abb9d034fbca9d0ed5631d6c5aa" target="id-3f0732b7c2164acdba6a3651cdd4766b" archimateRelationship="95937776-4491-4381-b400-896d7230f520"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-7327717a5d964288b3a3079a94659566" targetConnections="id-9220c00ef49740af8cc956d8382e8569" textPosition="1" archimateElement="51fba17c-a586-4390-8641-5a139110912d" type="1">
-              <bounds x="768" y="263" width="133" height="71"/>
+              <bounds x="804" y="263" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-1725b7aaca47453f9226d786e6d7dc10" source="id-7327717a5d964288b3a3079a94659566" target="id-3f0732b7c2164acdba6a3651cdd4766b" archimateRelationship="135d8a10-7d15-4904-a002-a9714ae4ad6a">
                 <bendpoint startX="114" startY="14" endX="6" endY="-85"/>
               </sourceConnection>
               <sourceConnection xsi:type="archimate:Connection" id="id-78d8fd69a8204dd280ec41d734db6329" source="id-7327717a5d964288b3a3079a94659566" target="id-dc273d4c86cf42eba8877603ae50fdb9" archimateRelationship="d4cd6306-81db-456a-839e-2d5552372716"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-3f0732b7c2164acdba6a3651cdd4766b" targetConnections="id-1725b7aaca47453f9226d786e6d7dc10 id-8616ebac2e5841f3bdb3e3052d72c6cf" textPosition="1" archimateElement="44f388ec-478f-463b-bf63-e346c4d268c9">
-              <bounds x="888" y="362" width="133" height="71"/>
+              <bounds x="912" y="362" width="133" height="71"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-59f795c361e246dba01a3af7ad6aecf2" fillColor="#00ffff" archimateElement="id-79d5bb2a2ac64ca2a82207bcfd2945b6">
-              <bounds x="114" y="458" width="133" height="71"/>
+              <bounds x="84" y="458" width="193" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-5c18a433613f48a487b4c88f088a5352" source="id-59f795c361e246dba01a3af7ad6aecf2" target="id-bad126038a0c4bb9aff4c9aaafbd578e" archimateRelationship="id-333e3b8d53c946a48453ec3c4f97b684"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-f60aaf7a2b054085b17f4539085981bb" source="id-59f795c361e246dba01a3af7ad6aecf2" target="id-8fe6be06e560495ebf0813bba5c56a53" archimateRelationship="id-8598dbd2bcd14809a5b83ccecd7f841c"/>
             </child>
@@ -31907,7 +31921,7 @@ Kan det kjøre vegne av enkeltbrukere?</content>
             <child xsi:type="archimate:DiagramObject" id="id-bad126038a0c4bb9aff4c9aaafbd578e" targetConnections="id-a53a5b97acf14a86b2eb771d27ab44f5 id-5c18a433613f48a487b4c88f088a5352" archimateElement="id-6308f13c95974f7ab04953bb26a3282b">
               <bounds x="36" y="360" width="133" height="71"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-f9a66404cfc345b4a34182fc750022c6" targetConnections="id-413e41129ff24b3a9f1876d301a0b2f7" archimateElement="id-a5857bbbb6e948fea43c09eb04869c0c" type="1">
+            <child xsi:type="archimate:DiagramObject" id="id-f9a66404cfc345b4a34182fc750022c6" targetConnections="id-413e41129ff24b3a9f1876d301a0b2f7 id-c06ab01d6e1940829eb8fa3cb79844d2" archimateElement="id-a5857bbbb6e948fea43c09eb04869c0c" type="1">
               <bounds x="324" y="261" width="156" height="75"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-e067bbde9fa3404a931d028eedf49b33" source="id-f9a66404cfc345b4a34182fc750022c6" target="id-6c949adeea0b4a51ac44d31ce469b280" archimateRelationship="id-f878895089c147c28bcbac67837c0b9a">
                 <bendpoint startX="-102" startY="-10" endX="-18" endY="-110"/>
@@ -31915,36 +31929,51 @@ Kan det kjøre vegne av enkeltbrukere?</content>
               <sourceConnection xsi:type="archimate:Connection" id="id-305b0c1074964f4ca99700e20d95a269" source="id-f9a66404cfc345b4a34182fc750022c6" target="id-edce663c40d5425a8a421ef56079b858" archimateRelationship="id-6383377b5c5146f2bfcf98e3bf44bd05"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-6379e7f92f83435ba9371766e34dd110" source="id-f9a66404cfc345b4a34182fc750022c6" target="id-1504cda962e640ba8f51c66412bfc3a2" archimateRelationship="id-cc9f195d74184739b15eecf5e1771fb1"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-307e7b9ef62043918fab5de5646ae101" fillColor="#00ffff" archimateElement="id-790edbc925b24187adbccb11b66a37b4">
-              <bounds x="336" y="540" width="253" height="71"/>
+            <child xsi:type="archimate:DiagramObject" id="id-307e7b9ef62043918fab5de5646ae101" archimateElement="id-790edbc925b24187adbccb11b66a37b4">
+              <bounds x="360" y="458" width="313" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-413e41129ff24b3a9f1876d301a0b2f7" source="id-307e7b9ef62043918fab5de5646ae101" target="id-f9a66404cfc345b4a34182fc750022c6" archimateRelationship="id-a34baae5767d45c4b74353312457bfe7"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-aced04a454574ef2b4abd3eae0487627" source="id-307e7b9ef62043918fab5de5646ae101" target="id-6c949adeea0b4a51ac44d31ce469b280" archimateRelationship="id-fcd2d6f51e8b45fbadddcf992105a1dc"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-1e6ccecaa2604dac9a54396ceb1897fe" source="id-307e7b9ef62043918fab5de5646ae101" target="id-edce663c40d5425a8a421ef56079b858" archimateRelationship="id-62b2c8f5aa854e65a9b2fc797bb46521">
-                <bendpoint startX="67" startY="-95" endX="-42" endY="82"/>
+                <bendpoint startX="18" startY="-37" endX="6" endY="58"/>
               </sourceConnection>
               <sourceConnection xsi:type="archimate:Connection" id="id-1cfc6ac624a6469f8b2a3841b9fb396f" source="id-307e7b9ef62043918fab5de5646ae101" target="id-87a4339360fd4c2da0de360d39754f11" archimateRelationship="id-7121690ee7c14ccb96ce15b014143d85"/>
             </child>
             <child xsi:type="archimate:Note" id="id-dc4759989c8849d98575b12000402833" textAlignment="1">
-              <bounds x="642" y="21" width="163" height="76"/>
-              <content>Med &quot;brukere&quot;, menes applikasjonser som bruker APIet? Som representerer en virksomhet.&#xD;
+              <bounds x="492" width="217" height="97"/>
+              <content>Med &quot;brukere&quot; (i det nasjonale viewet), menes applikasjonser som bruker APIet på vegne av en virksomhet?&#xD;
+Vi ønsker at brukere kan også være personer.&#xD;
 </content>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-87a4339360fd4c2da0de360d39754f11" targetConnections="id-1cfc6ac624a6469f8b2a3841b9fb396f id-52a0af6fc22d4bdd885c80bc1fb436ee id-881898a9b1f442d3a6cf9ff621080f6b" archimateElement="id-0d562775c7a74cd6992af4a584d3e129" type="1">
-              <bounds x="624" y="252" width="133" height="71"/>
+            <child xsi:type="archimate:DiagramObject" id="id-87a4339360fd4c2da0de360d39754f11" targetConnections="id-1cfc6ac624a6469f8b2a3841b9fb396f id-52a0af6fc22d4bdd885c80bc1fb436ee" archimateElement="id-0d562775c7a74cd6992af4a584d3e129" type="1">
+              <bounds x="600" y="263" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-0bb6596f2e514cd092dfcbee945ff004" source="id-87a4339360fd4c2da0de360d39754f11" target="id-1cfc4efda58842f8be8fda8fface902b" archimateRelationship="id-5ee00f166cfe46b09aabb24f2958ed85"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-82bb12a5c9874f55bcf542a8b04fc23d" source="id-87a4339360fd4c2da0de360d39754f11" target="id-7a0814049e8e4f2481ca4598b9267904" archimateRelationship="id-a0cbbddd213f45fd9148d56eff06d183"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-82bb12a5c9874f55bcf542a8b04fc23d" source="id-87a4339360fd4c2da0de360d39754f11" target="id-7a0814049e8e4f2481ca4598b9267904" archimateRelationship="id-a0cbbddd213f45fd9148d56eff06d183">
+                <bendpoint startX="102" startY="13" endX="-6" endY="-98"/>
+              </sourceConnection>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-b48161ab7e734f22a676e0c65a7fb65c" fillColor="#00ffff" archimateElement="id-46f10831ae0b41d292a6f0c8e89f9db0">
-              <bounds x="636" y="552" width="133" height="71"/>
+            <child xsi:type="archimate:DiagramObject" id="id-b48161ab7e734f22a676e0c65a7fb65c" archimateElement="id-46f10831ae0b41d292a6f0c8e89f9db0">
+              <bounds x="744" y="458" width="133" height="83"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-78bf54e5d7a843248be199343547cc65" source="id-b48161ab7e734f22a676e0c65a7fb65c" target="id-7a0814049e8e4f2481ca4598b9267904" archimateRelationship="id-5e45842478394e3b8a5371a689eebfc9"/>
             </child>
             <child xsi:type="archimate:Note" id="id-f42ffd254f7140fc8fe16b8a81b5ed86" textAlignment="1">
-              <bounds x="1002" y="504" width="247" height="111"/>
+              <bounds x="1080" y="504" width="169" height="111"/>
               <content>Dersom vi ønsker å dele på tvers av sektorer vil Registrering av UHF applikasjoner skje til både Gravitee API manager og til Maskinporten.</content>
             </child>
             <child xsi:type="archimate:Note" id="id-e32263068d6849178ba33c7779b62800" textAlignment="1">
               <bounds x="1008" y="259" width="185" height="80"/>
               <content>VI ønsker å gjenbruke Altinn (autorisiasjon/samtykke) om mulig.</content>
+            </child>
+            <child xsi:type="archimate:Note" id="id-c0ebb37567bc43fcb6805bb2d2964904" textAlignment="1">
+              <bounds x="312" y="635" width="325" height="52"/>
+              <content>Vi bruker Maskinporten her når vi kommuniserer askin-maskin på tvers av sektorer</content>
+            </child>
+            <child xsi:type="archimate:Note" id="id-688ddaeff00b4100be500e9911f8690f" textAlignment="1">
+              <bounds x="756" y="32" width="205" height="77"/>
+              <content>Hvorfor er tildele tilganger til API en del av prosessen med å registrere API?? Er dette maskinporten-spesifkt?</content>
+            </child>
+            <child xsi:type="archimate:Note" id="id-3b13aabbf27445fab5dde4a4c1ad3a80" textAlignment="1">
+              <bounds x="991" y="31" width="185" height="80"/>
+              <content>Gi tilgang til en API - gjør steg 2, 3, 4  i prosessen. Skulle ikke vi heller hatt en annen view som registrert Applicasjoner?</content>
             </child>
             <property key="difi:language" value="no"/>
             <property key="difi:name_no" value="Tilgjengeliggjøre API - løsningsmønster"/>
@@ -32423,6 +32452,11 @@ Kan det kjøre vegne av enkeltbrukere?</content>
               <sourceConnection xsi:type="archimate:Connection" id="id-c163c7aad1194619adeadd1a74bacc62" lineColor="#000000" source="id-44790b1bf59542699ada06e5559e448c" target="id-ae0bc557f4874615a60b1f7d30904276" archimateRelationship="b14920b8-6662-452c-a038-f381ce00849c">
                 <feature name="labelExpression" value="eventuelt &#xD;&#xA;minimert"/>
               </sourceConnection>
+            </child>
+            <child xsi:type="archimate:Note" id="id-023184982aee44e7a249d072ba33e254" textAlignment="1">
+              <bounds x="965" y="80" width="185" height="53"/>
+              <content>Skal ikkje det være en tjeneste som sender notifikasjonen her?&#xD;
+</content>
             </child>
             <property key="difi:language" value="no"/>
             <property key="difi:name_no" value="Avgi notifikasjoner på forespørsel"/>
