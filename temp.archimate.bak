@@ -20655,7 +20655,6 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:RealizationRelationship" id="id-f39a6acc7b7a4dba95d688792207c437" source="d242a840-0fa2-4f8d-997c-2298194f1c4a" target="id-0d562775c7a74cd6992af4a584d3e129"/>
     <element xsi:type="archimate:ServingRelationship" id="id-4640367bd46243d4b6492e732aee3e0c" source="id-82e46134305b4431ae3c203c436bf2bb" target="8f899729-16a6-4b20-8438-fb3ccdfd837e"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-4b3b468ed3d84762a9978502a76be8eb" source="id-790edbc925b24187adbccb11b66a37b4" target="6d908f89-0a8f-4ba1-aeb4-b3e9f27e75e6"/>
-    <element xsi:type="archimate:RealizationRelationship" id="id-20a446a9d63d4786a103dde8c703dc63" source="id-790edbc925b24187adbccb11b66a37b4" target="fd7e1845-c763-4b67-a13d-50897a14a779"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-2cdf073ef778454d891727998496a64c" source="d242a840-0fa2-4f8d-997c-2298194f1c4a" target="id-a5857bbbb6e948fea43c09eb04869c0c"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-9011bd9742794bfea62c6d9123af7b02" source="id-790edbc925b24187adbccb11b66a37b4" target="997e9993-2339-49a8-9935-fb3794fdbb46"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-fb9f1371cbd64a12b69b511d12878892" source="id-79d5bb2a2ac64ca2a82207bcfd2945b6" target="2715d0e5-cfea-4699-aa85-ac696c2e155d"/>
@@ -31602,7 +31601,7 @@ Prosesser for å dele data som åpne data&#xD;
               <bounds x="48" y="60" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c07d41ef29074a42ad9ac0a4fb134996" source="id-700b30c4eace4ae1af2d97c82430335e" target="id-407efa63405b457a8a2b15a45be036ee" archimateRelationship="4e1b6ee5-c029-43a1-9fcc-98bb37c4c552"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-ff81b89f653244f1863edda441168db1" targetConnections="id-07bf48596fe9486fbc4df62f59ba4f33 id-bcb9ee314d11416ca6a71d237ae4e34d id-f3ad8e4f443c4edda68b52246a54386a" textPosition="1" archimateElement="fd7e1845-c763-4b67-a13d-50897a14a779" type="1">
+            <child xsi:type="archimate:DiagramObject" id="id-ff81b89f653244f1863edda441168db1" targetConnections="id-07bf48596fe9486fbc4df62f59ba4f33 id-bcb9ee314d11416ca6a71d237ae4e34d" textPosition="1" archimateElement="fd7e1845-c763-4b67-a13d-50897a14a779" type="1">
               <bounds x="612" y="289" width="157" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c339dbcc32ee4840a53882e389059486" source="id-ff81b89f653244f1863edda441168db1" target="id-6358ec4be0754c7ca325ea2f1664b56f" archimateRelationship="77e2fcef-2e7d-4270-a2dc-4ef82012b5e7"/>
             </child>
@@ -31646,28 +31645,24 @@ Prosesser for å dele data som åpne data&#xD;
               <bounds x="48" y="157" width="133" height="71"/>
             </child>
             <child xsi:type="archimate:Note" id="id-5a1b64b70a3741c7acfc94f7f8529210" textAlignment="1">
-              <bounds x="420" y="48" width="185" height="48"/>
-              <content>Vi antar at konsumenten er applikasjonen</content>
-            </child>
-            <child xsi:type="archimate:Note" id="id-8b5c7accbd2c4c7e9186e230c2129e15" textAlignment="1">
-              <bounds x="24" y="384" width="231" height="189"/>
-              <content>Hva med scenariet med  tilgang til et antall  forskningsdata sett fra mange kilder? &#xD;
-Godkjenning gjennom en søknadsprosess skal gi tlgang til alle APIene som inngikk i datasettet som var koblet til godkjenning. Forskerteamet står ansvarlig for databehandlingsansvar. Da er vel ikke Maskinporten den rette til å gi tilgang?&#xD;
-Dette er hverken samtykke eller virksomhetsbasert godkjenning.&#xD;
+              <bounds x="336" y="36" width="277" height="73"/>
+              <content>I får tilfelle, vil en klient noen ganger være en applikasjon som handler på vegne av en organisasjon, og noen ganger på vegne av et individ.&#xD;
 </content>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-30bb7fc44def46f9b798e645923732e6" fillColor="#00ffff" archimateElement="id-790edbc925b24187adbccb11b66a37b4">
-              <bounds x="432" y="396" width="241" height="71"/>
+            <child xsi:type="archimate:Note" id="id-8b5c7accbd2c4c7e9186e230c2129e15" textAlignment="1">
+              <bounds x="24" y="372" width="265" height="253"/>
+              <content>Hva med scenariet med  tilgang til et antall  forskningsdata sett fra mange kilder? &#xD;
+Godkjenning gjennom en søknadsprosess skal gi tlgang til alle APIene som inngikk i datasettet som var koblet til godkjenning. Forskerteamet står ansvarlig for databehandlingsansvar. Da er vel ikke Maskinporten den rette til å gi tilgang?&#xD;
+&#xD;
+Dette er hverken samtykke eller virksomhetsbasert godkjenning.&#xD;
+&#xD;
+Men dersom dataene frigis til en sikker analyserom, er dikke dette en virsomhetsgodkjenning der virksomheten er forvalteren av det sikre analyserommet?&#xD;
+&#xD;
+</content>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-30bb7fc44def46f9b798e645923732e6" archimateElement="id-790edbc925b24187adbccb11b66a37b4">
+              <bounds x="432" y="396" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-f658933ae1624c7088dc567644007c38" source="id-30bb7fc44def46f9b798e645923732e6" target="id-3972e2752ddf4fa084abd74ca596f4c3" archimateRelationship="id-4b3b468ed3d84762a9978502a76be8eb"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-f3ad8e4f443c4edda68b52246a54386a" source="id-30bb7fc44def46f9b798e645923732e6" target="id-ff81b89f653244f1863edda441168db1" archimateRelationship="id-20a446a9d63d4786a103dde8c703dc63"/>
-            </child>
-            <child xsi:type="archimate:Note" id="id-d9efc179531a4483958ab5ee5e3fd77b" textAlignment="1">
-              <bounds x="780" y="490" width="181" height="61"/>
-              <content>Hvorfor er Altinn autorisasjon her? Skal ikke den benyttes for å generere tokenet?</content>
-            </child>
-            <child xsi:type="archimate:Note" id="id-7868b22f75e846299379751ff40dcb7b" textAlignment="1">
-              <bounds x="458" y="488" width="147" height="45"/>
-              <content>Sjekk hva Gravitee access manager egentlig gjør </content>
             </child>
             <documentation>Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten.</documentation>
             <property key="difi:language" value="no"/>
@@ -31757,7 +31752,7 @@ Kan det kjøre vegne av enkeltbrukere?</content>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Innhente data - løsningsmønster UHF" id="id-0070f590adf24abd9c9cc7a89be64beb">
             <child xsi:type="archimate:DiagramObject" id="id-ce58222bea9d4412bad203dc2b38d95e" fillColor="#00ffff" textPosition="1" archimateElement="d242a840-0fa2-4f8d-997c-2298194f1c4a">
-              <bounds x="696" y="624" width="133" height="70"/>
+              <bounds x="672" y="648" width="133" height="70"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c1a47763fbf3461793f08e8dbc50036c" source="id-ce58222bea9d4412bad203dc2b38d95e" target="id-9deaf9eb5ff14599ad8eedff9b7eabf4" archimateRelationship="11967e2e-5aac-4a16-b845-97be6e96e100"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-4986646b68004bdcbf3a56c0d86631e9" textPosition="1" archimateElement="0442a2d9-0a27-4aee-ac78-82b12deccf85">
@@ -31944,11 +31939,6 @@ Kan det kjøre vegne av enkeltbrukere?</content>
               <bounds x="84" y="458" width="193" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-5c18a433613f48a487b4c88f088a5352" source="id-59f795c361e246dba01a3af7ad6aecf2" target="id-bad126038a0c4bb9aff4c9aaafbd578e" archimateRelationship="id-333e3b8d53c946a48453ec3c4f97b684"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-f60aaf7a2b054085b17f4539085981bb" source="id-59f795c361e246dba01a3af7ad6aecf2" target="id-8fe6be06e560495ebf0813bba5c56a53" archimateRelationship="id-8598dbd2bcd14809a5b83ccecd7f841c"/>
-            </child>
-            <child xsi:type="archimate:Note" id="id-9e2eaef98017480fa6e13d78328e260f" textAlignment="1">
-              <bounds x="48" y="576" width="185" height="60"/>
-              <content>Er API manager noe som omfatter API katalog pluss noe annet?&#xD;
-</content>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-8fe6be06e560495ebf0813bba5c56a53" targetConnections="id-f60aaf7a2b054085b17f4539085981bb" archimateElement="id-d3303e2cd658437db5e83ba82ab4275f" type="1">
               <bounds x="144" y="263" width="133" height="71"/>
@@ -32178,7 +32168,12 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
 &#xD;
 I så fall, er det funksjonaltet i Maskinporten som kan svare ut forespørsl om hvilke klienter er registrert som har tilgang til APIer i sektorene våre?&#xD;
 &#xD;
-Er det mulig å svare ut en logg av aksess til data i sektoren? </content>
+Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens som er utdstedt)? </content>
+            </child>
+            <child xsi:type="archimate:Note" id="id-ccbf1fe176344a60b48b65c5aa2f6283" textAlignment="1">
+              <bounds x="888" y="442" width="241" height="193"/>
+              <content>Siden &quot;authentication server&quot; må registerer APIer som har scopes, kunne den fungere også i praksis som en API katalog?&#xD;
+</content>
             </child>
             <property key="difi:language" value="no"/>
             <property key="difi:name_no" value="Dataobjekter eOppslag"/>

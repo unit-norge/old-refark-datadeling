@@ -31916,7 +31916,7 @@ Kan det kjøre vegne av enkeltbrukere?</content>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Innhente data - løsningsmønster UHF" id="id-0070f590adf24abd9c9cc7a89be64beb">
             <child xsi:type="archimate:DiagramObject" id="id-ce58222bea9d4412bad203dc2b38d95e" fillColor="#00ffff" textPosition="1" archimateElement="d242a840-0fa2-4f8d-997c-2298194f1c4a">
-              <bounds x="696" y="624" width="133" height="70"/>
+              <bounds x="672" y="648" width="133" height="70"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c1a47763fbf3461793f08e8dbc50036c" source="id-ce58222bea9d4412bad203dc2b38d95e" target="id-9deaf9eb5ff14599ad8eedff9b7eabf4" archimateRelationship="11967e2e-5aac-4a16-b845-97be6e96e100"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-4986646b68004bdcbf3a56c0d86631e9" textPosition="1" archimateElement="0442a2d9-0a27-4aee-ac78-82b12deccf85">
@@ -32103,11 +32103,6 @@ Kan det kjøre vegne av enkeltbrukere?</content>
               <bounds x="84" y="458" width="193" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-5c18a433613f48a487b4c88f088a5352" source="id-59f795c361e246dba01a3af7ad6aecf2" target="id-bad126038a0c4bb9aff4c9aaafbd578e" archimateRelationship="id-333e3b8d53c946a48453ec3c4f97b684"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-f60aaf7a2b054085b17f4539085981bb" source="id-59f795c361e246dba01a3af7ad6aecf2" target="id-8fe6be06e560495ebf0813bba5c56a53" archimateRelationship="id-8598dbd2bcd14809a5b83ccecd7f841c"/>
-            </child>
-            <child xsi:type="archimate:Note" id="id-9e2eaef98017480fa6e13d78328e260f" textAlignment="1">
-              <bounds x="48" y="576" width="185" height="60"/>
-              <content>Er API manager noe som omfatter API katalog pluss noe annet?&#xD;
-</content>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-8fe6be06e560495ebf0813bba5c56a53" targetConnections="id-f60aaf7a2b054085b17f4539085981bb" archimateElement="id-d3303e2cd658437db5e83ba82ab4275f" type="1">
               <bounds x="144" y="263" width="133" height="71"/>
@@ -32339,6 +32334,11 @@ I så fall, er det funksjonaltet i Maskinporten som kan svare ut forespørsl om 
 &#xD;
 Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens som er utdstedt)? </content>
             </child>
+            <child xsi:type="archimate:Note" id="id-ccbf1fe176344a60b48b65c5aa2f6283" textAlignment="1">
+              <bounds x="888" y="442" width="241" height="193"/>
+              <content>Siden &quot;authentication server&quot; må registerer APIer som har scopes, kunne den fungere også i praksis som en API katalog?&#xD;
+</content>
+            </child>
             <property key="difi:language" value="no"/>
             <property key="difi:name_no" value="Dataobjekter eOppslag"/>
             <property key="difi:name_en"/>
@@ -32473,7 +32473,7 @@ Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens s
               <sourceConnection xsi:type="archimate:Connection" id="id-ab6b1c68f7a64857a448c90ebefcb0a1" source="id-ea75558784b248b3afa53d9489531d99" target="id-1068ea00e7774d3e84b5093adf6b29d8" archimateRelationship="id-7121690ee7c14ccb96ce15b014143d85"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-053f16054aac44ab9b6b6eae8dae3836" source="id-ea75558784b248b3afa53d9489531d99" target="id-775018cfe508484ab17f0703fa854005" archimateRelationship="id-5e45842478394e3b8a5371a689eebfc9"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-1068ea00e7774d3e84b5093adf6b29d8" targetConnections="id-ab6b1c68f7a64857a448c90ebefcb0a1 id-decb9726abee4225bc5a0a918b4033be" archimateElement="id-0d562775c7a74cd6992af4a584d3e129" type="1">
+            <child xsi:type="archimate:DiagramObject" id="id-1068ea00e7774d3e84b5093adf6b29d8" targetConnections="id-ab6b1c68f7a64857a448c90ebefcb0a1 id-decb9726abee4225bc5a0a918b4033be" textPosition="1" archimateElement="id-0d562775c7a74cd6992af4a584d3e129" type="1">
               <bounds x="540" y="275" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-b1c2a59516944f6286423d93768c3663" source="id-1068ea00e7774d3e84b5093adf6b29d8" target="id-cb6b8e9c47894e39a4baa85e6d4aa8cc" archimateRelationship="id-5ee00f166cfe46b09aabb24f2958ed85"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-e11686909cf946cb80d1b8906de8f648" source="id-1068ea00e7774d3e84b5093adf6b29d8" target="id-775018cfe508484ab17f0703fa854005" archimateRelationship="id-a0cbbddd213f45fd9148d56eff06d183">
@@ -32483,11 +32483,11 @@ Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens s
             <child xsi:type="archimate:DiagramObject" id="id-26e088526e814de4adb7288ad25a3c73" targetConnections="id-0e3713bd5ae64086aa180337a7918cba id-c427311ccd61462c9cda3f0d28975c35" archimateElement="id-fad4dc87816543b49a61ec0b9a37c856">
               <bounds x="60" y="144" width="133" height="71"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-9e96b6f4b2e049f192cc4d7bc6c019e2" archimateElement="id-665178dd6b464a94a908145cac822615" type="1">
+            <child xsi:type="archimate:DiagramObject" id="id-9e96b6f4b2e049f192cc4d7bc6c019e2" textPosition="1" archimateElement="id-665178dd6b464a94a908145cac822615" type="1">
               <bounds x="216" y="276" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-239664d4c5eb4f9a8bd9944ff8202ad8" source="id-9e96b6f4b2e049f192cc4d7bc6c019e2" target="id-1db5aeab9b7c4a1cab572d20170042e0" archimateRelationship="id-993a219540144dfa9cf22b00fbe49505"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-857ae071c51a4fe3b50269a691fc28eb" archimateElement="id-b2eba9696eb642cd9df65417dca81d63" type="1">
+            <child xsi:type="archimate:DiagramObject" id="id-857ae071c51a4fe3b50269a691fc28eb" textPosition="1" archimateElement="id-b2eba9696eb642cd9df65417dca81d63" type="1">
               <bounds x="372" y="276" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-356096efded4428b8ddac8bddc9a2a04" source="id-857ae071c51a4fe3b50269a691fc28eb" target="id-1db5aeab9b7c4a1cab572d20170042e0" archimateRelationship="id-dcde91b710584ef7a6b2ff1059190108"/>
             </child>
