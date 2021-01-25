@@ -32410,7 +32410,7 @@ Prosesser for å dele data som åpne data&#xD;
                     <bounds x="12" y="108" width="181" height="49"/>
                   </child>
                   <child xsi:type="archimate:DiagramObject" id="id-6f2d3b6c7cf049bea1afacedff47062f" targetConnections="id-f3c8d247d2404f1896558a5b8e795d76" archimateElement="id-db86d01c6a7143d2b07b9beb9f296362">
-                    <bounds x="12" y="183" width="181" height="32"/>
+                    <bounds x="12" y="180" width="181" height="32"/>
                   </child>
                 </child>
                 <child xsi:type="archimate:DiagramObject" id="id-3333006cb9e2485a832538ffa27cdf4e" targetConnections="id-d52d31b508484e3c86928632e1f77fe5" archimateElement="id-85b6c22ba72f4f0d9fa498732be9fe3a">

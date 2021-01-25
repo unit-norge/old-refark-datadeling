@@ -34389,6 +34389,11 @@ Kanskje omdøpe kapabiliteten til &quot;Publiser API&quot;&#xD;
                 <sourceConnection xsi:type="archimate:Connection" id="id-aaf0429970d4468f9e0c08cf4b138b07" source="id-4daa1ab075de4df49c2d05b7a3969ad6" target="id-21ffd1a407bc4a1fbefbe75d60c7b7ea" archimateRelationship="id-8a5ed540db9c455aaddaec2d93e3618f"/>
               </child>
             </child>
+            <child xsi:type="archimate:Note" id="id-0a943a5db7da49c9a82135ad0e7e5c97" textAlignment="1">
+              <bounds x="530" y="259" width="185" height="80"/>
+              <content>Er det mulig å ha &quot;hente supplerende data&quot; inne i her også? Hvis ikke, hvorfor er det forskjellig fra Helhetsbildet?&#xD;
+</content>
+            </child>
             <property key="difi:namespace" value="unit"/>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Helhetsbilde" id="id-354c72d10aef41fca2ff5cc73a6127d0">
