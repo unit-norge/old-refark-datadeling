@@ -5878,13 +5878,30 @@ https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2017/06/28/CEN+Publishes
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:Representation" name="Referansearkitektur for deling av data i høyere utdanning og forsking" id="id-4ba1495ee9074380a2bf896da41834f3">
+      <documentation>test tekst</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="Bøker"/>
       <property key="dct:type" value="modelx:book"/>
       <property key="modelx:book_front_cover_image" value="image1.jpeg"/>
       <property key="modelx:book_back_cover_image" value="image11.png"/>
-      <property key="modelx:antora_update_script" value="C:\antora\modelx-no\modelx-no-playbook\update.sh"/>
+      <property key="modelx:antora_update_script" value="C:\antora\unit-norge\antora-playbook\update.sh"/>
+      <property key="modelx:guid" value="id-4ba1495ee9074380a2bf896da41834f3"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Referansearkitektur for deling av data i høyere utdanning og forsking"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
+      <property key="modelx:site_url" value="https://unit-norge.github.io/"/>
+      <property key="modelx:author_name"/>
+      <property key="modelx:author_email"/>
     </element>
     <element xsi:type="archimate:Representation" name="Bakgrunn" id="id-61082551b4ce4ae9a2aa38dfe4857ca9">
       <documentation>Økt deling av data er en forutsetning for å realisere flere av&#xD;
@@ -5932,12 +5949,42 @@ Noe om forvaltning av rammeverket</documentation>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-bakgrunn"/>
       <property key="dct:type" value="modelx:section"/>
+      <property key="modelx:guid" value="id-61082551b4ce4ae9a2aa38dfe4857ca9"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Bakgrunn"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="Økt deling av data er en forutsetning for å realisere flere av&#xD;&#xA;handlingsplanens initiativer innenfor utdanning, forskning,&#xD;&#xA;administrasjon og IMD. Dette dokumentet beskriver de føringene til&#xD;&#xA;organisasjoner og IT-løsninger som vi ønsker å bruke videre i sektoren&#xD;&#xA;til å skape en effektiv plattform for datadeling. Referansearkitekturen&#xD;&#xA;tar utgangspunkt i følgende pågående arbeid i sektoren i dag:&#xD;&#xA;&#xD;&#xA;* Integrasjonsarkitektur UH:IntArk&#xD;&#xA;* Arbeid med Sak og Arkiv i sektoren&#xD;&#xA;* Arbeid med nytt API for Felles Studentsystem, FS&#xD;&#xA;* Arbeid med masterdatakilder for forskning&#xD;&#xA;&#xD;&#xA;Referansearkitekturen innarbeider også føringer fra:&#xD;&#xA;&#xD;&#xA;* Digitaliseringsstrategiene til offentlig sektor og høyere utdanning og&#xD;&#xA;forskning&#xD;&#xA;* https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[Overordnede&#xD;&#xA;arkitekturprinsipper] for digitaliering av offentlig sektor&#xD;&#xA;* https://www.digdir.no/nasjonal-arkitektur/rammeverk-digital-samhandling/2148[Rammeverk&#xD;&#xA;for digital samhandling]&#xD;&#xA;* https://nasjonal-arkitektur.github.io/architecture-repository/about-topic-areas/about-topic-areas.html[Nasjonal&#xD;&#xA;referansearkitekturene for datadeling og datautveksling]&#xD;&#xA;* https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[Kapabilitetsmodell&#xD;&#xA;i høyere utdanning i EUNIS] (European University Information System&#xD;&#xA;Organization)&#xD;&#xA;* Behovene avdekket i tjenestedesign analyse av behovene til Studenter,&#xD;&#xA;Lærere, Forskere og tjenesteleverandører av Muliggjørende økosystem&#xD;&#xA;&#xD;&#xA;Referansearkitekturer gir mønstre og veiledning til utforming av&#xD;&#xA;løsninger. Denne referansearkitekturen beskriver både eksisterende&#xD;&#xA;samhandling formulert som beste praksis og nødvendig neste steg i&#xD;&#xA;generelle datadelingsmønster som kan gjenbrukes i sektoren. Disse&#xD;&#xA;mønstrene er dokumentert gjennom videreutvikling av&#xD;&#xA;referansearkitekturene fra digitaliseringsdirektoratet. Hensikten med&#xD;&#xA;arbeidet er å fremme en koordinert utvikling av datadeling som&#xD;&#xA;resulterer i økt gjenbruk av data «kun en gang» og nye, innovative&#xD;&#xA;anvendelser av data i sektoren.&#xD;&#xA;&#xD;&#xA;Noe om prosesser, rutiner og veiledninger.&#xD;&#xA;&#xD;&#xA;Noe om forvaltning av rammeverket"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
+      <property key="modelx:author_name"/>
+      <property key="modelx:author_email"/>
     </element>
     <element xsi:type="archimate:Representation" name="Målarkitekturen for datadeling i høyere utdanning og forskning" id="id-ed01a21019c94c459b98713ff4522e5a">
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
       <property key="dct:type" value="modelx:section"/>
+      <property key="modelx:guid" value="id-ed01a21019c94c459b98713ff4522e5a"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Målarkitekturen for datadeling i høyere utdanning og forskning"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
+      <property key="modelx:author_name"/>
+      <property key="modelx:author_email"/>
     </element>
     <element xsi:type="archimate:Representation" name="Forvaltning av målarkitekturen" id="id-a2b10750237141dd885d374f1cb067fd">
       <documentation>#Tekst om overgangen fra kapabilitetene og løsningene beskrevet&#xD;
@@ -5954,29 +6001,100 @@ være forholdsvis stabile over tid. Definisjon av …[mer tekst her]</documentat
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-forvaltning"/>
       <property key="dct:type" value="modelx:section"/>
+      <property key="modelx:guid" value="id-a2b10750237141dd885d374f1cb067fd"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Forvaltning av målarkitekturen"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="#Tekst om overgangen fra kapabilitetene og løsningene beskrevet&#xD;&#xA;over til informasjonsforvaltning og definisjon av datasett.#&#xD;&#xA;&#xD;&#xA;Sektoren er i ferd med å bygge en distribuert arkitektur som benytter&#xD;&#xA;løsere koblet, delte datakilder som inneholder data om sentrale&#xD;&#xA;entiteter i sektoren som for eksempel studenter, ansatte,&#xD;&#xA;forskningsprosjekt, forskningsresultater, læringsobjekter, med flere.&#xD;&#xA;Disse kildene blir rendyrket som *_masterdatakilder_*. Disse kildene er&#xD;&#xA;definert ut fra en dyp forståelse av sektorenes funksjon og vil typisk&#xD;&#xA;være forholdsvis stabile over tid. Definisjon av …[mer tekst her]"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
+      <property key="modelx:author_name"/>
+      <property key="modelx:author_email"/>
     </element>
     <element xsi:type="archimate:Representation" name="Vedlegg 1 - Definisjoner" id="id-142edeb394bb42478e6d6b85d5228d86">
+      <documentation>*  *Datakvalitet*:&#xD;
++&#xD;
+Datakvalitet innebærer at data skal være korrekte, komplette,&#xD;
+oppdaterte og konsistente og har evnen til å støtte de&#xD;
+informasjonsformål de brukes til [kilde: data.norge.no, SKATTEETATEN]&#xD;
+&#xD;
+* *Masterdata*: &#xD;
++&#xD;
+Master data is the consistent and uniform set of&#xD;
+identifiers and extended attributes that describes the core entities of&#xD;
+the enterprise including customers, prospects, citizens, suppliers,&#xD;
+sites, hierarchies, and chart of accounts.  footnote:[Gartner definisjon hentet fra https://www.gartner.com/en/information-technology/glossary/master-data-management-mdm&#xD;
+2021.01.07]</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-definisjoner"/>
       <property key="dct:type" value="modelx:section"/>
+      <property key="modelx:guid" value="id-142edeb394bb42478e6d6b85d5228d86"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Vedlegg 1 - Definisjoner"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="*  *Datakvalitet*:&#xD;&#xA;+&#xD;&#xA;Datakvalitet innebærer at data skal være korrekte, komplette,&#xD;&#xA;oppdaterte og konsistente og har evnen til å støtte de&#xD;&#xA;informasjonsformål de brukes til [kilde: data.norge.no, SKATTEETATEN]&#xD;&#xA;&#xD;&#xA;* *Masterdata*: &#xD;&#xA;+&#xD;&#xA;Master data is the consistent and uniform set of&#xD;&#xA;identifiers and extended attributes that describes the core entities of&#xD;&#xA;the enterprise including customers, prospects, citizens, suppliers,&#xD;&#xA;sites, hierarchies, and chart of accounts.  footnote:[Gartner definisjon hentet fra https://www.gartner.com/en/information-technology/glossary/master-data-management-mdm&#xD;&#xA;2021.01.07]"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
+      <property key="modelx:author_name"/>
+      <property key="modelx:author_email"/>
     </element>
     <element xsi:type="archimate:Representation" name="Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst" id="id-1443b0bf650f4e90b3b7e831fb3df794">
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-issues"/>
       <property key="dct:type" value="modelx:section"/>
+      <property key="modelx:guid" value="id-1443b0bf650f4e90b3b7e831fb3df794"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
+      <property key="modelx:author_name"/>
+      <property key="modelx:author_email"/>
     </element>
     <element xsi:type="archimate:Representation" name="Forankring" id="id-239051e6402244fcaafee61373157e5a">
       <documentation>Referansearkitekturen er utarbeidet i et samarbeidsprosjekt Datadeling&#xD;
 med prosjektdeltagelse fra Unit, NTNU, UiO og Uninett. Styringsgruppen&#xD;
 består av medlemmer fra Unit, UiB, OsloMet, USIT, NMBU og Uninett.&#xD;
 &#xD;
-Noe om forankring av referansearkitekturen</documentation>
+Noe om forankring av referansearkitekturen (test)</documentation>
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-bakgrunn"/>
+      <property key="modelx:guid" value="id-239051e6402244fcaafee61373157e5a"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Forankring"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="Referansearkitekturen er utarbeidet i et samarbeidsprosjekt Datadeling&#xD;&#xA;med prosjektdeltagelse fra Unit, NTNU, UiO og Uninett. Styringsgruppen&#xD;&#xA;består av medlemmer fra Unit, UiB, OsloMet, USIT, NMBU og Uninett.&#xD;&#xA;&#xD;&#xA;Noe om forankring av referansearkitekturen"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Målgruppe" id="id-620fadc88bbc4cd5afc57eb614c67ad0">
       <documentation>Målgruppen for referansearkitekturen er primært arkitekter og tekniske prosjektledere.</documentation>
@@ -5984,6 +6102,19 @@ Noe om forankring av referansearkitekturen</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-bakgrunn"/>
+      <property key="modelx:guid" value="id-620fadc88bbc4cd5afc57eb614c67ad0"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Målgruppe"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="Målgruppen for referansearkitekturen er primært arkitekter og tekniske prosjektledere."/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Bruksområder for datadeling" id="id-e738ffecb0554b978c6cc32388e331a1">
       <documentation>Datadeling skal støtte virksomhetene innen høyere utdanning og forskning&#xD;
@@ -6035,14 +6166,40 @@ referansearkitekturen skal dekke.</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-bakgrunn"/>
+      <property key="modelx:guid" value="id-e738ffecb0554b978c6cc32388e331a1"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Bruksområder for datadeling"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="Datadeling skal støtte virksomhetene innen høyere utdanning og forskning&#xD;&#xA;i sine oppgaver. Arbeid med referansearkitekturen tar derfor&#xD;&#xA;utgangspunkt i følgende bruksområder som første steg i en brukerfokusert&#xD;&#xA;tilnærming:&#xD;&#xA;&#xD;&#xA;* Innovativ, individuelt tilpasset læring&#xD;&#xA;* Livslang læring&#xD;&#xA;* Åpen forskning &#xD;&#xA;* #Heidi: Skulle vi si noe om forskning som ikke er åpen#&#xD;&#xA;* Effektivisert administrasjon&#xD;&#xA;* Automatisert administrativ støtte &#xD;&#xA;** Forskningssøknader &#xD;&#xA;** Data Management Planning innen forskning og andre prosjekter &#xD;&#xA;** Arkivering &#xD;&#xA;** HR prosesser for onboarding og «terminering?» &#xD;&#xA;&#xD;&#xA;Innen bruksområdene over ser vi sektoren produserer og ønsker å tilby&#xD;&#xA;følgende hovedkategori av data for deling:&#xD;&#xA;&#xD;&#xA;* Utdannings- og forskningsressurser til gjenbruk og viderebruk &#xD;&#xA;** Forskningsresultater &#xD;&#xA;** Forskningsdata &#xD;&#xA;** Digitale læringsressurser &#xD;&#xA;* Administrative data&#xD;&#xA;** Grunndata for driftsformål &#xD;&#xA;** Data brukt og produsert i saksbehandling&#xD;&#xA;** Rapporteringsdata om egen saksbehandling og produksjon &#xD;&#xA;* Analysedata om utdanning og forskning &#xD;&#xA;&#xD;&#xA;Sektoren har også bruk for data fra andre. Vi ser behov for følgende&#xD;&#xA;kategori av data:&#xD;&#xA;&#xD;&#xA;* Grunndata i nasjonale felleskomponenter (f. eks. folkeregisteret og&#xD;&#xA;enhetsregisteret)&#xD;&#xA;* Autentiseringsdata fra utlandet &#xD;&#xA;* Informasjon om grunnutdanning eller utdanning i utlandet &#xD;&#xA;* Informasjon om forskning i utlandet og forskningsresultater fra&#xD;&#xA;utlandet &#xD;&#xA;* Informasjon om forskning i privatnæringsliv og resultater&#xD;&#xA;fra forskning i privat næringsliv &#xD;&#xA;* Informasjon om forskningsfinansiering i Norge (fra Forskningsrådet, m.&#xD;&#xA;fl.) &#xD;&#xA;&#xD;&#xA;Bruksområdene over er utgangspunktet for forståelse av behovene som&#xD;&#xA;referansearkitekturen skal dekke."/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Økosystemer, tjenestekjeder og tverrgående prosesser" id="id-6efbf826bcc342938ab0e9bc18ee335a">
       <documentation>//heidi:&#xD;
-#input fra tjenestedesignprosess rundt muliggjørende økosystem#</documentation>
+#input fra tjenestedesignprosess rundt muliggjørende økosystem (NB script test)#</documentation>
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-bakgrunn"/>
+      <property key="modelx:guid" value="id-6efbf826bcc342938ab0e9bc18ee335a"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Økosystemer, tjenestekjeder og tverrgående prosesser"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="//heidi:&#xD;&#xA;#input fra tjenestedesignprosess rundt muliggjørende økosystem#"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Om arkitekturprinsippenes føringer for datadeling" id="id-4d6cbb6e37fa4cb7a63edc46993d12b9">
       <documentation>Pek til&#xD;
@@ -6057,6 +6214,19 @@ arkitekturprinsippene</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
+      <property key="modelx:guid" value="id-4d6cbb6e37fa4cb7a63edc46993d12b9"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Om arkitekturprinsippenes føringer for datadeling"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="Pek til&#xD;&#xA;https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[overordnede arkitekturprinsippene] fra digitaliseringsdirektoratet og hva de betyr&#xD;&#xA;her.&#xD;&#xA;&#xD;&#xA;#Trenger vi noen justeringer av prinsippene?#&#xD;&#xA;&#xD;&#xA;Si noe om UH-IntArk prinsippene og forhold til de overordnede&#xD;&#xA;arkitekturprinsippene"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Hva er datadeling" id="id-66c46c1d186a4cde83b98bfbf3b54e33">
       <documentation>Følgende definisjon for datadeling er hentet fra&#xD;
@@ -6079,6 +6249,19 @@ for *_deling og innhenting av data og hendelser_*.&#xD;
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
+      <property key="modelx:guid" value="id-66c46c1d186a4cde83b98bfbf3b54e33"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Hva er datadeling"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="Følgende definisjon for datadeling er hentet fra&#xD;&#xA;Digitaliseringsdirektoratets&#xD;&#xA;https://doc.difi.no/nasjonal-arkitektur/nab_arkitekturlandskap_segmentarkitektur_datadeling/[segmentarkitektur for datadeling].&#xD;&#xA;&#xD;&#xA;[sidebar]&#xD;&#xA;._Datadeling_&#xD;&#xA;--&#xD;&#xA;Datadeling handler om å forsyne forretningsprosesser og dataanalyse med nødvendig datagrunnlag.&#xD;&#xA;&#xD;&#xA;De fleste aktører sitter på begge sider i dette bildet, og må kunne&#xD;&#xA;både _dele_ og _innhente_ data og hendelser. I beskrivelsene skilles det&#xD;&#xA;likevel gjerne på rollene som _tilbyder_ og _konsument_.&#xD;&#xA;&#xD;&#xA;Begrepet _datadeling_ er ut fra dette å oppfatte som kortform&#xD;&#xA;for *_deling og innhenting av data og hendelser_*.&#xD;&#xA;--"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Modeller for datadeling" id="id-b20e03439e5540c7b0dbde34b33c631c">
       <documentation>Når datatilbydere og datakonsumenter deler data, skjer det som en del av&#xD;
@@ -6111,6 +6294,19 @@ er uendret.</documentation>
       <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
       <property key="modelx:view_reference" value="id-6c5481d5c5684c87b04904d4cfdf14d6"/>
       <property key="drill down" value="id-6c5481d5c5684c87b04904d4cfdf14d6"/>
+      <property key="modelx:guid" value="id-b20e03439e5540c7b0dbde34b33c631c"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Modeller for datadeling"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="Når datatilbydere og datakonsumenter deler data, skjer det som en del av&#xD;&#xA;en digital samhandling. For at samhandlingen skal være vellykket, må&#xD;&#xA;tilbydere og konsumenter sikre at de handler i henhold til loven&#xD;&#xA;(juridisk samhandlingsevne), at aktørene har avklart forventninger til&#xD;&#xA;hverandre (organisatorisk samhandlingsevne), at datatilbyder og&#xD;&#xA;konsumenter har samme forståelse av dataenes betydning (semantisk&#xD;&#xA;samhandlingsevne) og at de tekniske løsningene som utfører datadeling&#xD;&#xA;fungerer sammen slik de skal (teknisk samhandlingsevne).&#xD;&#xA;https://www.digdir.no/nasjonal-arkitektur/rammeverk-digital-samhandling/2148#juridisk_samhandlingsevne[Rammeverk&#xD;&#xA;for digital samhandling] vist under utdyper disse samhandlingsevner.&#xD;&#xA;&#xD;&#xA;image:{imagepath}image4.png[image,width=464,height=274]&#xD;&#xA;&#xD;&#xA;Modellene i referansearkitekturen beskrevet under er laget for å ivareta&#xD;&#xA;juridisk-, organisatorisk-, semantisk- og teknisk samhandlingsevner og&#xD;&#xA;hjelper dermed de som benytter modellene til å lykkes med digital&#xD;&#xA;samhandling.&#xD;&#xA;&#xD;&#xA;https://nasjonal-arkitektur.github.io/architecture-repository/about-topic-areas/about-topic-areas.html[Nasjonale&#xD;&#xA;referansearkitekturer innen datadeling og datautveksling] er fremdeles&#xD;&#xA;under utvikling. Vi gjenbruker her noen av modellene uendret, og&#xD;&#xA;tilpasser noen for høyere utdanning og forskning. Den overordnede&#xD;&#xA;verdistrømmen for datadeling og relaterte kapabiliteter #avbildet under#&#xD;&#xA;er uendret."/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Kapabiliteter" id="id-6479f79835e84429b3140bb2c10c29eb">
       <documentation>Som vist i #figuren over#, må datatilbyderen ha oversikt over egne data&#xD;
@@ -6141,6 +6337,19 @@ samhandlingsevne.&#xD;
       <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
       <property key="modelx:view_reference" value="id-1483db946250417d8e13781139bb2dff"/>
       <property key="drill down" value="id-1483db946250417d8e13781139bb2dff"/>
+      <property key="modelx:guid" value="id-6479f79835e84429b3140bb2c10c29eb"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Kapabiliteter"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="Som vist i #figuren over#, må datatilbyderen ha oversikt over egne data&#xD;&#xA;som skal deles og evne til å publisere datasettene slik at andre kan&#xD;&#xA;benytte disse. &#xD;&#xA;&#xD;&#xA;For at datadeling skal fungere etter hensikt, må dataene&#xD;&#xA;ha god kvalitet. Dette krever kapabiliteter innen&#xD;&#xA;informasjonsforvaltning.  Vi har modellert disse evner som&#xD;&#xA;«muliggjørende kapabiliteter» i referansearkitekturen for høyere&#xD;&#xA;utdanning og forskning med utgangspunkt i&#xD;&#xA;https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[EUNIS&#xD;&#xA;sin kapabilitetsmodell for europeiske universiteter] #som vist under#. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;God&#xD;&#xA;informasjonsforvaltning støtter både opp om organisatorisk&#xD;&#xA;samhandlingsevne gjennom å gi organisasjoner riktig data av god kvalitet&#xD;&#xA;og støtter opp om semantisk samhandlingsevne ved å klargjøre dataenes&#xD;&#xA;betydning. Vi velger også å synliggjøre juridiske tjenester som&#xD;&#xA;muliggjørende kapabilitet for å støtte opp under juridisk&#xD;&#xA;samhandlingsevne.&#xD;&#xA;&#xD;&#xA;"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Felleskomponenter" id="id-441dccdd98b0431c91b11d7d29c2f26b">
       <documentation>#(i sektoren hittil har «felles» betyd både at alle bruker samme instans,&#xD;
@@ -6171,6 +6380,19 @@ kompontenene#&#xD;
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
+      <property key="modelx:guid" value="id-441dccdd98b0431c91b11d7d29c2f26b"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Felleskomponenter"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="#(i sektoren hittil har «felles» betyd både at alle bruker samme instans,&#xD;&#xA;eller at alle har identiske instanser – vi må presisere hva som er&#xD;&#xA;hva etter hvert)#&#xD;&#xA;&#xD;&#xA; &#xD;&#xA;&#xD;&#xA;Innledende tekst om hva slags funksjonalitet vi trenger i&#xD;&#xA;felleskomponenter og hvorfor, motivert fra kapabilitetene over.&#xD;&#xA;&#xD;&#xA;//Erik&#xD;&#xA;#Jeg har laget et Archimate view som heter «Felleskomponenter»,&#xD;&#xA;men jeg vil ikke ha bildet, bare teksten som står i beskrivelse av&#xD;&#xA;kompontenene#&#xD;&#xA;&#xD;&#xA;* Autentiseringstjeneste​&#xD;&#xA;* API manager​&#xD;&#xA;* API katalog / datakatalog ​&#xD;&#xA;* API gateway​&#xD;&#xA;* Autorisasjonstjeneste / Nøkkelutsteder ​&#xD;&#xA;* Klient register​&#xD;&#xA;* Identity Governance Administration (IGA)​&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;#Heidi NB: mangler komponenter for hendelsesstrømming/-publisering#"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Datautveksling" id="id-f3ad82668384458f939a9911ddb3e749">
       <documentation>Med utgangspunkt i&#xD;
@@ -6182,6 +6404,19 @@ for datautveksling] beskriv de mønstrene som vi bruker</documentation>
       <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
       <property key="modelx:view_reference" value="id-0ce23d39f69644708dc3860ed5fd8441"/>
       <property key="drill down" value="id-0ce23d39f69644708dc3860ed5fd8441"/>
+      <property key="modelx:guid" value="id-f3ad82668384458f939a9911ddb3e749"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Datautveksling"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="Med utgangspunkt i&#xD;&#xA;https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html[Referansearkitektur&#xD;&#xA;for datautveksling] beskriv de mønstrene som vi bruker"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Integrasjonsmønster for datadeling" id="id-33a69e5d6f274b348ab3734308a3d946">
       <documentation>*Provisjonering *(hoved IntArk mønster): Holde «server-side» kopi løpende oppdatert&#xD;
@@ -6221,6 +6456,19 @@ utover vedlikeholdbarheten til API-ene.» Gartner bruker også den.  </docu
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
+      <property key="modelx:guid" value="id-33a69e5d6f274b348ab3734308a3d946"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Integrasjonsmønster for datadeling"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="*Provisjonering *(hoved IntArk mønster): Holde «server-side» kopi løpende oppdatert&#xD;&#xA;fra master ved å benytte eOppslag til å hente data fra master&#xD;&#xA;og eNotifikasjon for å gi beskjed til abonnenter om at noe er&#xD;&#xA;oppdatert på master. &#xD;&#xA;&#xD;&#xA;**Synkront oppslag: **realisering av eOppslag – hva bør vi si om&#xD;&#xA;dette? Skal vi Skissere REST og GraphQL eller blir det for&#xD;&#xA;teknologispesifikk?&#xD;&#xA;&#xD;&#xA;**“Event stream” på logisk nivå: **Dette er en form&#xD;&#xA;for ePublisering/eNotfikasjon. Ref. Gartner sin FS evaluering, men siden&#xD;&#xA;de ikke har åpen dokumentasjon** **se for eksempel&#xD;&#xA;denne:** **https://mapr.com/blog/event-driven-microservices-patterns/[[.underline]#https://mapr.com/blog/event-driven-microservices-patterns/#].&#xD;&#xA;Overordnet, omtales arkitekturen som&#xD;&#xA;“https://en.wikipedia.org/wiki/Event-driven_architecture[[.underline]#Event Driven&#xD;&#xA;Architecture#]”.^2^  Tilnærmingen forutsetter tilnærming til konsistens&#xD;&#xA;omtalt&#xD;&#xA;som «https://en.wikipedia.org/wiki/Eventual_consistency[[.underline]#Eventual&#xD;&#xA;Consistency#]». «Conflict resolution» kan her gjennomføres på flere&#xD;&#xA;måter avhengig av domenebehov. Mange benytter «last writer wins», men&#xD;&#xA;det finnes flere, strengere alternativer, som for&#xD;&#xA;eksempel https://debezium.io/blog/2020/02/10/event-sourcing-vs-cdc/[[.underline]#Event&#xD;&#xA;sourcing og Change Data Capture#]. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;*Backend for frontend*: relevant når vi skal spesifisere samhandling med&#xD;&#xA;individer, som i innovativ læring og livslang læring. eHelse sier&#xD;&#xA;«Backend-for-Frontend (BFF) er et utbredt designkonsept som benyttes for&#xD;&#xA;mange klienter og API-er. Konseptet går ut på å la&#xD;&#xA;ulike brukergrensesnittyper (Nettleserbaserte, App-er på mobil osv) ha&#xD;&#xA;hver sin backend slik at spesialtilpasninger på API-er som kreves for de&#xD;&#xA;ulike brukergrensesnitttypene kan realiseres uten at det går&#xD;&#xA;utover vedlikeholdbarheten til API-ene.» Gartner bruker også den.  "/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Utvikling av brukernære API og datasett" id="id-c10096bcdd784cd985a921f60c6f0d65">
       <property key="dct:type" value="modelx:section"/>
@@ -6229,6 +6477,19 @@ utover vedlikeholdbarheten til API-ene.» Gartner bruker også den.  </docu
       <property key="modelx:antora_module" value="unit-ra-datadeling-forvaltning"/>
       <property key="modelx:view_reference" value="id-f27d35941f384297b7b099b612b29096"/>
       <property key="drill down" value="id-f27d35941f384297b7b099b612b29096"/>
+      <property key="modelx:guid" value="id-c10096bcdd784cd985a921f60c6f0d65"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Utvikling av brukernære API og datasett"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Roller og ansvar for informasjonsforvaltning" id="id-f250d1d6d79d4bf3bee89a8b47dfe1a4">
       <documentation>Vi mener at følgende roller, dekker behovene samt holder kompleksiteten&#xD;
@@ -6427,6 +6688,19 @@ Konsumenter med sammenfallende behov har ansvar for å samordne seg.&#xD;
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-forvaltning"/>
+      <property key="modelx:guid" value="id-f250d1d6d79d4bf3bee89a8b47dfe1a4"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Roller og ansvar for informasjonsforvaltning"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="Vi mener at følgende roller, dekker behovene samt holder kompleksiteten&#xD;&#xA;på et håndterbart nivå når det gjelder informasjonsforvaltning ved&#xD;&#xA;deling av data:&#xD;&#xA;&#xD;&#xA;* Tjenesteeier&#xD;&#xA;* Tjenesteansvarlig&#xD;&#xA;* Dataeier&#xD;&#xA;* Behandlingsansvarlig&#xD;&#xA;* Databehandler&#xD;&#xA;* Segmentansvarlig&#xD;&#xA;* Begrepseier&#xD;&#xA;* Datakonsumenter&#xD;&#xA;&#xD;&#xA;[cols=&quot;,&quot;,options=&quot;header&quot;,]&#xD;&#xA;|===&#xD;&#xA;|*Rolle:* |Tjenesteier&#xD;&#xA;|*Beskrivelse av rollen:* |Tjenesteeier er den&#xD;&#xA;organisasjon/virksomhet/enhet som eier en tjeneste.&#xD;&#xA;&#xD;&#xA;|*Ansvars-områder og oppgaver:* a|&#xD;&#xA;Er ansvarlig for at sine data/masterdata deles iht. Referansearkitektur&#xD;&#xA;(dvs. generiske grensesnitt og notifikasjoner, eksempel IntArk).&#xD;&#xA;&#xD;&#xA;Er ansvarlig for å definere tjenestenivå i henhold til brukeres behov, å&#xD;&#xA;kvalitetssikre faglig innhold i tjenesten og å gi faglig brukerstøtte.&#xD;&#xA;&#xD;&#xA;Er ansvarlig for at tjenesten følger gjeldende lover og regler, har&#xD;&#xA;myndighet til å foreta finansielle beslutninger og signere avtaler.&#xD;&#xA;&#xD;&#xA;Er ansvarlig for at det er utpekt en tjenesteansvarlig for tjenesten.&#xD;&#xA;&#xD;&#xA;|*Typiske roller/stillinger som rollen skal samarbeide med:*&#xD;&#xA;|Tjenesteeier vil i de fleste tilfellene være en eller flere ledere av&#xD;&#xA;de fagavdelingene som benytter seg av løsningens funksjonalitet og som&#xD;&#xA;oppnår gevinster ved å benytte tjenesten.&#xD;&#xA;|===&#xD;&#xA;&#xD;&#xA;[cols=&quot;,&quot;,options=&quot;header&quot;,]&#xD;&#xA;|===&#xD;&#xA;|*Rolle:* |Tjenesteansvarlig&#xD;&#xA;|*Beskrivelse av rollen:* a|&#xD;&#xA;Rollen har et helhetlig ansvar for at tjenesten dekke ønsker og behov&#xD;&#xA;for funksjonalitet som en kunde eller konsortium har til tjenesten.&#xD;&#xA;&#xD;&#xA;Tjenesteansvarlig er operativt ansvarlig og har større kunnskap om behov&#xD;&#xA;og praktisk bruk av tjenesten. Han/hun jobber i tett samarbeid med&#xD;&#xA;brukere/brukerrepresentanter. Tjenesteansvarlig og tjenesteeier kan være&#xD;&#xA;samme person for mindre/enklere tjenester.&#xD;&#xA;&#xD;&#xA;|*Ansvars-områder og oppgaver:* a|&#xD;&#xA;_Drive nettverk og kommunikasjon_ &#xD;&#xA;&#xD;&#xA; -ha kontakt med&#xD;&#xA;brukerne/kundene/oppdragsgiver/myndigheter/leverandører &#xD;&#xA;&#xD;&#xA;-fremskaffe og formidle informasjon om tjenesten &#xD;&#xA;&#xD;&#xA;_Sikre brukermedvirkning og koordinere utviklingen av tjenesten_ &#xD;&#xA;&#xD;&#xA;-sørge for oppdatert dokumentasjon av tjenesten &#xD;&#xA;&#xD;&#xA;-sørge for forankring av løpende beslutninger om utvikling av tjenesten &#xD;&#xA;&#xD;&#xA;-koordinerer beslutningsprosessen &#xD;&#xA;&#xD;&#xA;_Sørge for tilstrekkelig kvalitet og sikkerhet i tjenesten_ &#xD;&#xA;&#xD;&#xA;-oppfølging av regelverk tilknyttet tjenesten  &#xD;&#xA;&#xD;&#xA;-ansvarlig for brukerstøtte [brukerstøtte er også en del av innkjøpte&#xD;&#xA;tjenester] &#xD;&#xA;&#xD;&#xA;-ansvar for opplæring i tjenesten  &#xD;&#xA;&#xD;&#xA;-ansvar for å identifisere og håndtere risiko &#xD;&#xA;&#xD;&#xA;_Tilrettelegge for gevinstrealisering_ &#xD;&#xA;&#xD;&#xA;_Samarbeide med brukerne om forbedring av arbeidsprosesser_ &#xD;&#xA;&#xD;&#xA;_Forvalte avtaler knyttet til tjenesten _&#xD;&#xA;&#xD;&#xA;_For innkjøpte tjenester gjelder også: _ &#xD;&#xA;&#xD;&#xA;Forvalte tjenestens budsjett  &#xD;&#xA;&#xD;&#xA;Følge opp ekstern(e) leverandør(er) &#xD;&#xA;&#xD;&#xA;|*Typiske roller/stillinger som rollen skal samarbeide med:*&#xD;&#xA;|Tjenesteeier, Datakonsument&#xD;&#xA;|===&#xD;&#xA;&#xD;&#xA;[cols=&quot;,&quot;,options=&quot;header&quot;,]&#xD;&#xA;|===&#xD;&#xA;|*Rolle:* |Dataeier&#xD;&#xA;|*Beskrivelse av rollen:* |Den virksomheten som forvalter opplysningene&#xD;&#xA;som skal deles fra sine fagsystemer, registre eller felleskomponenter.&#xD;&#xA;&#xD;&#xA;|*Ansvars-områder og oppgaver:* a|&#xD;&#xA;Leveranse og forvalting av data. Datakvalitet, sikkerhet,&#xD;&#xA;tilgjengelighet&#xD;&#xA;&#xD;&#xA;Motta, registrere, endre og fjerne forekomster.&#xD;&#xA;&#xD;&#xA;Sikre at bruk av data som eies av tredjepart samsvarer med vilkårene som&#xD;&#xA;gis.&#xD;&#xA;&#xD;&#xA;Overholde krav i arkivloven når det gjelder kassasjon. &#xD;&#xA;&#xD;&#xA;Rådgivning og bistand i spørsmål som angår bruk av data &#xD;&#xA;&#xD;&#xA;Kommunikasjon med alle interessenter&#xD;&#xA;&#xD;&#xA;Oppgaver:&#xD;&#xA;&#xD;&#xA;Innhente data&#xD;&#xA;&#xD;&#xA;Kvalitetsikre data&#xD;&#xA;&#xD;&#xA;Bearbeide, berike data&#xD;&#xA;&#xD;&#xA;Lagre data&#xD;&#xA;&#xD;&#xA;Lisensiere data&#xD;&#xA;&#xD;&#xA;|*Typiske roller/stillinger som rollen skal samarbeide med:* |&#xD;&#xA;|===&#xD;&#xA;&#xD;&#xA;[cols=&quot;,&quot;,options=&quot;header&quot;,]&#xD;&#xA;|===&#xD;&#xA;|*Rolle:* |Behandlingsansvarlig&#xD;&#xA;|*Beskrivelse av rollen:* |Behandlingsansvarlig er en fysisk eller&#xD;&#xA;juridisk person, en offentlig myndighet, en institusjon eller ethvert&#xD;&#xA;annet organ som alene eller sammen med andre bestemmer formålet med&#xD;&#xA;behandlingen av personopplysninger og hvilke midler som skal benyttes;&#xD;&#xA;&#xD;&#xA;|*Ansvars-områder og oppgaver:* |Uttømmende informasjon om rollen finnes&#xD;&#xA;hos Datatilsynet&#xD;&#xA;https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-behandlingsansvarlig/[(behandlingsansvarlig)]&#xD;&#xA;&#xD;&#xA;|*Typiske roller/stillinger som rollen skal samarbeide med:* |&#xD;&#xA;|===&#xD;&#xA;&#xD;&#xA;[cols=&quot;,&quot;,options=&quot;header&quot;,]&#xD;&#xA;|===&#xD;&#xA;|*Rolle:* |Databehandler&#xD;&#xA;|*Beskrivelse av rollen:* |En databehandler er en fysisk eller juridisk&#xD;&#xA;person, offentlig myndighet, institusjon eller ethvert annet organ som&#xD;&#xA;behandler personopplysninger på vegne av den behandlingsansvarlige.&#xD;&#xA;&#xD;&#xA;|*Ansvars-områder og oppgaver:* |Uttømmende informasjon om rollen finnes&#xD;&#xA;hos Datatilsynet&#xD;&#xA;https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/databehandleravtale/behandlingsansvarlig-og-databehandler/hva-er-en-databehandler/[(databehandler)]&#xD;&#xA;&#xD;&#xA;|*Typiske roller/stillinger som rollen skal samarbeide med:* |&#xD;&#xA;|===&#xD;&#xA;&#xD;&#xA;[cols=&quot;,&quot;,options=&quot;header&quot;,]&#xD;&#xA;|===&#xD;&#xA;|*Rolle:* |Segmentansvarlig&#xD;&#xA;|*Beskrivelse av rollen:* |&#xD;&#xA;&#xD;&#xA;|*Ansvars-områder og oppgaver:* |&#xD;&#xA;&#xD;&#xA;|*Typiske roller/stillinger som rollen skal samarbeide med:* |&#xD;&#xA;&#xD;&#xA;|*Rolle:* |Begrepseier&#xD;&#xA;&#xD;&#xA;|*Beskrivelse av rollen:* |Rollen som har det faglige ansvaret for et&#xD;&#xA;begreps innhold.&#xD;&#xA;&#xD;&#xA;|*Ansvars-områder og oppgaver:* |&#xD;&#xA;&#xD;&#xA;|*Typiske roller/stillinger som rollen skal samarbeide med:* |&#xD;&#xA;|===&#xD;&#xA;&#xD;&#xA;[cols=&quot;,&quot;,options=&quot;header&quot;,]&#xD;&#xA;|===&#xD;&#xA;|*Rolle:* |Datakonsument&#xD;&#xA;|*Beskrivelse av rollen:* |Den virksomheten som mottar opplysninger fra&#xD;&#xA;datatilbyder til sitt formål/til et annet formål.&#xD;&#xA;&#xD;&#xA;|*Ansvars-områder og oppgaver:* a|&#xD;&#xA;Konsumenten har ansvar for å spesifisere hvilke opplysninger de trenger,&#xD;&#xA;og for å vurdere om disse kan deles uten hinder av taushetsplikt.&#xD;&#xA;&#xD;&#xA;Konsumenter med sammenfallende behov har ansvar for å samordne seg.&#xD;&#xA;&#xD;&#xA;|*Typiske roller/stillinger som rollen skal samarbeide med:*&#xD;&#xA;|Tjenesteansvarlig, Dataeier, Behandlingsansvarlig, Segmentansvarlig&#xD;&#xA;(skal Segmentansvarlig være felles kontaktpunkt?)&#xD;&#xA;|==="/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Issues mot nasjonale felleskompontenter (Maskinporten, ID Porten og Altinn autorisasjon)" id="id-981c0fa360d14aaa8e8627a6014dbc04">
       <documentation>[arabic]&#xD;
@@ -6460,6 +6734,19 @@ at IGA innenfor UHF sektoren vil dekke våre behov.*</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-issues"/>
+      <property key="modelx:guid" value="id-981c0fa360d14aaa8e8627a6014dbc04"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Issues mot nasjonale felleskompontenter (Maskinporten, ID Porten og Altinn autorisasjon)"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="[arabic]&#xD;&#xA;. Harmonisering av autorisasjon&#xD;&#xA;[loweralpha]&#xD;&#xA;.. Det er ønskelig at UHF autorisasjonstjener og Maskinporten godkjenner&#xD;&#xA;hverandres tokens. Dette forutsetter at informasjonsmodellen benyttet i&#xD;&#xA;tokens er felles. Løsningsvarianter:&#xD;&#xA;[lowerroman]&#xD;&#xA;... Klienter forholder seg til flere autentiseringstjenere og&#xD;&#xA;standardisere token struktur&#xD;&#xA;... Innbytte av tokens (token exchange) fra andre “trusted”&#xD;&#xA;autorisasjonstjenere. En konsekvens av dette er at man mister (?)&#xD;&#xA;koblingen til bruker og dermed kjennskap til autentiseringsstyrken som&#xD;&#xA;ligger bak.&#xD;&#xA;... Software Statement Assertion&#xD;&#xA;(https://tools.ietf.org/html/draft-ietf-oauth-assertions-18) – løsning&#xD;&#xA;benyttet av Open Banking UK&#xD;&#xA;. Harmonisering av samtykke&#xD;&#xA;[loweralpha]&#xD;&#xA;.. Altinn autorisasjon benytter «Self-contained OAuth2 token» for&#xD;&#xA;samtykke. Men da vi ikke kan godkjenne tokens på tvers, har vi&#xD;&#xA;utfordringer med å benytte Altinn autorisasjon direkte. I hvert fall&#xD;&#xA;dekker det ikke skopes vi har anvar for i UHF autorisasjonstjeneren&#xD;&#xA;.. Hjelper User Managed Access (UMA) her?&#xD;&#xA;. Delegering av rettigheter (fullmakt??): Altinn har per i dag ingen god&#xD;&#xA;mekanisme for å delegere rettigheter under organisasjonsgranulariteten i&#xD;&#xA;Enhetsregisteret. Vi tror ikke dette er et problem siden vi *forventer&#xD;&#xA;at IGA innenfor UHF sektoren vil dekke våre behov.*"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Issues internt i UHF sektor" id="id-9aa244a872de48318bd547d96d5bb7d4">
       <documentation>[arabic]&#xD;
@@ -6481,6 +6768,19 @@ dokenene.&#xD;
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-issues"/>
+      <property key="modelx:guid" value="id-9aa244a872de48318bd547d96d5bb7d4"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no" value="Issues internt i UHF sektor"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no" value="[arabic]&#xD;&#xA;. Klientregister inneholder den samme klientoversikten i IAM og i&#xD;&#xA;datadeling. Hvordan den totale oversikten skal vedlikeholdes må&#xD;&#xA;defineres. Skal det være repliserte, konsistente registre? Skal det være&#xD;&#xA;disjunkte subsett?&#xD;&#xA;. Tilgang til API-er kan ha basis i roller (da er man vel virkelig i&#xD;&#xA;overlapp med IGA)&#xD;&#xA;. Dersom forskjellige autorisasjonstjenere ikke kan dele tokens, har vi&#xD;&#xA;vel også det samme problemet vi har mot de nasjonale fellestjenestene at&#xD;&#xA;den ene domenen ikke kan forholde seg til tokens fra den andre domenen.&#xD;&#xA;. Sektoren har tre uavhengige SSO løsninger: IDporten, Feide og Azure&#xD;&#xA;AD. Dette gir både redusert brukervennlighet, og en sikkerhetsutfordring&#xD;&#xA;dersom man ikke kan garantere for at det er samme person i de ulike SSO&#xD;&#xA;dokenene.&#xD;&#xA;"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Datautveksling ved oppslag" id="id-4bb69d1b82094d9f890a6a1805926030">
       <property key="dct:type" value="modelx:section"/>
@@ -6692,26 +6992,6 @@ Prosesser for å dele data som åpne data&#xD;
       <property key="dct:type" value="modelx:archimate_view"/>
       <property key="modelx:view_reference" value="839c86c1-602d-47f5-a3ce-bbf0a87f559a"/>
       <property key="drill down" value="839c86c1-602d-47f5-a3ce-bbf0a87f559a"/>
-    </element>
-    <element xsi:type="archimate:Representation" name="Definisjoner" id="id-315ff29af17f496c8ea3086bca2eb237">
-      <documentation>*  *Datakvalitet*:&#xD;
-+&#xD;
-Datakvalitet innebærer at data skal være korrekte, komplette,&#xD;
-oppdaterte og konsistente og har evnen til å støtte de&#xD;
-informasjonsformål de brukes til [kilde: data.norge.no, SKATTEETATEN]&#xD;
-&#xD;
-* *Masterdata*: &#xD;
-+&#xD;
-Master data is the consistent and uniform set of&#xD;
-identifiers and extended attributes that describes the core entities of&#xD;
-the enterprise including customers, prospects, citizens, suppliers,&#xD;
-sites, hierarchies, and chart of accounts.  footnote:[Gartner definisjon hentet fra https://www.gartner.com/en/information-technology/glossary/master-data-management-mdm&#xD;
-2021.01.07]</documentation>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-definisjoner"/>
-      <property key="modelx:antora_section_header" value="no"/>
-      <property key="dct:type" value="modelx:section"/>
     </element>
   </folder>
   <folder name="Application" id="id-e9f67a107e4f4f87bb2ee0707bae6417" type="application">
@@ -7568,7 +7848,7 @@ https://www.altinndigital.no/produkter/styring-av-tilgang/&#xD;
       <property key="difi:language" value="no"/>
       <property key="label" value="${name}"/>
       <property key="difi:metaLevel" value="undefined"/>
-      <property key="difi:abstractionLevel" value="sbb"/>
+      <property key="difi:abstractionLevel" value="abb"/>
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Hjørne 2 Aksesspunkt avsender" id="f95de0f3-fa18-4025-9a4e-4d414ac65e8e"/>
@@ -22936,142 +23216,632 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:CompositionRelationship" id="id-d1cf142968a54a4a8a50faf22436b974" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-61082551b4ce4ae9a2aa38dfe4857ca9">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-d1cf142968a54a4a8a50faf22436b974"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:composition-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:CompositionRelationship" id="id-0917047ce4bc4185b57ad4c29d2557f2" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-ed01a21019c94c459b98713ff4522e5a">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-0917047ce4bc4185b57ad4c29d2557f2"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:composition-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:CompositionRelationship" id="id-222f337819b5431cbeb2b73a85a12c1e" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-a2b10750237141dd885d374f1cb067fd">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-222f337819b5431cbeb2b73a85a12c1e"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:composition-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:CompositionRelationship" id="id-3a3c955ce34a407c85749aaab7bc7ee1" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-142edeb394bb42478e6d6b85d5228d86">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-3a3c955ce34a407c85749aaab7bc7ee1"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:composition-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:CompositionRelationship" id="id-25fc4716b922408885cb98379a52cc5e" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-1443b0bf650f4e90b3b7e831fb3df794">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-25fc4716b922408885cb98379a52cc5e"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:composition-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-d9b1d8cb5c8b419d8196a726f2486767" source="id-61082551b4ce4ae9a2aa38dfe4857ca9" target="id-ed01a21019c94c459b98713ff4522e5a">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-d9b1d8cb5c8b419d8196a726f2486767"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-12f12a3dee764847bea7a1b19908e7b9" source="id-ed01a21019c94c459b98713ff4522e5a" target="id-a2b10750237141dd885d374f1cb067fd">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-12f12a3dee764847bea7a1b19908e7b9"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-a27f8ea1cb9c4ed699fdd79204a6dcb1" source="id-a2b10750237141dd885d374f1cb067fd" target="id-142edeb394bb42478e6d6b85d5228d86">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-a27f8ea1cb9c4ed699fdd79204a6dcb1"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-373c2ac49e1249478c2b110bcb7728aa" source="id-142edeb394bb42478e6d6b85d5228d86" target="id-1443b0bf650f4e90b3b7e831fb3df794">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-373c2ac49e1249478c2b110bcb7728aa"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-a401cab795924f05b9a2c8f54ae8128d" source="id-61082551b4ce4ae9a2aa38dfe4857ca9" target="id-239051e6402244fcaafee61373157e5a">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-a401cab795924f05b9a2c8f54ae8128d"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-e495086591f24cf58c4777fa674a9d71" source="id-239051e6402244fcaafee61373157e5a" target="id-620fadc88bbc4cd5afc57eb614c67ad0">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-e495086591f24cf58c4777fa674a9d71"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-d73f33bf9de44f03bb8b192ffd5598e8" source="id-61082551b4ce4ae9a2aa38dfe4857ca9" target="id-620fadc88bbc4cd5afc57eb614c67ad0">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-d73f33bf9de44f03bb8b192ffd5598e8"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-b1bc1e101c4f4564871487cb03478a47" source="id-620fadc88bbc4cd5afc57eb614c67ad0" target="id-e738ffecb0554b978c6cc32388e331a1">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-b1bc1e101c4f4564871487cb03478a47"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-4dd60faedeaa4d51a448055090b684d8" source="id-61082551b4ce4ae9a2aa38dfe4857ca9" target="id-e738ffecb0554b978c6cc32388e331a1">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-4dd60faedeaa4d51a448055090b684d8"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-3c1ee6729e174c06b892f24165b97c69" source="id-e738ffecb0554b978c6cc32388e331a1" target="id-6efbf826bcc342938ab0e9bc18ee335a">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-3c1ee6729e174c06b892f24165b97c69"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-e50245406a294352b37a8c2f003970df" source="id-61082551b4ce4ae9a2aa38dfe4857ca9" target="id-6efbf826bcc342938ab0e9bc18ee335a">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-e50245406a294352b37a8c2f003970df"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-e5f056a40b6542818102f52972f31774" source="id-ed01a21019c94c459b98713ff4522e5a" target="id-4d6cbb6e37fa4cb7a63edc46993d12b9">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-e5f056a40b6542818102f52972f31774"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-a5ae0cf23d5e41f1b3cdb64f457df7f9" source="id-4d6cbb6e37fa4cb7a63edc46993d12b9" target="id-66c46c1d186a4cde83b98bfbf3b54e33">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-a5ae0cf23d5e41f1b3cdb64f457df7f9"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-c91de8251880424ebc0168391a799704" source="id-ed01a21019c94c459b98713ff4522e5a" target="id-66c46c1d186a4cde83b98bfbf3b54e33">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-c91de8251880424ebc0168391a799704"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-063494dd588a4bb8b3fc78bd6072461d" source="id-66c46c1d186a4cde83b98bfbf3b54e33" target="id-b20e03439e5540c7b0dbde34b33c631c">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-063494dd588a4bb8b3fc78bd6072461d"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-e9295454b67c4b488767a4a2bcbc3111" source="id-ed01a21019c94c459b98713ff4522e5a" target="id-b20e03439e5540c7b0dbde34b33c631c">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-e9295454b67c4b488767a4a2bcbc3111"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-6bf27ca5bb414412b25c49fdb2298a99" source="id-b20e03439e5540c7b0dbde34b33c631c" target="id-6479f79835e84429b3140bb2c10c29eb">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-6bf27ca5bb414412b25c49fdb2298a99"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-8d6cd6a42e9044979eba3f5094bf8d38" source="id-ed01a21019c94c459b98713ff4522e5a" target="id-6479f79835e84429b3140bb2c10c29eb">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-8d6cd6a42e9044979eba3f5094bf8d38"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-53287f00f8a3474ba3edeb40f723a4b4" source="id-6479f79835e84429b3140bb2c10c29eb" target="id-441dccdd98b0431c91b11d7d29c2f26b">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-53287f00f8a3474ba3edeb40f723a4b4"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-aa645d61cdca4e5da675233e65d77b77" source="id-ed01a21019c94c459b98713ff4522e5a" target="id-441dccdd98b0431c91b11d7d29c2f26b">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-aa645d61cdca4e5da675233e65d77b77"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-4b94c0eeff544ffca8f5a7399fd6ff67" source="id-441dccdd98b0431c91b11d7d29c2f26b" target="id-f3ad82668384458f939a9911ddb3e749">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-4b94c0eeff544ffca8f5a7399fd6ff67"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-cc639b1f04304bffbd9fa4924d3251c7" source="id-ed01a21019c94c459b98713ff4522e5a" target="id-f3ad82668384458f939a9911ddb3e749">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-cc639b1f04304bffbd9fa4924d3251c7"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-8545f5bce4a64480a83498f0d367fd3f" source="id-f3ad82668384458f939a9911ddb3e749" target="id-33a69e5d6f274b348ab3734308a3d946">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-8545f5bce4a64480a83498f0d367fd3f"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-76bdca816c5f4d60b7370d01a5422b56" source="id-ed01a21019c94c459b98713ff4522e5a" target="id-33a69e5d6f274b348ab3734308a3d946">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-76bdca816c5f4d60b7370d01a5422b56"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-19441c7ed82248da8076dc8262495fc3" source="id-a2b10750237141dd885d374f1cb067fd" target="id-c10096bcdd784cd985a921f60c6f0d65">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-19441c7ed82248da8076dc8262495fc3"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-5c2c5123ee3f4797b5297d94479c1d11" source="id-c10096bcdd784cd985a921f60c6f0d65" target="id-f250d1d6d79d4bf3bee89a8b47dfe1a4">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-5c2c5123ee3f4797b5297d94479c1d11"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-0f1ee5419722496abecb97f0b74a0484" source="id-a2b10750237141dd885d374f1cb067fd" target="id-f250d1d6d79d4bf3bee89a8b47dfe1a4">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-0f1ee5419722496abecb97f0b74a0484"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-0de4dc3287fe45f29e87c2f141147810" source="id-1443b0bf650f4e90b3b7e831fb3df794" target="id-981c0fa360d14aaa8e8627a6014dbc04">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-0de4dc3287fe45f29e87c2f141147810"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-253568efa1204fb0a478923b018a9cce" source="id-981c0fa360d14aaa8e8627a6014dbc04" target="id-9aa244a872de48318bd547d96d5bb7d4">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-253568efa1204fb0a478923b018a9cce"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:association-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-2521ed154a934eafa7aa982c09eaf1d3" source="id-1443b0bf650f4e90b3b7e831fb3df794" target="id-9aa244a872de48318bd547d96d5bb7d4">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:guid" value="id-2521ed154a934eafa7aa982c09eaf1d3"/>
+      <property key="difi:metaLevel" value="undefined"/>
+      <property key="dct:type" value="archi:aggregation-relationship"/>
+      <property key="difi:namespace" value="-"/>
+      <property key="difi:abstractionLevel" value="undefined"/>
+      <property key="digdir:link1"/>
+      <property key="digdir:logo"/>
+      <property key="difi:language" value="no"/>
+      <property key="difi:name_no"/>
+      <property key="difi:name_en"/>
+      <property key="difi:description_no"/>
+      <property key="difi:description_en"/>
+      <property key="label" value="${name}"/>
+      <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-6b4c276cb946453face3555e490957d8" source="id-f3ad82668384458f939a9911ddb3e749" target="id-4bb69d1b82094d9f890a6a1805926030">
       <property key="modelx:antora_version" value="main"/>
@@ -23177,7 +23947,6 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:AggregationRelationship" id="id-5f12da76567a4e0097dcec72833fc418" source="id-6479f79835e84429b3140bb2c10c29eb" target="id-b535d5d525e44c80835822bf75a04ceb"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-72f4d33491c04a5ea594609069a80b04" source="id-b535d5d525e44c80835822bf75a04ceb" target="id-525a82f5fe00413eaf52a451ea2e2d7e"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0644a80ef69e4dfd8fd82db7af7647b1" source="id-525a82f5fe00413eaf52a451ea2e2d7e" target="id-068ad146f0794295ac49c03943992a5f"/>
-    <element xsi:type="archimate:CompositionRelationship" id="id-4c601f0a8209479eb21a4ceee0ce4a4a" source="id-142edeb394bb42478e6d6b85d5228d86" target="id-315ff29af17f496c8ea3086bca2eb237"/>
   </folder>
   <folder name="Views" id="id-0ad38d6c238f4fb9b713e53aa221c21e" type="diagrams">
     <folder name="1. Gjeldende bibliotek" id="074262ac-6dab-4f0f-8f3b-cc81cc2590f1">
@@ -36284,7 +37053,7 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
       </folder>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Referansearkitektur for deling av data i høyere utdanning og forsking" id="id-67efac9af26d4e9d9365f15392948f11">
         <child xsi:type="archimate:DiagramObject" id="id-4e2d426a7d7c42b99800ae19f519c3d8" font="1|Segoe UI|18.0|1|WINDOWS|1|-30|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-4ba1495ee9074380a2bf896da41834f3">
-          <bounds x="60" y="-12" width="1171" height="841"/>
+          <bounds x="60" y="-24" width="1171" height="841"/>
           <feature name="gradient" value="1"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-f100d6551a6348e5ba62bf5aeaf736e5" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-28c8cd553fe64416b8a2a2a48cb3ef48" archimateRelationship="id-25fc4716b922408885cb98379a52cc5e"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-40ee104a223f47fc83585489613aafc5" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-732ee16abc48436d8f883ad8ac835778" archimateRelationship="id-d1cf142968a54a4a8a50faf22436b974"/>
@@ -36341,8 +37110,8 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
             <bounds x="36" y="372" width="1093" height="127"/>
             <feature name="gradient" value="1"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-91165369ed0149128d1b5e5bbcbda2c2" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-0bb098ecf1a94db380ad9b769d0c0b08" archimateRelationship="id-0f1ee5419722496abecb97f0b74a0484"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-c28d361b0751434891f503ddaf08e2de" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-a67dd0e192d5465bbf4ea4b3a944ba55" archimateRelationship="id-a27f8ea1cb9c4ed699fdd79204a6dcb1"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-318bc0a49838422793ab6b6254f8046a" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-97a3625ac89f402a860d2fb67f99eac0" archimateRelationship="id-19441c7ed82248da8076dc8262495fc3"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-c28d361b0751434891f503ddaf08e2de" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-a67dd0e192d5465bbf4ea4b3a944ba55" archimateRelationship="id-a27f8ea1cb9c4ed699fdd79204a6dcb1"/>
             <child xsi:type="archimate:DiagramObject" id="id-0bb098ecf1a94db380ad9b769d0c0b08" targetConnections="id-91165369ed0149128d1b5e5bbcbda2c2 id-b656d61316794f09aae95baaa58e6a9c" textPosition="1" archimateElement="id-f250d1d6d79d4bf3bee89a8b47dfe1a4">
               <bounds x="174" y="36" width="137" height="71"/>
               <feature name="gradient" value="1"/>
@@ -36353,7 +37122,7 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
               <sourceConnection xsi:type="archimate:Connection" id="id-b656d61316794f09aae95baaa58e6a9c" source="id-97a3625ac89f402a860d2fb67f99eac0" target="id-0bb098ecf1a94db380ad9b769d0c0b08" archimateRelationship="id-5c2c5123ee3f4797b5297d94479c1d11"/>
             </child>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-a67dd0e192d5465bbf4ea4b3a944ba55" targetConnections="id-c28d361b0751434891f503ddaf08e2de id-69e3de38aa004cca9eb0ebe2a4cf50ec" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-142edeb394bb42478e6d6b85d5228d86">
+          <child xsi:type="archimate:DiagramObject" id="id-a67dd0e192d5465bbf4ea4b3a944ba55" targetConnections="id-69e3de38aa004cca9eb0ebe2a4cf50ec id-c28d361b0751434891f503ddaf08e2de" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-142edeb394bb42478e6d6b85d5228d86">
             <bounds x="36" y="534" width="1093" height="127"/>
             <feature name="gradient" value="1"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-1b5d52fdd4cb47f282370751a8770e4c" source="id-a67dd0e192d5465bbf4ea4b3a944ba55" target="id-28c8cd553fe64416b8a2a2a48cb3ef48" archimateRelationship="id-373c2ac49e1249478c2b110bcb7728aa"/>
@@ -36402,6 +37171,16 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
             </child>
           </child>
         </child>
+        <property key="modelx:guid" value="id-67efac9af26d4e9d9365f15392948f11"/>
+        <property key="difi:language" value="no"/>
+        <property key="difi:name_no" value="Referansearkitektur for deling av data i høyere utdanning og forsking"/>
+        <property key="difi:name_en"/>
+        <property key="difi:description_no"/>
+        <property key="digdir:narrative_no"/>
+        <property key="difi:description_en"/>
+        <property key="digdir:narrative_en"/>
+        <property key="difi:antoraViewPath"/>
+        <property key="difi:antoraViewImagePath"/>
       </element>
     </folder>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Inngangsport" id="76346cce-ecac-4f26-a411-56d689c8fdd0">
@@ -36424,4 +37203,6 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
   <property key="difi:default_language" value="no"/>
   <property key="difi:current_language" value="no"/>
   <property key="difi:antoraComponentsPath" value="C:\antora\unit-norge\components"/>
+  <property key="modelx:web_browser_app" value="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"/>
+  <property key="modelx:cmd_line_app" value="C:\Program Files\Git\git-bash.exe"/>
 </archimate:model>
