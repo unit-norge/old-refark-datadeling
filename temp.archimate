@@ -2719,9 +2719,7 @@ EUNIS: Curriculum Management</documentation>
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Capability" name="Leveranse av undervisning og læring" id="id-9b32558ec5bc4bf0afaf392b051ec62d">
-      <documentation>AKSJON: NTNU kommer med oppdatert forslag&#xD;
-&#xD;
-Hva organisasjonen gjør for å velge, allokere og administrere plassering av studenter i lærings- og praksismiljøer utenfor organisasjonen som en del av læreplanen.&#xD;
+      <documentation>Alle aktiviteter som har som mål å levere en god læringsopplevelse til studentene i organisasjonen. Dette inkluderer formidling av undervisningsaktiviteter, så vel som andre aktiviteter som støtter et meningsfullt læringsmiljø.&#xD;
 &#xD;
 EUNIS: Teaching and Learning Delivery</documentation>
       <property key="difi:namespace" value="unit"/>
@@ -2739,7 +2737,7 @@ EUNIS: Teaching and Learning Delivery</documentation>
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Capability" name="Undervisnings- og læringsinnhold" id="id-33f8ada2978f467785139292b9868d7a">
-      <documentation>AKSJON: NTNU - Teaching and learning content - NTNU sier &quot;&quot; ?? - mangler?&#xD;
+      <documentation>Ressurser i et bredt spekter av formater for å støtte læring og undervisning i organisasjonen. Dette inkluderer fysiske og digitale ressurser som virtuelle læringsmiljø og forelesningsfangst, tilgang til spesialiserte rom, bibliotek og andre relaterte fysiske og digitale tjenester.&#xD;
 &#xD;
 EUNIS: Teaching and Learning Content</documentation>
       <property key="difi:namespace" value="unit"/>
@@ -2933,9 +2931,7 @@ EUNIS: Publication Management</documentation>
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Capability" name="Muliggjørende kapabiliteter" id="id-2e270af4e59641efaaabcf53f4647902">
-      <documentation>AKSJON: NTNU oppdaterer definisjon&#xD;
-&#xD;
-Hva organisasjonen gjør for å sikre at den fremmer og forbedrer sin profil og omdømme regionalt, nasjonalt og internasjonalt. Gjennom publisering av forskning og kompetanse, prestasjoner og oppnåelser til en rekke medier og nettverk, samtidig som de reagerer på direkte henvendelser fra pressen, og maksimerer positiv dekning i media.&#xD;
+      <documentation>Det som kreves for å sikre at organisasjonen er i stand til å gi generell økonomisk, administrativ, fysisk og teknisk støtte til komersiell aktivitet, strategi og styring samt primærvirksomheter (kjerneaktiviteter) slik som undervisning og læring, forskning, nyskapning og formidling.&#xD;
 &#xD;
 EUNIS: Enabling Capabilities</documentation>
       <property key="difi:namespace" value="unit"/>
@@ -2972,9 +2968,7 @@ EUNIS: Information management&#xD;
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Capability" name="Informasjons-registrering, rettighetsklarering og publisering" id="id-ef2141cd89b440e58933700dbcf4169f">
-      <documentation>AKSJON:  NTNU foreslår definisjon&#xD;
-&#xD;
-Hva organisasjonen gjør for å skaffe, vedlikeholde og administrere innhold på tvers av både digitale og fysiske plattformer.&#xD;
+      <documentation>Hva oranisasjonen gjør for å lokalisere, indeksere, katalogisere og publisere informasjon for både intern og ekstern bruk.&#xD;
 &#xD;
 EUNIS: Enterprise Content Management</documentation>
       <property key="difi:namespace" value="unit"/>
@@ -3058,7 +3052,7 @@ EUNIS: Information Search &amp; discovery</documentation>
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Capability" name="Student-vurdering" id="id-5fc88dab66414b58b7203910f2d1df73">
-      <documentation>AKSJON: NTNU kommer med definisjon</documentation>
+      <documentation>Alle aktiviteter som har som mål å vurdere om en student har oppnådd læringsmålene.</documentation>
       <property key="difi:namespace" value="unit"/>
       <property key="difi:metaLevel" value="undefined"/>
       <property key="dct:type" value="archi:capability"/>
@@ -3080,11 +3074,9 @@ EUNIS: Information Search &amp; discovery</documentation>
       <documentation>What the organization does to manage data on IT systems and applications about users. Managed data includes user objects, identity attributes, security entitlements and authentication factors.</documentation>
     </element>
     <element xsi:type="archimate:Capability" name="Personadministrasjon" id="id-2459a873dc2e4d3fb21e713146a06635">
-      <documentation>Human Resource Management&#xD;
+      <documentation>What the organization does to ensure a positive work environment, foucs on individual and collective relationsships, indlucding unions, resolve workplace issues through intervention when necessary.&#xD;
 &#xD;
-What the organization does to ensure a positive work environment, foucs on individual and collective relationsships, indlucding unions, resolve workplace issues through intervention when necessary.&#xD;
-&#xD;
-</documentation>
+EUNIS: Human Resource Management</documentation>
     </element>
   </folder>
   <folder name="Business" id="id-f1434fc25b4947a28814ece63051c850" type="business">
@@ -5888,7 +5880,6 @@ https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2017/06/28/CEN+Publishes
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:Representation" name="Referansearkitektur for deling av data i høyere utdanning og forsking" id="id-4ba1495ee9074380a2bf896da41834f3">
-      <documentation>test tekst</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="Bøker"/>
@@ -6881,7 +6872,7 @@ resultatene fra tidligere steg.</documentation>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-forvaltning"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Applikasjonsoversikt forespørsel" id="id-dee14b64b25b4ad3b40615e0721d2dce">
+    <element xsi:type="archimate:Representation" name="Føderert API management" id="id-dee14b64b25b4ad3b40615e0721d2dce">
       <property key="dct:type" value="modelx:archimate_view"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
@@ -6889,7 +6880,7 @@ resultatene fra tidligere steg.</documentation>
       <property key="modelx:view_reference" value="id-e4df62fd7efc4d2aa8dc588384b41795"/>
       <property key="drill down" value="id-e4df62fd7efc4d2aa8dc588384b41795"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Applikasjonsoversikt forespørsel integrert med IAM" id="id-9b773390a5394211a66e1592400c00f4">
+    <element xsi:type="archimate:Representation" name="API management integrert med IAM" id="id-9b773390a5394211a66e1592400c00f4">
       <property key="dct:type" value="modelx:archimate_view"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
@@ -6897,7 +6888,7 @@ resultatene fra tidligere steg.</documentation>
       <property key="modelx:view_reference" value="id-6e3e4636c5b54ad8b4e4bb11b37353e7"/>
       <property key="drill down" value="id-6e3e4636c5b54ad8b4e4bb11b37353e7"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Applikasjonsoversikt forespørsel integrert nasjonalt" id="id-bbf3443097e5473e8a5c6e5b5fb21446">
+    <element xsi:type="archimate:Representation" name="API management integrert med nasjonale felleskomponenter" id="id-bbf3443097e5473e8a5c6e5b5fb21446">
       <property key="dct:type" value="modelx:archimate_view"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
@@ -6961,14 +6952,6 @@ resultatene fra tidligere steg.</documentation>
       <property key="modelx:view_reference" value="id-3b92345f88bd44ce8224c6f19063a5ea"/>
       <property key="drill down" value="id-3b92345f88bd44ce8224c6f19063a5ea"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Del og innhent data, verdistrøm" id="id-382879debc874aecaddb0cf4eef24a47">
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
-      <property key="dct:type" value="modelx:archimate_view"/>
-      <property key="modelx:view_reference" value="9aa92583-a5d4-484b-a630-e2f17380fb24"/>
-      <property key="drill down" value="9aa92583-a5d4-484b-a630-e2f17380fb24"/>
-    </element>
     <element xsi:type="archimate:Representation" name="Del og innhent data og hendelser, detaljert verdistrøm datatilbyder med kapabiliteter" id="id-525a82f5fe00413eaf52a451ea2e2d7e">
       <documentation>Forklaring:&#xD;
 Datatilbyder må evne å bestemme hvilken teknisk løsning som skal benyttes når dataene gjøres tilgjengelig som åpne data&#xD;
@@ -7000,6 +6983,14 @@ Prosesser for å dele data som åpne data&#xD;
       <property key="dct:type" value="modelx:archimate_view"/>
       <property key="modelx:view_reference" value="839c86c1-602d-47f5-a3ce-bbf0a87f559a"/>
       <property key="drill down" value="839c86c1-602d-47f5-a3ce-bbf0a87f559a"/>
+    </element>
+    <element xsi:type="archimate:Representation" name="Dataobjekter eOppslag UHF" id="id-703aeda277ba4d1dbf3c5d1ef33fe5fb">
+      <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:antora_version" value="main"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
+      <property key="dct:type" value="modelx:archimate_view"/>
+      <property key="modelx:view_reference" value="id-5a3b9d77bc78480aa5dafee567a9cf97"/>
+      <property key="drill down" value="id-5a3b9d77bc78480aa5dafee567a9cf97"/>
     </element>
   </folder>
   <folder name="Application" id="id-e9f67a107e4f4f87bb2ee0707bae6417" type="application">
@@ -22591,9 +22582,6 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:RealizationRelationship" id="id-8598dbd2bcd14809a5b83ccecd7f841c" source="id-79d5bb2a2ac64ca2a82207bcfd2945b6" target="id-d3303e2cd658437db5e83ba82ab4275f">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:RealizationRelationship" id="id-449ce7100bfa441fbd216dc4386125ce" source="id-96514499518349619a8e277dfafc274b" target="0c051f18-03b6-4561-a6d8-a77912e4686c">
-      <property key="difi:namespace" value="unit"/>
-    </element>
     <element xsi:type="archimate:CompositionRelationship" id="id-e6683300f8734a5ab8dd224123bad523" source="id-55bee15c884742f98182aac42efe2e4d" target="id-57ae3a344e57466fb6c03301b8159f34">
       <property key="difi:namespace" value="unit"/>
       <property key="difi:metaLevel" value="undefined"/>
@@ -22876,7 +22864,6 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:ServingRelationship" id="id-4640367bd46243d4b6492e732aee3e0c" source="id-82e46134305b4431ae3c203c436bf2bb" target="8f899729-16a6-4b20-8438-fb3ccdfd837e">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:RealizationRelationship" id="id-4b3b468ed3d84762a9978502a76be8eb" source="id-790edbc925b24187adbccb11b66a37b4" target="6d908f89-0a8f-4ba1-aeb4-b3e9f27e75e6"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-2cdf073ef778454d891727998496a64c" source="d242a840-0fa2-4f8d-997c-2298194f1c4a" target="id-a5857bbbb6e948fea43c09eb04869c0c">
       <property key="difi:namespace" value="unit"/>
     </element>
@@ -22886,7 +22873,6 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:RealizationRelationship" id="id-fb9f1371cbd64a12b69b511d12878892" source="id-79d5bb2a2ac64ca2a82207bcfd2945b6" target="2715d0e5-cfea-4699-aa85-ac696c2e155d">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-89823df7b7a44091b5866938ee2e2265" source="0442a2d9-0a27-4aee-ac78-82b12deccf85" target="2af682a3-bead-4c64-abf8-c2f42acdd63b"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-aa526f474a564f4e9f5ca65c47c1e921" source="743ee89e-49b3-4b4b-b93b-c7e6f4e0700f" target="id-790edbc925b24187adbccb11b66a37b4">
       <property key="difi:namespace" value="unit"/>
     </element>
@@ -22896,11 +22882,9 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:AssociationRelationship" id="id-5f0730bfbee54a4eb4f4d4333b3c8261" source="c777850b-1ce0-4af0-b1b2-d180411baaca" target="id-fad4dc87816543b49a61ec0b9a37c856">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:CompositionRelationship" id="id-8b296f40e67a4a8788e44addfafd66e1" source="39a534e2-fba3-4725-8be0-19961e77cb37" target="274af914-0901-4f66-86cc-4c0fcafbf07a"/>
     <element xsi:type="archimate:ServingRelationship" id="id-993a219540144dfa9cf22b00fbe49505" source="id-665178dd6b464a94a908145cac822615" target="bb9600f7-587d-423e-85a3-4215e45f09e4">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:ServingRelationship" id="id-014d7a77a1934778847914bd78b182b8" source="id-a5857bbbb6e948fea43c09eb04869c0c" target="bb9600f7-587d-423e-85a3-4215e45f09e4"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-5f3e0c4416104f81ab1736c07d5d78a4" source="39a534e2-fba3-4725-8be0-19961e77cb37" target="id-fad4dc87816543b49a61ec0b9a37c856">
       <property key="difi:namespace" value="unit"/>
     </element>
@@ -22919,23 +22903,15 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:RealizationRelationship" id="id-dbe9b795d0d24bd1acfe147185e6752f" source="id-678a43e46063414793067b8edb0916bf" target="id-fc1136fb467644f3a03b1467612d05bc">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-2bb126b7dad94942a2ec2978d604a01e" source="id-36f9c7b5673540f3836c9b0481c2b4a0" target="id-678a43e46063414793067b8edb0916bf"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-ab588ad1dc744372ada618adbe552ec4" source="id-1cc616373b9a4486817077c7ee705d70" target="id-36f9c7b5673540f3836c9b0481c2b4a0">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-754a49d660b448a0a1f3857311feb93f" source="id-fd71571b787147e499331728417e38c9" target="id-da1544a2f050417f9582626161806677"/>
-    <element xsi:type="archimate:FlowRelationship" id="id-64d13c29767b416c8e7479b9047c6a87" source="id-fd71571b787147e499331728417e38c9" target="id-da1544a2f050417f9582626161806677"/>
     <element xsi:type="archimate:AccessRelationship" id="id-ee79e981f4834121b6b74a35025d6f10" source="id-fd71571b787147e499331728417e38c9" target="id-1cc616373b9a4486817077c7ee705d70" accessType="1">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:AccessRelationship" id="id-72cf93db8ff641c2afccd14d1a1fec1e" source="id-36f9c7b5673540f3836c9b0481c2b4a0" target="id-1cc616373b9a4486817077c7ee705d70"/>
-    <element xsi:type="archimate:FlowRelationship" id="id-18373868b14844f298a81b8dd30585e9" source="id-61ddb37f4d984c329f51b99d147fc926" target="id-6d0bf7af5b6843ffa61986891276d670"/>
-    <element xsi:type="archimate:FlowRelationship" id="id-16614783044b44ecae7dc1c75fec8ce2" source="id-cc509df46a5044cf80780b1b4f1cf0ff" target="id-6d0bf7af5b6843ffa61986891276d670"/>
-    <element xsi:type="archimate:ServingRelationship" id="id-24a4e3b5bf5345b2b52227554a1be01b" source="id-6d0bf7af5b6843ffa61986891276d670" target="id-cc509df46a5044cf80780b1b4f1cf0ff"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-4fe6ea99f52047a9a99d71714c37e04c" source="id-b98f8906c8544527a3c08ed9483d3fca" target="id-245d246f413b4ef2a0d65606a8a66065" directed="true">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-cb36c53aa8714f28a615147c5a267439" source="id-245d246f413b4ef2a0d65606a8a66065" target="id-b98f8906c8544527a3c08ed9483d3fca"/>
     <element xsi:type="archimate:TriggeringRelationship" id="id-8e012aafe7ab476e860935e0c3723032" source="id-fd71571b787147e499331728417e38c9" target="id-da1544a2f050417f9582626161806677">
       <property key="difi:namespace" value="unit"/>
     </element>
@@ -22960,13 +22936,9 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:RealizationRelationship" id="id-8b91d6ac4b70476e822557c478517b62" source="id-c9a7e23c1bc54dfa9dd3422da65fa63f" target="id-245d246f413b4ef2a0d65606a8a66065">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:ServingRelationship" id="id-106d915b7b994e4ba69254e75e17daa5" source="id-e2971bd88daa49b38e81f184294330a7" target="id-6d0bf7af5b6843ffa61986891276d670"/>
-    <element xsi:type="archimate:RealizationRelationship" id="id-3f3a5cd205d942d3a050bc44a359878c" source="id-cc509df46a5044cf80780b1b4f1cf0ff" target="id-be9efa485f4743029c068ea7f7833e97"/>
-    <element xsi:type="archimate:SpecializationRelationship" id="id-ddba96a066d94cd8a639dec2a8d03080" source="id-36f9c7b5673540f3836c9b0481c2b4a0" target="id-36f9c7b5673540f3836c9b0481c2b4a0"/>
     <element xsi:type="archimate:AccessRelationship" id="id-0148d2d16d254fc5875846a133721fbc" source="id-fd71571b787147e499331728417e38c9" target="id-7262b1ea5c93474eaa4f203f84906c7d">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:AccessRelationship" id="id-78dd8db8831b4acd844c7eb425ecd9b1" source="id-36fa645e01d141c1b807889d42774f7d" target="id-7262b1ea5c93474eaa4f203f84906c7d"/>
     <element xsi:type="archimate:AccessRelationship" id="id-a89c845a35984b4e829ae3acac04e892" source="id-da1544a2f050417f9582626161806677" target="id-7262b1ea5c93474eaa4f203f84906c7d" accessType="1">
       <property key="difi:namespace" value="unit"/>
     </element>
@@ -23015,14 +22987,12 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:TriggeringRelationship" id="id-d87dc13237714ddf970e3ef4c24355ec" source="id-f00712bb250749c6ad5cf991be99dd36" target="id-0c2e75524fdd4e5e9bd03a8fc5a788cb">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:ServingRelationship" id="id-9d71185bc0b24568abe1a7c1dde31dd5" source="id-5fa8141d715945a3b415284af6ee738b" target="id-36fa645e01d141c1b807889d42774f7d"/>
     <element xsi:type="archimate:ServingRelationship" id="id-7e0f415d330e4f10969ec96b6aef832d" source="id-36fa645e01d141c1b807889d42774f7d" target="id-5fa8141d715945a3b415284af6ee738b">
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:ServingRelationship" id="id-d67bfe94f6274277bc8321f7176611c0" source="id-e2971bd88daa49b38e81f184294330a7" target="id-f00712bb250749c6ad5cf991be99dd36">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:TriggeringRelationship" id="id-dbbdc66dfdfa41f9aa9dc768e224c552" source="id-0c2e75524fdd4e5e9bd03a8fc5a788cb" target="id-cc509df46a5044cf80780b1b4f1cf0ff"/>
     <element xsi:type="archimate:TriggeringRelationship" id="id-8a5ed540db9c455aaddaec2d93e3618f" source="id-6d0bf7af5b6843ffa61986891276d670" target="id-cc509df46a5044cf80780b1b4f1cf0ff">
       <property key="difi:namespace" value="unit"/>
     </element>
@@ -23038,11 +23008,9 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:AccessRelationship" id="id-14fa032efe3b476bb0d85d0ef11ac04b" source="id-79d5bb2a2ac64ca2a82207bcfd2945b6" target="90106e3a-d9f4-4817-ab38-473efc7f1aac" accessType="1">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:RealizationRelationship" id="id-d80ada9b2d3c40f08d99f5f11a2a5277" source="id-790edbc925b24187adbccb11b66a37b4" target="id-b2eba9696eb642cd9df65417dca81d63"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-dac9720ef5ee4f79a7b449d7637661b8" source="d242a840-0fa2-4f8d-997c-2298194f1c4a" target="id-b2eba9696eb642cd9df65417dca81d63">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:RealizationRelationship" id="id-bbabb26c79a046038c33555922aab226" source="id-790edbc925b24187adbccb11b66a37b4" target="id-78c78bb84eaa4268ac23b66e5f1e7f8f"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-b7889b4b2a8e47b6ad70052f4882ca92" source="id-46f10831ae0b41d292a6f0c8e89f9db0" target="id-79d5bb2a2ac64ca2a82207bcfd2945b6">
       <property key="difi:namespace" value="unit"/>
     </element>
@@ -23077,11 +23045,9 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:AssociationRelationship" name="Be om tilgang" id="id-c56dc2430a904763b892e8757db782e2" source="id-592b210c4e904bfebcd47ca0c951de83" target="id-96514499518349619a8e277dfafc274b">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-0becaa350be843839763974fa4d725a8" source="id-790edbc925b24187adbccb11b66a37b4" target="id-46f10831ae0b41d292a6f0c8e89f9db0"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-2b2d99817a1747b991400a079984f084" source="id-46f10831ae0b41d292a6f0c8e89f9db0" target="id-e28b4d8f07c64ae49335d1a9e31d70eb">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:ServingRelationship" name="Autentiserer bruker" id="id-1696cc0a92894850a392bc84d4deb7fc" source="44ced331-4cf1-4599-a2e6-d5be20b80a6d" target="id-592b210c4e904bfebcd47ca0c951de83"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5028b5e2a74547e8b04faa730ec6a796" source="id-3b4942df649c4e239414c9fd72c3d6b3" target="44ced331-4cf1-4599-a2e6-d5be20b80a6d">
       <property key="difi:namespace" value="unit"/>
     </element>
@@ -23112,7 +23078,6 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:RealizationRelationship" id="id-9d73612423d54970abf4fead02c3cacd" source="id-7049c424598b438a8c295e5f8a964599" target="id-82e46134305b4431ae3c203c436bf2bb">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:ServingRelationship" id="id-972f9afa92bb4cb2b6d1f66700cb16da" source="997e9993-2339-49a8-9935-fb3794fdbb46" target="id-592b210c4e904bfebcd47ca0c951de83"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-1d25cdc397fb4ac49db671e383506de4" source="id-592b210c4e904bfebcd47ca0c951de83" target="id-53111fea0c384a228cb1ea1acca224e8">
       <property key="difi:namespace" value="unit"/>
     </element>
@@ -23155,8 +23120,6 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:CompositionRelationship" id="id-b50239bbbfff4436a016cf4848a0eb01" source="id-888257e60279405e8ec8dfce69c276ab" target="id-96514499518349619a8e277dfafc274b">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:CompositionRelationship" id="id-43c095a504b842a3a8be587f5df65a87" source="id-d800d2eaadc04a8a9d80750258e3eb71" target="id-790edbc925b24187adbccb11b66a37b4"/>
-    <element xsi:type="archimate:CompositionRelationship" id="id-961ba1e551fe4f3b8d3affb9ad3891da" source="id-d800d2eaadc04a8a9d80750258e3eb71" target="id-46f10831ae0b41d292a6f0c8e89f9db0"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-8a57bf1b63c347c5ace6fe1d75ee75a0" source="id-f9f3e8eba10047d6afcd48ee19b0628c" target="d242a840-0fa2-4f8d-997c-2298194f1c4a">
       <property key="difi:namespace" value="unit"/>
     </element>
@@ -23947,17 +23910,14 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
     </element>
-    <element xsi:type="archimate:AggregationRelationship" id="id-5e00ad21342e475dbc6ef17df4c9d70f" source="id-b20e03439e5540c7b0dbde34b33c631c" target="id-382879debc874aecaddb0cf4eef24a47">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-    </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-17ee2083411146fca2c3193b8d3ef0b6" source="id-6479f79835e84429b3140bb2c10c29eb" target="id-525a82f5fe00413eaf52a451ea2e2d7e"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-5f12da76567a4e0097dcec72833fc418" source="id-6479f79835e84429b3140bb2c10c29eb" target="id-b535d5d525e44c80835822bf75a04ceb"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-72f4d33491c04a5ea594609069a80b04" source="id-b535d5d525e44c80835822bf75a04ceb" target="id-525a82f5fe00413eaf52a451ea2e2d7e"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0644a80ef69e4dfd8fd82db7af7647b1" source="id-525a82f5fe00413eaf52a451ea2e2d7e" target="id-068ad146f0794295ac49c03943992a5f"/>
-    <element xsi:type="archimate:CompositionRelationship" id="id-34f7cbde3b4746dfaac9fc01b60e7849" source="id-465d0ad2236b4b35a7bee699a39d3a71" target="id-fb98fe17dc9d405597f956516270346f"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-1fe85de2f90344f0bcb7bfcef2fdab88" source="id-465d0ad2236b4b35a7bee699a39d3a71" target="id-2459a873dc2e4d3fb21e713146a06635"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-f32d7a0b7e614efea13a1df6f78d83a5" source="id-2459a873dc2e4d3fb21e713146a06635" target="id-fb98fe17dc9d405597f956516270346f"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-183ec7ca3105482bb02a65695cce295f" source="id-4bb69d1b82094d9f890a6a1805926030" target="id-703aeda277ba4d1dbf3c5d1ef33fe5fb"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-3ac775b88f4949769f97543953e43620" source="id-703aeda277ba4d1dbf3c5d1ef33fe5fb" target="id-dee14b64b25b4ad3b40615e0721d2dce"/>
   </folder>
   <folder name="Views" id="id-0ad38d6c238f4fb9b713e53aa221c21e" type="diagrams">
     <folder name="1. Gjeldende bibliotek" id="074262ac-6dab-4f0f-8f3b-cc81cc2590f1">
@@ -35291,7 +35251,7 @@ Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens s
             <property key="difi:antoraViewImagePath"/>
             <property key="difi:namespace" value="unit"/>
           </element>
-          <element xsi:type="archimate:ArchimateDiagramModel" name="Forespørsel realisert ved API managment" id="id-e4df62fd7efc4d2aa8dc588384b41795">
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Føderert API managment" id="id-e4df62fd7efc4d2aa8dc588384b41795">
             <child xsi:type="archimate:DiagramObject" id="id-63472613ce8242e0a03cd77799c00137" textAlignment="1" archimateElement="id-d800d2eaadc04a8a9d80750258e3eb71">
               <bounds x="384" y="24" width="313" height="541"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-b3f90aabf7fc42388e9b839df8f146b1" source="id-63472613ce8242e0a03cd77799c00137" target="id-fa9e496b38e346d4be90e654917d27b7" archimateRelationship="id-f7017f4277c145309f7f98845ede8dcf"/>
@@ -35371,6 +35331,18 @@ Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens s
                 <bounds x="120" y="120" width="109" height="42"/>
               </child>
             </child>
+            <documentation>Føderert API Management innebærer at et domene (føderasjon) kan gi brukere i andre domener man har et tillitsforhold til (ofte kalt fødereringspartnere) tilgang til sine egne data gjennom APIer. Dette er et prinsipp for API Management som har etablert seg de siste årene. Det er flere grunner for dette, blant annet at store virksomheter i dag gjerne har virksomhetsdata lagret distribuert og gjerne fordelt mellom systemer som kjører på lokale servere (on-premise) og i skybaserte-løsninger som kjører på egen infrastruktur. &#xD;
+&#xD;
+Det sterke politiske fokuset på deling av data gjennom orden i eget hus og nasjonale og sektorvise digitaliseringsstrategier understøtter også behovet for et API Management regime som understøtter deling av data til 3. part for innovasjon, og fokus på sammenhengende brukerreiser (eksemplifisert ved de syv livshendelser og tjenestekjeder) som forutsetter at data kan deles mellom virksomheter som betjener slike brukerreiser. &#xD;
+&#xD;
+Virksomhetene i UH/F har mange fellestrekk og noen fellestjenester på tvers, men deres autonomi gjør at de også er ulike på enkelte områder, f.eks. når det gjelder teknisk infrastruktur. Dette understreker behovet for en føderert API Management løsning som er mer fleksibel mtp. tekniske løsninger og produktvalg lokalt.  &#xD;
+&#xD;
+Designen avbildet er laget for å støtte følgende karakteristikk:&#xD;
+&#xD;
+* Intstitusjonene er sikret råderett over egne data gjennom tilgangstjeneste i resssursportalen og API gateway hos institusjonen som kan styre og holde oversikt over datatilgang&#xD;
+* Institusjonene har valgfrihet over API Gateway såfremt funksjoner og grensesnitt er ivaretatt&#xD;
+* Deling av data på tvers av institusjoner er støttet gjennom felles ressursportal&#xD;
+</documentation>
             <property key="difi:namespace" value="unit"/>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Registrere API  UHF" id="id-d1e9f3ae7fdd49bc91f84309b3071350">
@@ -35451,7 +35423,7 @@ Kanskje omdøpe kapabiliteten til &quot;Publiser API&quot;&#xD;
             <property key="difi:name_no" value="Tilgjengeliggjøre API - løsningsmønster"/>
             <property key="difi:namespace" value="unit"/>
           </element>
-          <element xsi:type="archimate:ArchimateDiagramModel" name="Forsepørsel integrert nasjonalt" id="id-9ce97c10b97b4a56990a59e86857b8cd">
+          <element xsi:type="archimate:ArchimateDiagramModel" name="API management integrert med nasjonale felleskomponenter" id="id-9ce97c10b97b4a56990a59e86857b8cd">
             <child xsi:type="archimate:Note" id="id-67ce292057b44ba0921a054b671774f2" textAlignment="1">
               <bounds x="840" y="132" width="185" height="80"/>
               <content>Må vurdere hvordan rettigheter tildeles til klienter utenfor sektoren med virksomhetssertifikater &#xD;
@@ -35522,7 +35494,7 @@ Kanskje omdøpe kapabiliteten til &quot;Publiser API&quot;&#xD;
             </child>
             <property key="difi:namespace" value="unit"/>
           </element>
-          <element xsi:type="archimate:ArchimateDiagramModel" name="Forsepørsel API management integrert med IAM" id="id-6e3e4636c5b54ad8b4e4bb11b37353e7">
+          <element xsi:type="archimate:ArchimateDiagramModel" name="API management integrert med IAM" id="id-6e3e4636c5b54ad8b4e4bb11b37353e7">
             <child xsi:type="archimate:DiagramObject" id="id-c9899143e3334890adfb50811cf8c180" targetConnections="id-f4747be0e2ae40c68e9cd3356f069286" textPosition="1" archimateElement="id-53111fea0c384a228cb1ea1acca224e8">
               <bounds x="93" y="48" width="139" height="38"/>
             </child>
@@ -36956,7 +36928,7 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
         <folder name="Datautveksling ved oppslag" id="id-81d5bde4b0a543c9be43f1b6f527e7e9">
           <element xsi:type="archimate:ArchimateDiagramModel" name="Datautveksling ved oppslag" id="id-85c23f6c602949e99acac9ed93a98b09">
             <child xsi:type="archimate:DiagramObject" id="id-bbe3ac0e8534461dada32e6618c4003e" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="id-4bb69d1b82094d9f890a6a1805926030">
-              <bounds x="54" y="42" width="1249" height="139"/>
+              <bounds x="48" y="36" width="1273" height="169"/>
               <feature name="gradient" value="1"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-edbd86f70f73487ca37c3fafa73a66a6" source="id-bbe3ac0e8534461dada32e6618c4003e" target="id-0605ffb9758b4bc08f3ccb264daf4f5f" archimateRelationship="id-a9384bc2ae4a4790862600ee132d0f2c"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-2b4aefb0849e4fb2b307f892e4fa63d3" source="id-bbe3ac0e8534461dada32e6618c4003e" target="id-e4b4a240974f459bac1258fb958d38a9" archimateRelationship="id-82e73b0b91f6494d831a63e36f3fb310"/>
@@ -36967,52 +36939,44 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
               <sourceConnection xsi:type="archimate:Connection" id="id-f0882cd6c39e49148d5f6d689c736313" source="id-bbe3ac0e8534461dada32e6618c4003e" target="id-b656b99cd396432aba61a439413bd793" archimateRelationship="id-60dbdd52607b46729e64f84dfba57025"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-b8a400d6f42f4d7b8ece34747b86400f" source="id-bbe3ac0e8534461dada32e6618c4003e" target="id-a000b749ec4845e5ab4323e87e311e9a" archimateRelationship="id-f83beaeffa2547d793c2a8e11f8d78b5"/>
               <child xsi:type="archimate:DiagramObject" id="id-a977facbc511408fb6ed1bf752034c3e" targetConnections="id-ccc353ad625541948d43449313d9fccf id-18b8d1442efb4c86b289c34ed2808d4b" textPosition="1" archimateElement="id-4b3345e69cf047cfa05b245a9ee23843">
-                <bounds x="786" y="42" width="137" height="71"/>
+                <bounds x="810" y="42" width="137" height="71"/>
                 <feature name="gradient" value="1"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-c55085e42cbd415c920df7b847be2e11" source="id-a977facbc511408fb6ed1bf752034c3e" target="id-60a85924bab547fa896172369c68e074" archimateRelationship="id-651a132729714a6daffa8f86ea32a300"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-60a85924bab547fa896172369c68e074" targetConnections="id-c8b336199c4045a49f1f350c2dc597d7 id-c55085e42cbd415c920df7b847be2e11" textPosition="1" archimateElement="id-e372ee50a1604f03a01c84bde875cdca">
-                <bounds x="939" y="42" width="137" height="71"/>
+                <bounds x="963" y="42" width="137" height="71"/>
                 <feature name="gradient" value="1"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-3aa2e6e739974d86ac17698119d11397" source="id-60a85924bab547fa896172369c68e074" target="id-0605ffb9758b4bc08f3ccb264daf4f5f" archimateRelationship="id-622daba4902047e9b9b68c29d6e4347b"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-0605ffb9758b4bc08f3ccb264daf4f5f" targetConnections="id-edbd86f70f73487ca37c3fafa73a66a6 id-3aa2e6e739974d86ac17698119d11397" textPosition="1" archimateElement="id-9514307bfcdb4c5c8bca43a996c6dc7e">
-                <bounds x="1092" y="42" width="137" height="71"/>
+                <bounds x="1116" y="42" width="137" height="71"/>
                 <feature name="gradient" value="1"/>
               </child>
-              <child xsi:type="archimate:DiagramObject" id="id-a000b749ec4845e5ab4323e87e311e9a" targetConnections="id-cfdeb03612294326be615ff297745a83 id-b8a400d6f42f4d7b8ece34747b86400f id-80c7616d5e394201b37baf77da282f4c" textPosition="1" archimateElement="id-1770208f7a18420eaeb96ac7f47282d4">
-                <bounds x="480" y="42" width="137" height="71"/>
+              <child xsi:type="archimate:DiagramObject" id="id-a000b749ec4845e5ab4323e87e311e9a" targetConnections="id-b8a400d6f42f4d7b8ece34747b86400f id-80c7616d5e394201b37baf77da282f4c" textPosition="1" archimateElement="id-1770208f7a18420eaeb96ac7f47282d4">
+                <bounds x="504" y="42" width="137" height="71"/>
                 <feature name="gradient" value="1"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-9eabeaac1c2548edb15917d9ce9495d4" source="id-a000b749ec4845e5ab4323e87e311e9a" target="id-b656b99cd396432aba61a439413bd793" archimateRelationship="id-412c413f563e41b295d78fa73606d81f"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-b656b99cd396432aba61a439413bd793" targetConnections="id-9eabeaac1c2548edb15917d9ce9495d4 id-f0882cd6c39e49148d5f6d689c736313" textPosition="1" archimateElement="id-e6eda0fb60934a6a9418abdd05fd6d7c">
-                <bounds x="633" y="42" width="137" height="71"/>
+                <bounds x="657" y="42" width="137" height="71"/>
                 <feature name="gradient" value="1"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-ccc353ad625541948d43449313d9fccf" source="id-b656b99cd396432aba61a439413bd793" target="id-a977facbc511408fb6ed1bf752034c3e" archimateRelationship="id-1c47b0978f4f47e9b72c8b65b8ece89e"/>
               </child>
               <child xsi:type="archimate:DiagramObject" id="id-6247a71ed24043e99240843d90b49673" targetConnections="id-35fded74cd6a496da9e43066f63b8e39" textPosition="1" archimateElement="id-dee14b64b25b4ad3b40615e0721d2dce">
-                <bounds x="21" y="42" width="137" height="71"/>
+                <bounds x="36" y="42" width="137" height="71"/>
                 <feature name="gradient" value="1"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-990b0428ae5d459dbb923a7d1d92f77c" source="id-6247a71ed24043e99240843d90b49673" target="id-4e7341b8f7984abf8139b773d16da61f" archimateRelationship="id-75b09716acb543dfade6cf436211e60f"/>
               </child>
-              <child xsi:type="archimate:DiagramObject" id="id-4e7341b8f7984abf8139b773d16da61f" targetConnections="id-fbd8807758204d95b052366ea7676ecd id-990b0428ae5d459dbb923a7d1d92f77c id-4ce3b3bdfbf74cec95f9e09313934429" textPosition="1" archimateElement="id-9b773390a5394211a66e1592400c00f4">
-                <bounds x="180" y="42" width="137" height="71"/>
+              <child xsi:type="archimate:DiagramObject" id="id-4e7341b8f7984abf8139b773d16da61f" targetConnections="id-4ce3b3bdfbf74cec95f9e09313934429 id-990b0428ae5d459dbb923a7d1d92f77c" textPosition="1" archimateElement="id-9b773390a5394211a66e1592400c00f4">
+                <bounds x="204" y="42" width="137" height="71"/>
                 <feature name="gradient" value="1"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-ddcd0ef24d9544f993019afa6399e3f6" source="id-4e7341b8f7984abf8139b773d16da61f" target="id-e4b4a240974f459bac1258fb958d38a9" archimateRelationship="id-f04fb614a9204439a2a92be551080da2"/>
               </child>
-              <child xsi:type="archimate:DiagramObject" id="id-e4b4a240974f459bac1258fb958d38a9" targetConnections="id-ebebe46f2efc4c929efe3855f7ec15d3 id-2b4aefb0849e4fb2b307f892e4fa63d3 id-ddcd0ef24d9544f993019afa6399e3f6" textPosition="1" archimateElement="id-bbf3443097e5473e8a5c6e5b5fb21446">
-                <bounds x="330" y="42" width="137" height="71"/>
+              <child xsi:type="archimate:DiagramObject" id="id-e4b4a240974f459bac1258fb958d38a9" targetConnections="id-2b4aefb0849e4fb2b307f892e4fa63d3 id-ddcd0ef24d9544f993019afa6399e3f6" textPosition="1" archimateElement="id-bbf3443097e5473e8a5c6e5b5fb21446">
+                <bounds x="354" y="42" width="137" height="71"/>
                 <feature name="gradient" value="1"/>
                 <sourceConnection xsi:type="archimate:Connection" id="id-80c7616d5e394201b37baf77da282f4c" source="id-e4b4a240974f459bac1258fb958d38a9" target="id-a000b749ec4845e5ab4323e87e311e9a" archimateRelationship="id-0e22926a600b41c2ac1965dfe2e9b658"/>
               </child>
-            </child>
-            <child xsi:type="archimate:Note" id="id-4e447874476d4ead8e8d065613aa5611" fontColor="#ff0000" textAlignment="1">
-              <bounds x="348" y="234" width="185" height="60"/>
-              <feature name="gradient" value="1"/>
-              <sourceConnection id="id-ebebe46f2efc4c929efe3855f7ec15d3" source="id-4e447874476d4ead8e8d065613aa5611" target="id-e4b4a240974f459bac1258fb958d38a9"/>
-              <sourceConnection id="id-cfdeb03612294326be615ff297745a83" source="id-4e447874476d4ead8e8d065613aa5611" target="id-a000b749ec4845e5ab4323e87e311e9a"/>
-              <sourceConnection id="id-fbd8807758204d95b052366ea7676ecd" source="id-4e447874476d4ead8e8d065613aa5611" target="id-4e7341b8f7984abf8139b773d16da61f"/>
-              <content>@Heidi: Jeg har korrigert staving i noen av navnene - det var noen tyrkleif...</content>
             </child>
           </element>
         </folder>
@@ -37087,7 +37051,7 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
               <sourceConnection xsi:type="archimate:Connection" id="id-680bf5886f10413ab19344cead8f05ce" source="id-2ef86ea34baa4d8094c6a6406e111577" target="id-34203c586f014690bf20a41ff1fb993f" archimateRelationship="id-4b94c0eeff544ffca8f5a7399fd6ff67"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-2b818e91fc0c4328a655d2b9b0699ab0" targetConnections="id-77721c58b5354431a72a773ae9b5f581 id-1e1dc2a454284a8da4d06f3725cd2d26" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" archimateElement="id-6479f79835e84429b3140bb2c10c29eb">
-              <bounds x="477" y="42" width="137" height="71"/>
+              <bounds x="477" y="42" width="124" height="71"/>
               <feature name="gradient" value="1"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-23b13fc3bd1942c08211ba41cf4e900c" source="id-2b818e91fc0c4328a655d2b9b0699ab0" target="id-2ef86ea34baa4d8094c6a6406e111577" archimateRelationship="id-53287f00f8a3474ba3edeb40f723a4b4"/>
             </child>
