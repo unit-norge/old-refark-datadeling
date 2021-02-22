@@ -3004,9 +3004,11 @@ EUNIS: Legal services</documentation>
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Capability" name="Publiser API" id="id-4414f028e3f1460f899fc6cf34529c3c">
+      <documentation> Evnen til å gjøre et API synlig og tilgjengelig gjennom kataloger og søkeløsninger slik at det kan oppdages av potensielle konsumenter.</documentation>
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:Capability" name="Tilgjengeliggjøre data etter forespørsel" id="id-fad4dc87816543b49a61ec0b9a37c856">
+      <documentation>Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet på forespørsel.</documentation>
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:Capability" name="Avgi notifikasjoner" id="id-fc1136fb467644f3a03b1467612d05bc">
@@ -4380,7 +4382,7 @@ Dette utføres kun om det er behov for samtykke for tilgang til dataene.</docume
     </element>
     <element xsi:type="archimate:BusinessProcess" name="Tildele tilganger til API" id="d67047b1-ac0f-406a-b26b-00c5126bb154">
       <documentation>Prosess for å registrere hvilke databrukere som skal få tilgang&#xD;
-Sette policy, og grov tilgangsstyring gjennom maskinporten.&#xD;
+Sette policy, og grov tilgangsstyring.&#xD;
 </documentation>
       <property key="difi:namespace" value="unit"/>
       <property key="difi:name_no" value="Tildele tilganger til API"/>
@@ -5389,14 +5391,7 @@ Merk: Det er per 2019 uklart om rollen Dataformidler behøves, eller kan dekkes 
       <documentation>Tilbyder av data til andre aktører.  &#xD;
 &#xD;
 Datatibyder har definisjonsrett og har rettigheter til å behandle data&#xD;
-Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API&#xD;
-&#xD;
-API Eiere  (kan eie Data som API gir tilgang til, eller system som tilbyr APIet)??&#xD;
-&#xD;
-Når virksomheten tilbyr åpne data, vil det være virksomheten som eier dataene. (men det bør vel definere et domen-eier innenfor virksomheten)&#xD;
-&#xD;
-Data eier på to nivå: f. eks. studieavdelingen (er ikke dette behandlingsansvarlig?) spør studenten om de gir samtykke til å gi tilgang til data om studenten som hen eier.&#xD;
-</documentation>
+Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API</documentation>
       <property key="dct:type" value="archi:business-role"/>
       <property key="difi:namespace" value="unit"/>
       <property key="difi:language" value="no"/>
@@ -5908,52 +5903,14 @@ https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2017/06/28/CEN+Publishes
       <property key="modelx:site_url" value="https://unit-norge.github.io/"/>
       <property key="modelx:author_name"/>
       <property key="modelx:author_email"/>
+      <property key="modelx:view_reference" value="id-67efac9af26d4e9d9365f15392948f11"/>
+      <property key="drill down" value="id-67efac9af26d4e9d9365f15392948f11"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Bakgrunn" id="id-61082551b4ce4ae9a2aa38dfe4857ca9">
-      <documentation>Økt deling av data er en forutsetning for å realisere flere av&#xD;
-handlingsplanens initiativer innenfor utdanning, forskning,&#xD;
-administrasjon og IMD. Dette dokumentet beskriver de føringene til&#xD;
-organisasjoner og IT-løsninger som vi ønsker å bruke videre i sektoren&#xD;
-til å skape en effektiv plattform for datadeling. Referansearkitekturen&#xD;
-tar utgangspunkt i følgende pågående arbeid i sektoren i dag:&#xD;
-&#xD;
-* Integrasjonsarkitektur UH:IntArk&#xD;
-* Arbeid med Sak og Arkiv i sektoren&#xD;
-* Arbeid med nytt API for Felles Studentsystem, FS&#xD;
-* Arbeid med masterdatakilder for forskning&#xD;
-&#xD;
-Referansearkitekturen innarbeider også føringer fra:&#xD;
-&#xD;
-* Digitaliseringsstrategiene til offentlig sektor og høyere utdanning og&#xD;
-forskning&#xD;
-* https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[Overordnede&#xD;
-arkitekturprinsipper] for digitaliering av offentlig sektor&#xD;
-* https://www.digdir.no/nasjonal-arkitektur/rammeverk-digital-samhandling/2148[Rammeverk&#xD;
-for digital samhandling]&#xD;
-* https://nasjonal-arkitektur.github.io/architecture-repository/about-topic-areas/about-topic-areas.html[Nasjonal&#xD;
-referansearkitekturene for datadeling og datautveksling]&#xD;
-* https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[Kapabilitetsmodell&#xD;
-i høyere utdanning i EUNIS] (European University Information System&#xD;
-Organization)&#xD;
-* Behovene avdekket i tjenestedesign analyse av behovene til Studenter,&#xD;
-Lærere, Forskere og tjenesteleverandører av Muliggjørende økosystem&#xD;
-&#xD;
-Referansearkitekturer gir mønstre og veiledning til utforming av&#xD;
-løsninger. Denne referansearkitekturen beskriver både eksisterende&#xD;
-samhandling formulert som beste praksis og nødvendig neste steg i&#xD;
-generelle datadelingsmønster som kan gjenbrukes i sektoren. Disse&#xD;
-mønstrene er dokumentert gjennom videreutvikling av&#xD;
-referansearkitekturene fra digitaliseringsdirektoratet. Hensikten med&#xD;
-arbeidet er å fremme en koordinert utvikling av datadeling som&#xD;
-resulterer i økt gjenbruk av data «kun en gang» og nye, innovative&#xD;
-anvendelser av data i sektoren.&#xD;
-&#xD;
-Noe om prosesser, rutiner og veiledninger.&#xD;
-&#xD;
-Noe om forvaltning av rammeverket</documentation>
+    <element xsi:type="archimate:Representation" name="Introduksjon" id="id-61082551b4ce4ae9a2aa38dfe4857ca9">
+      <documentation>Tekst introduksjon</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-bakgrunn"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-introduksjon"/>
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:guid" value="id-61082551b4ce4ae9a2aa38dfe4857ca9"/>
       <property key="difi:metaLevel" value="undefined"/>
@@ -5962,7 +5919,7 @@ Noe om forvaltning av rammeverket</documentation>
       <property key="digdir:link1"/>
       <property key="digdir:logo"/>
       <property key="difi:language" value="no"/>
-      <property key="difi:name_no" value="Bakgrunn"/>
+      <property key="difi:name_no" value="Introduksjon"/>
       <property key="difi:name_en"/>
       <property key="difi:description_no" value="Økt deling av data er en forutsetning for å realisere flere av&#xD;&#xA;handlingsplanens initiativer innenfor utdanning, forskning,&#xD;&#xA;administrasjon og IMD. Dette dokumentet beskriver de føringene til&#xD;&#xA;organisasjoner og IT-løsninger som vi ønsker å bruke videre i sektoren&#xD;&#xA;til å skape en effektiv plattform for datadeling. Referansearkitekturen&#xD;&#xA;tar utgangspunkt i følgende pågående arbeid i sektoren i dag:&#xD;&#xA;&#xD;&#xA;* Integrasjonsarkitektur UH:IntArk&#xD;&#xA;* Arbeid med Sak og Arkiv i sektoren&#xD;&#xA;* Arbeid med nytt API for Felles Studentsystem, FS&#xD;&#xA;* Arbeid med masterdatakilder for forskning&#xD;&#xA;&#xD;&#xA;Referansearkitekturen innarbeider også føringer fra:&#xD;&#xA;&#xD;&#xA;* Digitaliseringsstrategiene til offentlig sektor og høyere utdanning og&#xD;&#xA;forskning&#xD;&#xA;* https://www.digdir.no/digitalisering-og-samordning/overordnede-arkitekturprinsipper/1065[Overordnede&#xD;&#xA;arkitekturprinsipper] for digitaliering av offentlig sektor&#xD;&#xA;* https://www.digdir.no/nasjonal-arkitektur/rammeverk-digital-samhandling/2148[Rammeverk&#xD;&#xA;for digital samhandling]&#xD;&#xA;* https://nasjonal-arkitektur.github.io/architecture-repository/about-topic-areas/about-topic-areas.html[Nasjonal&#xD;&#xA;referansearkitekturene for datadeling og datautveksling]&#xD;&#xA;* https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[Kapabilitetsmodell&#xD;&#xA;i høyere utdanning i EUNIS] (European University Information System&#xD;&#xA;Organization)&#xD;&#xA;* Behovene avdekket i tjenestedesign analyse av behovene til Studenter,&#xD;&#xA;Lærere, Forskere og tjenesteleverandører av Muliggjørende økosystem&#xD;&#xA;&#xD;&#xA;Referansearkitekturer gir mønstre og veiledning til utforming av&#xD;&#xA;løsninger. Denne referansearkitekturen beskriver både eksisterende&#xD;&#xA;samhandling formulert som beste praksis og nødvendig neste steg i&#xD;&#xA;generelle datadelingsmønster som kan gjenbrukes i sektoren. Disse&#xD;&#xA;mønstrene er dokumentert gjennom videreutvikling av&#xD;&#xA;referansearkitekturene fra digitaliseringsdirektoratet. Hensikten med&#xD;&#xA;arbeidet er å fremme en koordinert utvikling av datadeling som&#xD;&#xA;resulterer i økt gjenbruk av data «kun en gang» og nye, innovative&#xD;&#xA;anvendelser av data i sektoren.&#xD;&#xA;&#xD;&#xA;Noe om prosesser, rutiner og veiledninger.&#xD;&#xA;&#xD;&#xA;Noe om forvaltning av rammeverket"/>
       <property key="difi:description_en"/>
@@ -5971,7 +5928,8 @@ Noe om forvaltning av rammeverket</documentation>
       <property key="modelx:author_name"/>
       <property key="modelx:author_email"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Målarkitekturen for datadeling i høyere utdanning og forskning" id="id-ed01a21019c94c459b98713ff4522e5a">
+    <element xsi:type="archimate:Representation" name="Datadelingsplattformen og felles komponentene i den" id="id-ed01a21019c94c459b98713ff4522e5a">
+      <documentation>Tekst datadelingsplattformen og felles komponenter i den.</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
@@ -5993,7 +5951,9 @@ Noe om forvaltning av rammeverket</documentation>
       <property key="modelx:author_email"/>
     </element>
     <element xsi:type="archimate:Representation" name="Forvaltning av målarkitekturen" id="id-a2b10750237141dd885d374f1cb067fd">
-      <documentation>#Tekst om overgangen fra kapabilitetene og løsningene beskrevet&#xD;
+      <documentation>Tekst forvaltning av målarkitekturen&#xD;
+&#xD;
+#Tekst om overgangen fra kapabilitetene og løsningene beskrevet&#xD;
 over til informasjonsforvaltning og definisjon av datasett.#&#xD;
 &#xD;
 Sektoren er i ferd med å bygge en distribuert arkitektur som benytter&#xD;
@@ -6078,16 +6038,12 @@ sites, hierarchies, and chart of accounts.  footnote:[Gartner definisjon hentet 
       <property key="modelx:author_name"/>
       <property key="modelx:author_email"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Forankring" id="id-239051e6402244fcaafee61373157e5a">
-      <documentation>Referansearkitekturen er utarbeidet i et samarbeidsprosjekt Datadeling&#xD;
-med prosjektdeltagelse fra Unit, NTNU, UiO og Uninett. Styringsgruppen&#xD;
-består av medlemmer fra Unit, UiB, OsloMet, USIT, NMBU og Uninett.&#xD;
-&#xD;
-Noe om forankring av referansearkitekturen (test)</documentation>
+    <element xsi:type="archimate:Representation" name="Bakgrunn" id="id-239051e6402244fcaafee61373157e5a">
+      <documentation>Tekst bakgrunn</documentation>
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-bakgrunn"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-introduksjon"/>
       <property key="modelx:guid" value="id-239051e6402244fcaafee61373157e5a"/>
       <property key="difi:metaLevel" value="undefined"/>
       <property key="difi:namespace" value="-"/>
@@ -6095,7 +6051,7 @@ Noe om forankring av referansearkitekturen (test)</documentation>
       <property key="digdir:link1"/>
       <property key="digdir:logo"/>
       <property key="difi:language" value="no"/>
-      <property key="difi:name_no" value="Forankring"/>
+      <property key="difi:name_no" value="Bakgrunn"/>
       <property key="difi:name_en"/>
       <property key="difi:description_no" value="Referansearkitekturen er utarbeidet i et samarbeidsprosjekt Datadeling&#xD;&#xA;med prosjektdeltagelse fra Unit, NTNU, UiO og Uninett. Styringsgruppen&#xD;&#xA;består av medlemmer fra Unit, UiB, OsloMet, USIT, NMBU og Uninett.&#xD;&#xA;&#xD;&#xA;Noe om forankring av referansearkitekturen"/>
       <property key="difi:description_en"/>
@@ -6103,11 +6059,11 @@ Noe om forankring av referansearkitekturen (test)</documentation>
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Målgruppe" id="id-620fadc88bbc4cd5afc57eb614c67ad0">
-      <documentation>Målgruppen for referansearkitekturen er primært arkitekter og tekniske prosjektledere.</documentation>
+      <documentation>Tekst målgruppe</documentation>
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-bakgrunn"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-introduksjon"/>
       <property key="modelx:guid" value="id-620fadc88bbc4cd5afc57eb614c67ad0"/>
       <property key="difi:metaLevel" value="undefined"/>
       <property key="difi:namespace" value="-"/>
@@ -6122,56 +6078,15 @@ Noe om forankring av referansearkitekturen (test)</documentation>
       <property key="label" value="${name}"/>
       <property key="difi:notes"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Bruksområder for datadeling" id="id-e738ffecb0554b978c6cc32388e331a1">
-      <documentation>Datadeling skal støtte virksomhetene innen høyere utdanning og forskning&#xD;
-i sine oppgaver. Arbeid med referansearkitekturen tar derfor&#xD;
-utgangspunkt i følgende bruksområder som første steg i en brukerfokusert&#xD;
-tilnærming:&#xD;
-&#xD;
-* Innovativ, individuelt tilpasset læring&#xD;
-* Livslang læring&#xD;
-* Åpen forskning &#xD;
-* #Heidi: Skulle vi si noe om forskning som ikke er åpen#&#xD;
-* Effektivisert administrasjon&#xD;
-* Automatisert administrativ støtte &#xD;
-** Forskningssøknader &#xD;
-** Data Management Planning innen forskning og andre prosjekter &#xD;
-** Arkivering &#xD;
-** HR prosesser for onboarding og «terminering?» &#xD;
-&#xD;
-Innen bruksområdene over ser vi sektoren produserer og ønsker å tilby&#xD;
-følgende hovedkategori av data for deling:&#xD;
-&#xD;
-* Utdannings- og forskningsressurser til gjenbruk og viderebruk &#xD;
-** Forskningsresultater &#xD;
-** Forskningsdata &#xD;
-** Digitale læringsressurser &#xD;
-* Administrative data&#xD;
-** Grunndata for driftsformål &#xD;
-** Data brukt og produsert i saksbehandling&#xD;
-** Rapporteringsdata om egen saksbehandling og produksjon &#xD;
-* Analysedata om utdanning og forskning &#xD;
-&#xD;
-Sektoren har også bruk for data fra andre. Vi ser behov for følgende&#xD;
-kategori av data:&#xD;
-&#xD;
-* Grunndata i nasjonale felleskomponenter (f. eks. folkeregisteret og&#xD;
-enhetsregisteret)&#xD;
-* Autentiseringsdata fra utlandet &#xD;
-* Informasjon om grunnutdanning eller utdanning i utlandet &#xD;
-* Informasjon om forskning i utlandet og forskningsresultater fra&#xD;
-utlandet &#xD;
-* Informasjon om forskning i privatnæringsliv og resultater&#xD;
-fra forskning i privat næringsliv &#xD;
-* Informasjon om forskningsfinansiering i Norge (fra Forskningsrådet, m.&#xD;
-fl.) &#xD;
-&#xD;
-Bruksområdene over er utgangspunktet for forståelse av behovene som&#xD;
-referansearkitekturen skal dekke.</documentation>
+    <element xsi:type="archimate:Representation" name="Forankring" id="id-e738ffecb0554b978c6cc32388e331a1">
+      <documentation>Referansearkitekturen er utarbeidet i et samarbeidsprosjekt Datadeling&#xD;
+med prosjektdeltagelse fra Unit, NTNU, UiO og Uninett. Styringsgruppen&#xD;
+består av medlemmer fra Unit, UiB, OsloMet, USIT, NMBU og Uninett.&#xD;
+</documentation>
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-bakgrunn"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-introduksjon"/>
       <property key="modelx:guid" value="id-e738ffecb0554b978c6cc32388e331a1"/>
       <property key="difi:metaLevel" value="undefined"/>
       <property key="difi:namespace" value="-"/>
@@ -6179,30 +6094,9 @@ referansearkitekturen skal dekke.</documentation>
       <property key="digdir:link1"/>
       <property key="digdir:logo"/>
       <property key="difi:language" value="no"/>
-      <property key="difi:name_no" value="Bruksområder for datadeling"/>
+      <property key="difi:name_no" value="Forankring"/>
       <property key="difi:name_en"/>
       <property key="difi:description_no" value="Datadeling skal støtte virksomhetene innen høyere utdanning og forskning&#xD;&#xA;i sine oppgaver. Arbeid med referansearkitekturen tar derfor&#xD;&#xA;utgangspunkt i følgende bruksområder som første steg i en brukerfokusert&#xD;&#xA;tilnærming:&#xD;&#xA;&#xD;&#xA;* Innovativ, individuelt tilpasset læring&#xD;&#xA;* Livslang læring&#xD;&#xA;* Åpen forskning &#xD;&#xA;* #Heidi: Skulle vi si noe om forskning som ikke er åpen#&#xD;&#xA;* Effektivisert administrasjon&#xD;&#xA;* Automatisert administrativ støtte &#xD;&#xA;** Forskningssøknader &#xD;&#xA;** Data Management Planning innen forskning og andre prosjekter &#xD;&#xA;** Arkivering &#xD;&#xA;** HR prosesser for onboarding og «terminering?» &#xD;&#xA;&#xD;&#xA;Innen bruksområdene over ser vi sektoren produserer og ønsker å tilby&#xD;&#xA;følgende hovedkategori av data for deling:&#xD;&#xA;&#xD;&#xA;* Utdannings- og forskningsressurser til gjenbruk og viderebruk &#xD;&#xA;** Forskningsresultater &#xD;&#xA;** Forskningsdata &#xD;&#xA;** Digitale læringsressurser &#xD;&#xA;* Administrative data&#xD;&#xA;** Grunndata for driftsformål &#xD;&#xA;** Data brukt og produsert i saksbehandling&#xD;&#xA;** Rapporteringsdata om egen saksbehandling og produksjon &#xD;&#xA;* Analysedata om utdanning og forskning &#xD;&#xA;&#xD;&#xA;Sektoren har også bruk for data fra andre. Vi ser behov for følgende&#xD;&#xA;kategori av data:&#xD;&#xA;&#xD;&#xA;* Grunndata i nasjonale felleskomponenter (f. eks. folkeregisteret og&#xD;&#xA;enhetsregisteret)&#xD;&#xA;* Autentiseringsdata fra utlandet &#xD;&#xA;* Informasjon om grunnutdanning eller utdanning i utlandet &#xD;&#xA;* Informasjon om forskning i utlandet og forskningsresultater fra&#xD;&#xA;utlandet &#xD;&#xA;* Informasjon om forskning i privatnæringsliv og resultater&#xD;&#xA;fra forskning i privat næringsliv &#xD;&#xA;* Informasjon om forskningsfinansiering i Norge (fra Forskningsrådet, m.&#xD;&#xA;fl.) &#xD;&#xA;&#xD;&#xA;Bruksområdene over er utgangspunktet for forståelse av behovene som&#xD;&#xA;referansearkitekturen skal dekke."/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:Representation" name="Økosystemer, tjenestekjeder og tverrgående prosesser" id="id-6efbf826bcc342938ab0e9bc18ee335a">
-      <documentation>//heidi:&#xD;
-#input fra tjenestedesignprosess rundt muliggjørende økosystem (NB script test)#</documentation>
-      <property key="dct:type" value="modelx:section"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-bakgrunn"/>
-      <property key="modelx:guid" value="id-6efbf826bcc342938ab0e9bc18ee335a"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no" value="Økosystemer, tjenestekjeder og tverrgående prosesser"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no" value="//heidi:&#xD;&#xA;#input fra tjenestedesignprosess rundt muliggjørende økosystem#"/>
       <property key="difi:description_en"/>
       <property key="label" value="${name}"/>
       <property key="difi:notes"/>
@@ -6219,7 +6113,7 @@ arkitekturprinsippene</documentation>
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-definisjoner"/>
       <property key="modelx:guid" value="id-4d6cbb6e37fa4cb7a63edc46993d12b9"/>
       <property key="difi:metaLevel" value="undefined"/>
       <property key="difi:namespace" value="-"/>
@@ -6254,7 +6148,7 @@ for *_deling og innhenting av data og hendelser_*.&#xD;
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-metode"/>
       <property key="modelx:guid" value="id-66c46c1d186a4cde83b98bfbf3b54e33"/>
       <property key="difi:metaLevel" value="undefined"/>
       <property key="difi:namespace" value="-"/>
@@ -6269,93 +6163,10 @@ for *_deling og innhenting av data og hendelser_*.&#xD;
       <property key="label" value="${name}"/>
       <property key="difi:notes"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Modeller for datadeling" id="id-b20e03439e5540c7b0dbde34b33c631c">
-      <documentation>Når datatilbydere og datakonsumenter deler data, skjer det som en del av&#xD;
-en digital samhandling. For at samhandlingen skal være vellykket, må&#xD;
-tilbydere og konsumenter sikre at de handler i henhold til loven&#xD;
-(juridisk samhandlingsevne), at aktørene har avklart forventninger til&#xD;
-hverandre (organisatorisk samhandlingsevne), at datatilbyder og&#xD;
-konsumenter har samme forståelse av dataenes betydning (semantisk&#xD;
-samhandlingsevne) og at de tekniske løsningene som utfører datadeling&#xD;
-fungerer sammen slik de skal (teknisk samhandlingsevne).&#xD;
-https://www.digdir.no/nasjonal-arkitektur/rammeverk-digital-samhandling/2148#juridisk_samhandlingsevne[Rammeverk&#xD;
-for digital samhandling] vist under utdyper disse samhandlingsevner.&#xD;
-&#xD;
-image:{imagepath}image4.png[image,width=464,height=274]&#xD;
-&#xD;
-Modellene i referansearkitekturen beskrevet under er laget for å ivareta&#xD;
-juridisk-, organisatorisk-, semantisk- og teknisk samhandlingsevner og&#xD;
-hjelper dermed de som benytter modellene til å lykkes med digital&#xD;
-samhandling.&#xD;
-&#xD;
-https://www.digdir.no/apne-data/nasjonal-verktoykasse-deling-av-data/2243[Verktøykassen for deling av data] inneholder den overordnende modell for datadeling og kapabilitetene som datatilbydere og datakonsumenter trenger for å dele data. Vi legger disse modellene til grunn.&#xD;
-&#xD;
-</documentation>
-      <property key="dct:type" value="modelx:section"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
-      <property key="modelx:view_reference" value="id-6c5481d5c5684c87b04904d4cfdf14d6"/>
-      <property key="drill down" value="id-6c5481d5c5684c87b04904d4cfdf14d6"/>
-      <property key="modelx:guid" value="id-b20e03439e5540c7b0dbde34b33c631c"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no" value="Modeller for datadeling"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no" value="Når datatilbydere og datakonsumenter deler data, skjer det som en del av&#xD;&#xA;en digital samhandling. For at samhandlingen skal være vellykket, må&#xD;&#xA;tilbydere og konsumenter sikre at de handler i henhold til loven&#xD;&#xA;(juridisk samhandlingsevne), at aktørene har avklart forventninger til&#xD;&#xA;hverandre (organisatorisk samhandlingsevne), at datatilbyder og&#xD;&#xA;konsumenter har samme forståelse av dataenes betydning (semantisk&#xD;&#xA;samhandlingsevne) og at de tekniske løsningene som utfører datadeling&#xD;&#xA;fungerer sammen slik de skal (teknisk samhandlingsevne).&#xD;&#xA;https://www.digdir.no/nasjonal-arkitektur/rammeverk-digital-samhandling/2148#juridisk_samhandlingsevne[Rammeverk&#xD;&#xA;for digital samhandling] vist under utdyper disse samhandlingsevner.&#xD;&#xA;&#xD;&#xA;image:{imagepath}image4.png[image,width=464,height=274]&#xD;&#xA;&#xD;&#xA;Modellene i referansearkitekturen beskrevet under er laget for å ivareta&#xD;&#xA;juridisk-, organisatorisk-, semantisk- og teknisk samhandlingsevner og&#xD;&#xA;hjelper dermed de som benytter modellene til å lykkes med digital&#xD;&#xA;samhandling.&#xD;&#xA;&#xD;&#xA;https://nasjonal-arkitektur.github.io/architecture-repository/about-topic-areas/about-topic-areas.html[Nasjonale&#xD;&#xA;referansearkitekturer innen datadeling og datautveksling] er fremdeles&#xD;&#xA;under utvikling. Vi gjenbruker her noen av modellene uendret, og&#xD;&#xA;tilpasser noen for høyere utdanning og forskning. Den overordnede&#xD;&#xA;verdistrømmen for datadeling og relaterte kapabiliteter #avbildet under#&#xD;&#xA;er uendret."/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:Representation" name="Kapabiliteter" id="id-6479f79835e84429b3140bb2c10c29eb">
-      <documentation>Som vist i #figuren over#, må datatilbyderen ha oversikt over egne data&#xD;
-som skal deles og evne til å publisere datasettene slik at andre kan&#xD;
-benytte disse. &#xD;
-&#xD;
-For at datadeling skal fungere etter hensikt, må dataene&#xD;
-ha god kvalitet. Dette krever kapabiliteter innen&#xD;
-informasjonsforvaltning.  Vi har modellert disse evner som&#xD;
-«muliggjørende kapabiliteter» i referansearkitekturen for høyere&#xD;
-utdanning og forskning med utgangspunkt i&#xD;
-https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[EUNIS&#xD;
-sin kapabilitetsmodell for europeiske universiteter] #som vist under#. &#xD;
-&#xD;
-&#xD;
-God&#xD;
-informasjonsforvaltning støtter både opp om organisatorisk&#xD;
-samhandlingsevne gjennom å gi organisasjoner riktig data av god kvalitet&#xD;
-og støtter opp om semantisk samhandlingsevne ved å klargjøre dataenes&#xD;
-betydning. Vi velger også å synliggjøre juridiske tjenester som&#xD;
-muliggjørende kapabilitet for å støtte opp under juridisk&#xD;
-samhandlingsevne.&#xD;
-&#xD;
-</documentation>
-      <property key="dct:type" value="modelx:section"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
-      <property key="modelx:view_reference" value="id-1483db946250417d8e13781139bb2dff"/>
-      <property key="drill down" value="id-1483db946250417d8e13781139bb2dff"/>
-      <property key="modelx:guid" value="id-6479f79835e84429b3140bb2c10c29eb"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no" value="Kapabiliteter"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no" value="Som vist i #figuren over#, må datatilbyderen ha oversikt over egne data&#xD;&#xA;som skal deles og evne til å publisere datasettene slik at andre kan&#xD;&#xA;benytte disse. &#xD;&#xA;&#xD;&#xA;For at datadeling skal fungere etter hensikt, må dataene&#xD;&#xA;ha god kvalitet. Dette krever kapabiliteter innen&#xD;&#xA;informasjonsforvaltning.  Vi har modellert disse evner som&#xD;&#xA;«muliggjørende kapabiliteter» i referansearkitekturen for høyere&#xD;&#xA;utdanning og forskning med utgangspunkt i&#xD;&#xA;https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[EUNIS&#xD;&#xA;sin kapabilitetsmodell for europeiske universiteter] #som vist under#. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;God&#xD;&#xA;informasjonsforvaltning støtter både opp om organisatorisk&#xD;&#xA;samhandlingsevne gjennom å gi organisasjoner riktig data av god kvalitet&#xD;&#xA;og støtter opp om semantisk samhandlingsevne ved å klargjøre dataenes&#xD;&#xA;betydning. Vi velger også å synliggjøre juridiske tjenester som&#xD;&#xA;muliggjørende kapabilitet for å støtte opp under juridisk&#xD;&#xA;samhandlingsevne.&#xD;&#xA;&#xD;&#xA;"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
     <element xsi:type="archimate:Representation" name="Felleskomponenter" id="id-441dccdd98b0431c91b11d7d29c2f26b">
-      <documentation>#(i sektoren hittil har «felles» betyd både at alle bruker samme instans,&#xD;
+      <documentation>Tekst felleskomponenter&#xD;
+&#xD;
+#(i sektoren hittil har «felles» betyd både at alle bruker samme instans,&#xD;
 eller at alle har identiske instanser – vi må presisere hva som er&#xD;
 hva etter hvert)#&#xD;
 &#xD;
@@ -6379,7 +6190,7 @@ kompontenene#&#xD;
 &#xD;
 &#xD;
 #Heidi NB: mangler komponenter for hendelsesstrømming/-publisering#</documentation>
-      <property key="dct:type" value="modelx:section"/>
+      <property key="dct:type" value="modelx:archimate_view"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
@@ -6396,9 +6207,13 @@ kompontenene#&#xD;
       <property key="difi:description_en"/>
       <property key="label" value="${name}"/>
       <property key="difi:notes"/>
+      <property key="modelx:view_reference" value="id-0ca2215fc0c54bae9529896c8e00832c"/>
+      <property key="drill down" value="id-0ca2215fc0c54bae9529896c8e00832c"/>
     </element>
     <element xsi:type="archimate:Representation" name="Datautveksling" id="id-f3ad82668384458f939a9911ddb3e749">
-      <documentation>Med utgangspunkt i&#xD;
+      <documentation>Tekst datautveksling&#xD;
+&#xD;
+Med utgangspunkt i&#xD;
 https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/book-data-exchange-ra.html[Referansearkitektur&#xD;
 for datautveksling] beskriv de mønstrene som vi bruker</documentation>
       <property key="dct:type" value="modelx:section"/>
@@ -6422,7 +6237,9 @@ for datautveksling] beskriv de mønstrene som vi bruker</documentation>
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Integrasjonsmønster for datadeling" id="id-33a69e5d6f274b348ab3734308a3d946">
-      <documentation>*Provisjonering *(hoved IntArk mønster): Holde «server-side» kopi løpende oppdatert&#xD;
+      <documentation>Tekst integrasjonsmønster for datadeling&#xD;
+&#xD;
+*Provisjonering *(hoved IntArk mønster): Holde «server-side» kopi løpende oppdatert&#xD;
 fra master ved å benytte eOppslag til å hente data fra master&#xD;
 og eNotifikasjon for å gi beskjed til abonnenter om at noe er&#xD;
 oppdatert på master. &#xD;
@@ -6474,6 +6291,7 @@ utover vedlikeholdbarheten til API-ene.» Gartner bruker også den.  </docu
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Utvikling av brukernære API og datasett" id="id-c10096bcdd784cd985a921f60c6f0d65">
+      <documentation>Tekst utvikling av brukernære API og datasett</documentation>
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
@@ -6787,6 +6605,7 @@ dokenene.&#xD;
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Datautveksling ved oppslag" id="id-4bb69d1b82094d9f890a6a1805926030">
+      <documentation>Tekst Datautveksling ved oppslag representasjon.</documentation>
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
@@ -6901,7 +6720,7 @@ resultatene fra tidligere steg.</documentation>
       <property key="modelx:view_reference" value="id-9ce97c10b97b4a56990a59e86857b8cd"/>
       <property key="drill down" value="id-9ce97c10b97b4a56990a59e86857b8cd"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Publiser API UHF" id="id-1770208f7a18420eaeb96ac7f47282d4">
+    <element xsi:type="archimate:Representation" name="Publiser API" id="id-1770208f7a18420eaeb96ac7f47282d4">
       <property key="dct:type" value="modelx:archimate_view"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
@@ -6909,7 +6728,7 @@ resultatene fra tidligere steg.</documentation>
       <property key="modelx:view_reference" value="id-d1e9f3ae7fdd49bc91f84309b3071350"/>
       <property key="drill down" value="id-d1e9f3ae7fdd49bc91f84309b3071350"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF" id="id-e6eda0fb60934a6a9418abdd05fd6d7c">
+    <element xsi:type="archimate:Representation" name="Tilgjengeliggjøre data etter forsepørsel løsningsmønster UHF" id="id-e6eda0fb60934a6a9418abdd05fd6d7c">
       <property key="dct:type" value="modelx:archimate_view"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
@@ -6942,60 +6761,61 @@ resultatene fra tidligere steg.</documentation>
       <property key="drill down" value="id-78470cc39cee48f3862dc5ad287c3af6"/>
     </element>
     <element xsi:type="archimate:Representation" name="Muliggjørende kapabiliteter" id="id-068ad146f0794295ac49c03943992a5f">
+      <documentation>Tekst muliggjørende kapabiliteter</documentation>
       <property key="dct:type" value="modelx:archimate_view"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-metode"/>
       <property key="modelx:view_reference" value="id-64303b6a8c114213a203a7bde65b11b8"/>
       <property key="drill down" value="id-64303b6a8c114213a203a7bde65b11b8"/>
     </element>
     <element xsi:type="archimate:Representation" name="Informasjonsforvaltningsdomener" id="id-3d1e418d46ce4be0b99c25d1cfbbf3af">
+      <documentation>Tekst informasjonsforvaltningsdomener</documentation>
       <property key="dct:type" value="modelx:archimate_view"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-metode"/>
       <property key="modelx:view_reference" value="id-3b92345f88bd44ce8224c6f19063a5ea"/>
       <property key="drill down" value="id-3b92345f88bd44ce8224c6f19063a5ea"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Del og innhent data og hendelser, detaljert verdistrøm datatilbyder med kapabiliteter" id="id-525a82f5fe00413eaf52a451ea2e2d7e">
-      <documentation>Forklaring:&#xD;
-Datatilbyder må evne å bestemme hvilken teknisk løsning som skal benyttes når dataene gjøres tilgjengelig som åpne data&#xD;
-&#xD;
-Datatilbyder må evne å velge hvor og hvordan dataene skal gjøres tilgjengelig, hvor skal datakonsument finne dataene og på hvilket format skal dataene deles &#xD;
-&#xD;
-Datatilbyder må videre evne å bestemme detaljeringsgrad på dataene&#xD;
-&#xD;
-Krav til personvern må kunne ivaretas, samt eventuelle krav i forhold til andre skjermingsverdige opplysninger  &#xD;
-&#xD;
-&#xD;
-Løsning:&#xD;
-Prosesser for å dele data som åpne data&#xD;
-</documentation>
+    <element xsi:type="archimate:Representation" name="Metode" id="id-7211fe4a63a0483ebd342852bbba4ef9">
+      <property key="dct:type" value="modelx:section"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
-      <property key="dct:type" value="modelx:archimate_view"/>
-      <property key="modelx:view_reference" value="6e794bab-1330-418d-af53-3b216a2317a4"/>
-      <property key="drill down" value="6e794bab-1330-418d-af53-3b216a2317a4"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-metode"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Innhent data, detaljert verdistrøm konsument med kapabiliteter" id="id-b535d5d525e44c80835822bf75a04ceb">
-      <documentation>&#xD;
-&#xD;
-</documentation>
+    <element xsi:type="archimate:Representation" name="Vedlegg 3 - " id="id-2f10c7bb317f42a48698a7133ed39644">
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
-      <property key="dct:type" value="modelx:archimate_view"/>
-      <property key="modelx:view_reference" value="839c86c1-602d-47f5-a3ce-bbf0a87f559a"/>
-      <property key="drill down" value="839c86c1-602d-47f5-a3ce-bbf0a87f559a"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-definisjoner"/>
+      <property key="dct:type" value="modelx:section"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Dataobjekter eOppslag UHF" id="id-703aeda277ba4d1dbf3c5d1ef33fe5fb">
+    <element xsi:type="archimate:Representation" name="Vedlegg 4" id="id-484103d09e9a4312b6b36eca5644ec57">
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-definisjoner"/>
+      <property key="dct:type" value="modelx:section"/>
+    </element>
+    <element xsi:type="archimate:Representation" name="Vedlegg 5" id="id-eecdaf9c4f2a418aa4e1a18527b91b77">
+      <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:antora_version" value="main"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-definisjoner"/>
+      <property key="dct:type" value="modelx:section"/>
+    </element>
+    <element xsi:type="archimate:Representation" name="Domener" id="id-708123eb06814b4994b9637289bbf979">
+      <documentation>Tekst domener</documentation>
+      <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:antora_version" value="main"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-metode"/>
+      <property key="dct:type" value="modelx:section"/>
+    </element>
+    <element xsi:type="archimate:Representation" name="Del og innhent data, verdistrøm for både tilbyder og konsument - UHF" id="id-f8fa3c3726664e769876bfaf77c3bbd5">
+      <property key="modelx:antora_component" value="unit-ra"/>
+      <property key="modelx:antora_version" value="main"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-metode"/>
       <property key="dct:type" value="modelx:archimate_view"/>
-      <property key="modelx:view_reference" value="id-5a3b9d77bc78480aa5dafee567a9cf97"/>
-      <property key="drill down" value="id-5a3b9d77bc78480aa5dafee567a9cf97"/>
+      <property key="modelx:view_reference" value="id-58c0514108a34a59bb1651a4e24b6d96"/>
+      <property key="drill down" value="id-58c0514108a34a59bb1651a4e24b6d96"/>
     </element>
   </folder>
   <folder name="Application" id="id-e9f67a107e4f4f87bb2ee0707bae6417" type="application">
@@ -8474,6 +8294,9 @@ https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eSignature &#xD;
     <element xsi:type="archimate:ApplicationService" name="Autentiseringstjeneste" id="44ced331-4cf1-4599-a2e6-d5be20b80a6d">
       <documentation>Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.</documentation>
       <property key="difi:namespace" value="unit"/>
+      <property key="modelx:antora_component" value="null"/>
+      <property key="modelx:antora_version" value="null"/>
+      <property key="modelx:antora_module" value="null"/>
     </element>
     <element xsi:type="archimate:ApplicationService" name="Registering av representasjonsforhold" id="5198efb0-041e-4490-ae5c-4fb0eb3fd989">
       <documentation>Tjeneste for å registrere et representasjonsforhold som gir leverandør mulighet til å opptre på vegne av konsument</documentation>
@@ -8487,7 +8310,9 @@ https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eSignature &#xD;
       <property key="label" value="${name}"/>
     </element>
     <element xsi:type="archimate:ApplicationService" name="Registrere samtykkebasert tilgang" id="51fba17c-a586-4390-8641-5a139110912d">
-      <documentation>Tjeneste for å registerer konsumenter som kan innhente samtykke som gir grunnlag for utlevering fra datatilbyder.</documentation>
+      <documentation>Tjeneste for å registerer konsumenter som kan innhente samtykke som gir grunnlag for utlevering fra datatilbyder.&#xD;
+&#xD;
+Tjenesten tilbyr i dag ikke samtykke til UHF sektorens datakilder integrert i tjenesten. Dette er ønsket funksjonaltet.</documentation>
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:ApplicationService" name="Tilbyders filtrerings- og minimeringstjeneste" id="545c5a3a-ffd5-4a68-a8a6-316f7b96dd4e">
@@ -9841,9 +9666,9 @@ https://www.eea.europa.eu/data-and-maps/dashboards/emissions-trading-viewer-1 &#
       <property key="difi:metaLevel" value="meta"/>
     </element>
     <element xsi:type="archimate:DataObject" name="OAUTH scopes" id="743ee89e-49b3-4b4b-b93b-c7e6f4e0700f">
-      <documentation>Hvordan får Dataobjekt som som kan beskrives som en ressurs-definisjon, og et token er som regel knyttet til ett eller flere scopes. Scopes benyttes til å styre tilganger til API-er og operasjoner, samt eventuelt hva slags responser man får fra API-er.&#xD;
+      <documentation>En OAuth Scope er en mekanisme for å begrense konsumentens tilgang til datasettet eksponert gjennom et API. Foreløpig er dette grovkornet tilgangskontroll som for eksempel lese eller skrivetilgang til datasettet. Standardsorganet IETF jobber med å spesifisere mer fingranulert tilgangsmekanismer.&#xD;
 &#xD;
-Fra eHelse: Regler for et API som beskriver hvilke tilganger en datakonsument (representert ved organisasjonsnummer) og deres klienter skal ha tilgang til (utstedt token for).</documentation>
+</documentation>
       <property key="difi:namespace" value="unit"/>
       <property key="difi:language" value="no"/>
       <property key="difi:name_no" value="OAUTH scopes"/>
@@ -10092,7 +9917,7 @@ https://data.europa.eu/euodp/data/dataset&#xD;
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:DataObject" name="Tilganger konsument" id="fe0abe56-0a07-400f-86de-ea57a0f8079b">
-      <documentation>Oversikt over hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).</documentation>
+      <documentation>Oversikt over tilganger gitt til konsumenter utenfor UHF sektoren tildelt gjennom Maskinporten. Oversikten spesifiserer hvilke API og OAUTH-scopes en virksomhet (representert ved organisasjonsnummer) skal ha tilgang til (utstedt token for).</documentation>
       <property key="difi:namespace" value="unit"/>
       <property key="difi:language" value="no"/>
       <property key="difi:name_no" value="Tilganger konsument"/>
@@ -10106,10 +9931,11 @@ https://data.europa.eu/euodp/data/dataset&#xD;
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Ny Testkomponet" id="id-077181280c564472804ccad68e8682f2"/>
-    <element xsi:type="archimate:ApplicationComponent" name="UHF API katalog" id="id-79d5bb2a2ac64ca2a82207bcfd2945b6">
-      <documentation>Oversikt over alle API som er registrert &#xD;
+    <element xsi:type="archimate:ApplicationComponent" name="UH/F API katalog" id="id-79d5bb2a2ac64ca2a82207bcfd2945b6">
+      <documentation>Oversikt over alle API som er registrert i UH/F sektoren&#xD;
 &#xD;
-UHF API katalog kan inneholde&#xD;
+UH/F API katalog kan inneholde&#xD;
+&#xD;
   * Navn på API&#xD;
   * Tekstlig beskrivelse av API&#xD;
   * Informasjonsmodell / Datamodell for API som tilbys &#xD;
@@ -10119,6 +9945,9 @@ UHF API katalog kan inneholde&#xD;
   * Informasjon om hvordan få support og hjelp fra utsteder</documentation>
       <property key="difi:abstractionLevel" value="abb"/>
       <property key="difi:namespace" value="unit"/>
+      <property key="modelx:antora_component" value="null"/>
+      <property key="modelx:antora_version" value="null"/>
+      <property key="modelx:antora_module" value="null"/>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="API Gateway hos datatilbyder / OAuth resource server" id="id-96514499518349619a8e277dfafc274b">
       <documentation>API gateway beskytter ressurser og monitorerer tilgang. &#xD;
@@ -10137,6 +9966,9 @@ Komponent som beskytter ressursene og monitorerer tilgang inklusivt:&#xD;
 </documentation>
       <property key="difi:abstractionLevel" value="abb"/>
       <property key="difi:namespace" value="unit"/>
+      <property key="modelx:antora_component" value="null"/>
+      <property key="modelx:antora_version" value="null"/>
+      <property key="modelx:antora_module" value="null"/>
     </element>
     <element xsi:type="archimate:DataObject" name="Strøm" id="id-88cff1a24c3f4095999dda6227d5491b">
       <documentation>Mengde notifikasjoner som publiseres i strømmen, og hentes ut. Publiserte notifikasjoner kan være &quot;tykke&quot; eller &quot;tynne&quot; med hensyn på hvor mye informasjon om en hendelse de inneholder.</documentation>
@@ -10145,7 +9977,7 @@ Komponent som beskytter ressursene og monitorerer tilgang inklusivt:&#xD;
     <element xsi:type="archimate:DataObject" name="Tynn notifiksjon" id="id-5ea5150448cf4ce3ba283136a538ff1d">
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:ApplicationService" name="Registrere API i UHF sektoren" id="id-d3303e2cd658437db5e83ba82ab4275f">
+    <element xsi:type="archimate:ApplicationService" name="Registrere API i UH/F sektoren" id="id-d3303e2cd658437db5e83ba82ab4275f">
       <documentation>Programtjeneste for å registrere og vedlikeholde API som er tilgjengelige i Universitets og Høyskole-sektoren</documentation>
       <property key="difi:namespace" value="unit"/>
     </element>
@@ -10162,7 +9994,7 @@ Tjeneste &quot;administrasjonssentre&quot; vil ha rettigheter til å registrere 
 Definere hvilke scopes finnes koblet til et API</documentation>
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:ApplicationComponent" name="UHF Oauth2 autorisasjonstjener" id="id-790edbc925b24187adbccb11b66a37b4">
+    <element xsi:type="archimate:ApplicationComponent" name="UH/F Oauth2 autorisasjonstjener" id="id-790edbc925b24187adbccb11b66a37b4">
       <documentation>Autorisasjonstjenester realiserer tilgangskontroll gjennom å utstede OAuth 2 grants og tokens. &#xD;
 En autorisasjonstjener er også brukt til å realisere tilgangs policy. &#xD;
 &#xD;
@@ -10170,12 +10002,16 @@ En autorisasjonstjener er også brukt til å realisere tilgangs policy. &#xD;
 </documentation>
       <property key="difi:abstractionLevel" value="abb"/>
       <property key="difi:namespace" value="unit"/>
+      <property key="modelx:antora_component" value="null"/>
+      <property key="modelx:antora_version" value="null"/>
+      <property key="modelx:antora_module" value="null"/>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="UHF API manager " id="id-46f10831ae0b41d292a6f0c8e89f9db0">
       <documentation>Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. &#xD;
 Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. &#xD;
 &#xD;
 Ansvaret til API manager inkluderer:&#xD;
+&#xD;
   * Sentralisert API Gateway som håndterer sikkerhetsretningslinjer, og sender kall til bakenforliggende API &#xD;
   * Sentralisert publisering av API spesifikasjon (OpenAPI/RAML), dokumentasjon&#xD;
   * Sentralisert API administrasjon og forvaltning av API-katalogen&#xD;
@@ -10187,9 +10023,12 @@ Ansvaret til API manager inkluderer:&#xD;
 </documentation>
       <property key="difi:abstractionLevel" value="abb"/>
       <property key="difi:namespace" value="unit"/>
+      <property key="modelx:antora_component" value="null"/>
+      <property key="modelx:antora_version" value="null"/>
+      <property key="modelx:antora_module" value="null"/>
     </element>
-    <element xsi:type="archimate:ApplicationService" name="UHF tildel rettigheter til klienter" id="id-82e46134305b4431ae3c203c436bf2bb">
-      <documentation>Tildel autoriserte rettigheter basert på roller, annen policy eller manuel behandling av dataforvalter gjennom tjenesten &quot;Forespør dataforvalter&quot;.</documentation>
+    <element xsi:type="archimate:ApplicationService" name="UH/F tildel rettigheter til klienter" id="id-82e46134305b4431ae3c203c436bf2bb">
+      <documentation>Tildel autoriserte rettigheter basert på roller, annen policy eller manuell behandling av dataforvalter gjennom tjenesten &quot;Forespør dataforvalter&quot;. Om klienten er fra UH/F sektoren blir tildelt rettighetene lagret i UH/F klientregisteret i Ressusportalen. Om klienten er fra utenfor UH/F sektoren må tildelte rettighetene lagres et sted der Maskinporten har oversikten. </documentation>
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:ApplicationService" name="API tilgangs-forespørsel" id="id-665178dd6b464a94a908145cac822615">
@@ -10197,6 +10036,7 @@ Ansvaret til API manager inkluderer:&#xD;
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:ApplicationService" name="Godkjenn tilgang" id="id-b2eba9696eb642cd9df65417dca81d63">
+      <documentation>Tjeneste for å vurdere og eventuelt gi tilgang til en konsument som ber om tilgang. En tjeneste i UHF Ressursportalen benyttes som lar dataforvalteren beslutte tilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling. </documentation>
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:ApplicationService" name="Notifikasjonsdistribusjon" id="id-36fa645e01d141c1b807889d42774f7d">
@@ -10210,17 +10050,18 @@ Ansvaret til API manager inkluderer:&#xD;
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:ApplicationService" name="Forespør dataforvalter" id="id-78c78bb84eaa4268ac23b66e5f1e7f8f">
-      <documentation>Harmoniserers med rolledefinisjoner.&#xD;
-&#xD;
-En dataforvalter kan besvare forespørselen automatisk på grunnlag av forhåndsdefinerte instruks. Det kan også besvares manuelt om ønskelig.&#xD;
+      <documentation>En tjeneste som lar dataforvalteren beslutte datatilgang, enten gjennom en automatisert policy eller gjennom en manuell behandling. &#xD;
 &#xD;
 </documentation>
       <property key="difi:namespace" value="unit"/>
     </element>
-    <element xsi:type="archimate:ApplicationComponent" name="UHF Klientregister" id="id-51e6a038ba824aacac9a13d7eef336aa">
+    <element xsi:type="archimate:ApplicationComponent" name="UH/F Klientregister" id="id-51e6a038ba824aacac9a13d7eef336aa">
       <documentation>Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.&#xD;
 </documentation>
       <property key="difi:namespace" value="unit"/>
+      <property key="modelx:antora_component" value="null"/>
+      <property key="modelx:antora_version" value="null"/>
+      <property key="modelx:antora_module" value="null"/>
     </element>
     <element xsi:type="archimate:DataObject" name="Kildedata" id="id-891f22ad3e574af59f80a49df32fd452">
       <documentation>Dataprodukt som tilbys av datatilbyder&#xD;
@@ -10240,7 +10081,7 @@ Komponenten tilbyr:&#xD;
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Ressursportal" id="id-7049c424598b438a8c295e5f8a964599">
-      <documentation>Ressursportalen holder oversik over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.</documentation>
+      <documentation>Ressursportalen holder oversikt over og tildeler tilganger til beskyttede ressurser i høyere utdanning og forskningssektoren i henhold til føringer fra eierne av disse ressursene. Tilganger er gitt i form av OAuth2 grants og tokens. Ressursportalen er en del av den felles infrastrukturen for føderert API management for høyere utdanning og forskning. Den registrerer og holder oversikt over API, holder oversikt over klienter som har blitt tildelt tilgang til API og hvilke tilganger det gjelder. Ressursportalen benytter Jason Web Token formattert OAuth2 sikkerhetstoken for å gi tilgang til ressurser gjennom API gateway nær de beskyttede ressursene.</documentation>
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:DataObject" name="Roller og tilgangsregler" id="id-3ee21629b1dc4a3a85910fe2d63bba5c">
@@ -23304,7 +23145,7 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
       <property key="label" value="${name}"/>
       <property key="difi:notes"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-d9b1d8cb5c8b419d8196a726f2486767" source="id-61082551b4ce4ae9a2aa38dfe4857ca9" target="id-ed01a21019c94c459b98713ff4522e5a">
+    <element xsi:type="archimate:AssociationRelationship" id="id-d9b1d8cb5c8b419d8196a726f2486767" source="id-61082551b4ce4ae9a2aa38dfe4857ca9" target="id-7211fe4a63a0483ebd342852bbba4ef9">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:guid" value="id-d9b1d8cb5c8b419d8196a726f2486767"/>
@@ -23394,7 +23235,7 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
       <property key="label" value="${name}"/>
       <property key="difi:notes"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-e495086591f24cf58c4777fa674a9d71" source="id-239051e6402244fcaafee61373157e5a" target="id-620fadc88bbc4cd5afc57eb614c67ad0">
+    <element xsi:type="archimate:AssociationRelationship" id="id-e495086591f24cf58c4777fa674a9d71" source="id-239051e6402244fcaafee61373157e5a" target="id-e738ffecb0554b978c6cc32388e331a1">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:guid" value="id-e495086591f24cf58c4777fa674a9d71"/>
@@ -23430,210 +23271,12 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
       <property key="label" value="${name}"/>
       <property key="difi:notes"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-b1bc1e101c4f4564871487cb03478a47" source="id-620fadc88bbc4cd5afc57eb614c67ad0" target="id-e738ffecb0554b978c6cc32388e331a1">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-b1bc1e101c4f4564871487cb03478a47"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:association-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-4dd60faedeaa4d51a448055090b684d8" source="id-61082551b4ce4ae9a2aa38dfe4857ca9" target="id-e738ffecb0554b978c6cc32388e331a1">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:guid" value="id-4dd60faedeaa4d51a448055090b684d8"/>
       <property key="difi:metaLevel" value="undefined"/>
       <property key="dct:type" value="archi:aggregation-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-3c1ee6729e174c06b892f24165b97c69" source="id-e738ffecb0554b978c6cc32388e331a1" target="id-6efbf826bcc342938ab0e9bc18ee335a">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-3c1ee6729e174c06b892f24165b97c69"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:association-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:AggregationRelationship" id="id-e50245406a294352b37a8c2f003970df" source="id-61082551b4ce4ae9a2aa38dfe4857ca9" target="id-6efbf826bcc342938ab0e9bc18ee335a">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-e50245406a294352b37a8c2f003970df"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:aggregation-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:AggregationRelationship" id="id-e5f056a40b6542818102f52972f31774" source="id-ed01a21019c94c459b98713ff4522e5a" target="id-4d6cbb6e37fa4cb7a63edc46993d12b9">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-e5f056a40b6542818102f52972f31774"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:aggregation-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-a5ae0cf23d5e41f1b3cdb64f457df7f9" source="id-4d6cbb6e37fa4cb7a63edc46993d12b9" target="id-66c46c1d186a4cde83b98bfbf3b54e33">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-a5ae0cf23d5e41f1b3cdb64f457df7f9"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:association-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:AggregationRelationship" id="id-c91de8251880424ebc0168391a799704" source="id-ed01a21019c94c459b98713ff4522e5a" target="id-66c46c1d186a4cde83b98bfbf3b54e33">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-c91de8251880424ebc0168391a799704"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:aggregation-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-063494dd588a4bb8b3fc78bd6072461d" source="id-66c46c1d186a4cde83b98bfbf3b54e33" target="id-b20e03439e5540c7b0dbde34b33c631c">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-063494dd588a4bb8b3fc78bd6072461d"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:association-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:AggregationRelationship" id="id-e9295454b67c4b488767a4a2bcbc3111" source="id-ed01a21019c94c459b98713ff4522e5a" target="id-b20e03439e5540c7b0dbde34b33c631c">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-e9295454b67c4b488767a4a2bcbc3111"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:aggregation-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-6bf27ca5bb414412b25c49fdb2298a99" source="id-b20e03439e5540c7b0dbde34b33c631c" target="id-6479f79835e84429b3140bb2c10c29eb">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-6bf27ca5bb414412b25c49fdb2298a99"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:association-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:AggregationRelationship" id="id-8d6cd6a42e9044979eba3f5094bf8d38" source="id-ed01a21019c94c459b98713ff4522e5a" target="id-6479f79835e84429b3140bb2c10c29eb">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-8d6cd6a42e9044979eba3f5094bf8d38"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:aggregation-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-53287f00f8a3474ba3edeb40f723a4b4" source="id-6479f79835e84429b3140bb2c10c29eb" target="id-441dccdd98b0431c91b11d7d29c2f26b">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-53287f00f8a3474ba3edeb40f723a4b4"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:association-relationship"/>
       <property key="difi:namespace" value="-"/>
       <property key="difi:abstractionLevel" value="undefined"/>
       <property key="digdir:link1"/>
@@ -23808,7 +23451,7 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
       <property key="label" value="${name}"/>
       <property key="difi:notes"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-253568efa1204fb0a478923b018a9cce" source="id-981c0fa360d14aaa8e8627a6014dbc04" target="id-9aa244a872de48318bd547d96d5bb7d4">
+    <element xsi:type="archimate:AssociationRelationship" id="id-253568efa1204fb0a478923b018a9cce" source="id-981c0fa360d14aaa8e8627a6014dbc04" target="id-9aa244a872de48318bd547d96d5bb7d4" directed="true">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:guid" value="id-253568efa1204fb0a478923b018a9cce"/>
@@ -23928,27 +23571,31 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
     </element>
-    <element xsi:type="archimate:AggregationRelationship" id="id-1594a964529f4cd3aff205485fb85b81" source="id-6479f79835e84429b3140bb2c10c29eb" target="id-068ad146f0794295ac49c03943992a5f">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-    </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-53b96ccfe4ca4e0399df64e7300a7a5d" source="id-068ad146f0794295ac49c03943992a5f" target="id-3d1e418d46ce4be0b99c25d1cfbbf3af">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
     </element>
-    <element xsi:type="archimate:AggregationRelationship" id="id-0047ac45377748a2b71133b789fe60e9" source="id-6479f79835e84429b3140bb2c10c29eb" target="id-3d1e418d46ce4be0b99c25d1cfbbf3af">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-    </element>
-    <element xsi:type="archimate:AggregationRelationship" id="id-17ee2083411146fca2c3193b8d3ef0b6" source="id-6479f79835e84429b3140bb2c10c29eb" target="id-525a82f5fe00413eaf52a451ea2e2d7e"/>
-    <element xsi:type="archimate:AggregationRelationship" id="id-5f12da76567a4e0097dcec72833fc418" source="id-6479f79835e84429b3140bb2c10c29eb" target="id-b535d5d525e44c80835822bf75a04ceb"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-72f4d33491c04a5ea594609069a80b04" source="id-b535d5d525e44c80835822bf75a04ceb" target="id-525a82f5fe00413eaf52a451ea2e2d7e"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-0644a80ef69e4dfd8fd82db7af7647b1" source="id-525a82f5fe00413eaf52a451ea2e2d7e" target="id-068ad146f0794295ac49c03943992a5f"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-1fe85de2f90344f0bcb7bfcef2fdab88" source="id-465d0ad2236b4b35a7bee699a39d3a71" target="id-2459a873dc2e4d3fb21e713146a06635"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-f32d7a0b7e614efea13a1df6f78d83a5" source="id-2459a873dc2e4d3fb21e713146a06635" target="id-fb98fe17dc9d405597f956516270346f"/>
-    <element xsi:type="archimate:AggregationRelationship" id="id-183ec7ca3105482bb02a65695cce295f" source="id-4bb69d1b82094d9f890a6a1805926030" target="id-703aeda277ba4d1dbf3c5d1ef33fe5fb"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-3ac775b88f4949769f97543953e43620" source="id-703aeda277ba4d1dbf3c5d1ef33fe5fb" target="id-dee14b64b25b4ad3b40615e0721d2dce"/>
     <element xsi:type="archimate:ServingRelationship" id="id-1b44149f5f4843bb99cff3655218d72d" source="id-790edbc925b24187adbccb11b66a37b4" target="id-790edbc925b24187adbccb11b66a37b4"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-b94ae55dc6ac4b41822411bc4bc10c12" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-7211fe4a63a0483ebd342852bbba4ef9"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-765952ffb5cd40d1b83d91be0b341cb9" source="id-7211fe4a63a0483ebd342852bbba4ef9" target="id-ed01a21019c94c459b98713ff4522e5a"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-ec9deb8e5dfd47f080c3f6b566e05752" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-2f10c7bb317f42a48698a7133ed39644"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-30ed9fa2938247589af6292fe15ea0d3" source="id-1443b0bf650f4e90b3b7e831fb3df794" target="id-2f10c7bb317f42a48698a7133ed39644"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-7ccd15ad928b49c0a056d837b7a288c7" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-484103d09e9a4312b6b36eca5644ec57"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-0140bbf187f54b5f96306bccce44b23b" source="id-2f10c7bb317f42a48698a7133ed39644" target="id-484103d09e9a4312b6b36eca5644ec57"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-78c1fbb6be06460b8ef136a45c2d80dd" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-eecdaf9c4f2a418aa4e1a18527b91b77"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-f98c97c210c64167b66ad54c2405f433" source="id-484103d09e9a4312b6b36eca5644ec57" target="id-eecdaf9c4f2a418aa4e1a18527b91b77"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-9d332d198c8e4316b5fada12549451ee" source="id-eecdaf9c4f2a418aa4e1a18527b91b77" target="id-4d6cbb6e37fa4cb7a63edc46993d12b9"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-e800737b53db4fe0adae01839c690342" source="id-7211fe4a63a0483ebd342852bbba4ef9" target="id-66c46c1d186a4cde83b98bfbf3b54e33"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-70741a3f70bf49b7bd508d9910c50328" source="id-7211fe4a63a0483ebd342852bbba4ef9" target="id-068ad146f0794295ac49c03943992a5f"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-388b67fd5cb943928cfff385a2a1e538" source="id-7211fe4a63a0483ebd342852bbba4ef9" target="id-3d1e418d46ce4be0b99c25d1cfbbf3af"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-21d7d8bed989443388dd5a9bcf3fd666" source="id-7211fe4a63a0483ebd342852bbba4ef9" target="id-708123eb06814b4994b9637289bbf979"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-fe18910d8a6f437a87a0483d120d5d5d" source="id-3d1e418d46ce4be0b99c25d1cfbbf3af" target="id-708123eb06814b4994b9637289bbf979"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-4d3a3cd55b0a48f2b96e0ba8d71ff28f" source="id-7211fe4a63a0483ebd342852bbba4ef9" target="id-f8fa3c3726664e769876bfaf77c3bbd5"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-286f61d0b28e4fd4ad09f39320d8e2ff" source="id-66c46c1d186a4cde83b98bfbf3b54e33" target="id-f8fa3c3726664e769876bfaf77c3bbd5"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-7b23f021bf0941c7b8885200bff72026" source="id-f8fa3c3726664e769876bfaf77c3bbd5" target="id-068ad146f0794295ac49c03943992a5f"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-f39a1593e31c406e8ad44eebbff31c0e" source="id-e738ffecb0554b978c6cc32388e331a1" target="id-620fadc88bbc4cd5afc57eb614c67ad0"/>
   </folder>
   <folder name="Views" id="id-0ad38d6c238f4fb9b713e53aa221c21e" type="diagrams">
     <folder name="1. Gjeldende bibliotek" id="074262ac-6dab-4f0f-8f3b-cc81cc2590f1">
@@ -34803,7 +34450,7 @@ Prosesser for å dele data som åpne data&#xD;
             <property key="difi:antoraViewImagePath"/>
             <property key="difi:namespace" value="unit"/>
           </element>
-          <element xsi:type="archimate:ArchimateDiagramModel" name="Innhente data - løsningsmønster UHF" id="id-0070f590adf24abd9c9cc7a89be64beb">
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Innhente data - løsningsmønster i UH/F sektoren" id="id-0070f590adf24abd9c9cc7a89be64beb">
             <child xsi:type="archimate:DiagramObject" id="id-c136d63c350d45489a1a6eea8ea4a0a1" textAlignment="1" archimateElement="id-57ba6605588a42f8a01d93da5e446337">
               <bounds x="212" y="360" width="989" height="205"/>
               <child xsi:type="archimate:DiagramObject" id="id-97e312921d184d28a81830dab19700e7" textPosition="1" archimateElement="0c051f18-03b6-4561-a6d8-a77912e4686c" type="1">
@@ -35091,7 +34738,7 @@ Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens s
             <property key="difi:antoraViewImagePath"/>
             <property key="difi:namespace" value="unit"/>
           </element>
-          <element xsi:type="archimate:ArchimateDiagramModel" name="Tilgjengeliggjøre data etter forspørsel løsningsmønster UHF" id="id-daf39140bcb244ba8d53408c857b91fb">
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Tilgjengeliggjøre data etter forespørsel løsningsmønster UHF" id="id-daf39140bcb244ba8d53408c857b91fb">
             <child xsi:type="archimate:DiagramObject" id="id-775018cfe508484ab17f0703fa854005" targetConnections="id-6fb30c7bf44241d6a69f60682e271ed5 id-e11686909cf946cb80d1b8906de8f648" textPosition="1" archimateElement="fe0abe56-0a07-400f-86de-ea57a0f8079b">
               <bounds x="636" y="374" width="133" height="59"/>
             </child>
@@ -35118,13 +34765,10 @@ Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens s
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-e39a19768cf8437eac510d3a4f234d5e" fillColor="#00ffff" textPosition="1" archimateElement="d242a840-0fa2-4f8d-997c-2298194f1c4a">
-              <bounds x="264" y="565" width="601" height="70"/>
+              <bounds x="600" y="565" width="265" height="70"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-6fb30c7bf44241d6a69f60682e271ed5" source="id-e39a19768cf8437eac510d3a4f234d5e" target="id-775018cfe508484ab17f0703fa854005" archimateRelationship="2f9c376e-7b97-4fb8-a285-e6699b12abfe"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-36c6dd68008248e2acfecfc201c769b3" source="id-e39a19768cf8437eac510d3a4f234d5e" target="id-857ae071c51a4fe3b50269a691fc28eb" archimateRelationship="id-dac9720ef5ee4f79a7b449d7637661b8">
-                <bendpoint startX="-180" startY="-144" endX="-36" endY="146"/>
-              </sourceConnection>
               <sourceConnection xsi:type="archimate:Connection" id="id-decb9726abee4225bc5a0a918b4033be" source="id-e39a19768cf8437eac510d3a4f234d5e" target="id-b144242bf8504797baa2e6559314317b" archimateRelationship="id-f39a6acc7b7a4dba95d688792207c437">
-                <bendpoint startX="246" startY="-300" endX="150" endY="-10"/>
+                <bendpoint startX="90" startY="-300" endX="174" endY="-11"/>
               </sourceConnection>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-2c107de3be2a4164a9878c66f29277a0" fillColor="#00ffff" textPosition="1" archimateElement="f62ede33-8269-4ea4-ad18-813afceec80d">
@@ -35149,7 +34793,7 @@ Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens s
               <bounds x="192" y="276" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-239664d4c5eb4f9a8bd9944ff8202ad8" source="id-9e96b6f4b2e049f192cc4d7bc6c019e2" target="id-1db5aeab9b7c4a1cab572d20170042e0" archimateRelationship="id-993a219540144dfa9cf22b00fbe49505"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-857ae071c51a4fe3b50269a691fc28eb" targetConnections="id-36c6dd68008248e2acfecfc201c769b3 id-41029a2fe2f041959404d8d4382c8c3c" textPosition="1" archimateElement="id-b2eba9696eb642cd9df65417dca81d63" type="1">
+            <child xsi:type="archimate:DiagramObject" id="id-857ae071c51a4fe3b50269a691fc28eb" targetConnections="id-41029a2fe2f041959404d8d4382c8c3c" textPosition="1" archimateElement="id-b2eba9696eb642cd9df65417dca81d63" type="1">
               <bounds x="336" y="276" width="193" height="69"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-356096efded4428b8ddac8bddc9a2a04" source="id-857ae071c51a4fe3b50269a691fc28eb" target="id-1db5aeab9b7c4a1cab572d20170042e0" archimateRelationship="id-dcde91b710584ef7a6b2ff1059190108"/>
             </child>
@@ -35169,9 +34813,7 @@ Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens s
                 <bounds x="36" y="36" width="145" height="71"/>
               </child>
             </child>
-            <documentation>En prosessflyt som datatilbyder må gjennomføre for å tildele rettigheter til en konsument som ber om tilgang til data. En datatilbyder mottar forespørsel om tilgang til et API på vegne av en organisasjon eller bruker. Dataeieren tar stilling til om konsumenten skal få tilgang til data gjennom APIet. Tilgang registreres knyttet til konsumentens klient (applikasjonen som benytter APIet) i klientregisteret. &#xD;
-&#xD;
-[Kan behandlingsansvarlig handle automatisert basert på forhåndsdefinerte instruks?]</documentation>
+            <documentation>En prosessflyt som datatilbyder må gjennomføre for å tildele rettigheter til en konsument som ber om tilgang til data. En datatilbyder mottar forespørsel om tilgang til et API på vegne av en organisasjon eller bruker. Dataeieren tar stilling til om konsumenten skal få tilgang til data gjennom APIet. Tilgang registreres knyttet til konsumentens klient (applikasjonen som benytter APIet) i klientregisteret. </documentation>
             <property key="difi:language" value="no"/>
             <property key="difi:name_no" value="Tilgjengeliggjøre API - løsningsmønster"/>
             <property key="difi:name_en"/>
@@ -35182,7 +34824,7 @@ Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens s
             <property key="difi:antoraViewImagePath"/>
             <property key="difi:namespace" value="unit"/>
           </element>
-          <element xsi:type="archimate:ArchimateDiagramModel" name="Få tilgang til data - løsningsmønster UHF" id="id-0dcc413eca3b4a12a1d5b17131f86a71">
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Få tilgang til data - løsningsmønster UH/F" id="id-0dcc413eca3b4a12a1d5b17131f86a71">
             <child xsi:type="archimate:DiagramObject" id="id-48d0d03508014a48bf829945bb5ef6b9" textPosition="1" archimateElement="0442a2d9-0a27-4aee-ac78-82b12deccf85">
               <bounds x="72" y="50" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-2cba404a02054816b8a341a47813cd26" source="id-48d0d03508014a48bf829945bb5ef6b9" target="id-97ac9ba0e9694db282e176de759ff22d" archimateRelationship="c2a4eb2b-1b1d-404d-bb92-6fd1d06aa174"/>
@@ -35251,6 +34893,8 @@ Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens s
               <bounds x="600" y="395" width="133" height="71"/>
             </child>
             <documentation>En prosessflyt en konsument av data må gjennomføre for å få tildelt rettigheter til data gjennom et API. Det omfatter å få kjennskap til aktuelt API gjennom API-katalogen, autentisere konsumenten, inngå avtale om bruk av data, samt å registrere tilganger hos den tekniske komponenten som skal utføre tjenestekallet. Dersom det dreier seg om tilgang til et åpent tilgjengelig API, kan enkelte delaktiviteter i prosessene hoppes over, men for å kunne logge informasjon om bruk av APIer bør alle konsumenter av et API registreres i klientregisteret.&#xD;
+&#xD;
+Viewet bør strengt tatt vise at konsumenten kan finne APIet enten i UH/F sektorens API katalog eller i Felles datakatalog. Vi velger å vise prosessflyten kun med UH/F sektorens komponenter både for å kunne presentere en oversiktlig prosessflyt og fordi forholdet til de nasjonale felleskomponenter er ennå ikke helt avklart.&#xD;
 </documentation>
             <property key="difi:language" value="no"/>
             <property key="difi:name_no" value="Få tilgang til API - løsningsmønster"/>
@@ -35342,22 +34986,25 @@ Er det mulig å svare ut en logg av aksess til data i sektoren (hvilken tokens s
                 <bounds x="120" y="120" width="109" height="42"/>
               </child>
             </child>
-            <documentation>Føderert API Management innebærer at et domene (føderasjon) kan gi brukere i andre domener man har et tillitsforhold til (ofte kalt fødereringspartnere) tilgang til sine egne data gjennom APIer. Dette er et prinsipp for API Management som har etablert seg de siste årene. Det er flere grunner for dette, blant annet at store virksomheter i dag gjerne har virksomhetsdata lagret distribuert og gjerne fordelt mellom systemer som kjører på lokale servere (on-premise) og i skybaserte-løsninger som kjører på egen infrastruktur. &#xD;
+            <documentation>Føderert API Management innebærer at et domene kan gi brukere i andre domener som man har et tillitsforhold til, ofte kalt fødereringspartnere, tilgang til sine egne data gjennom APIer. Dette er en tilnærming til API Management som har etablert seg de siste årene.  Det er flere grunner for dette, blant annet at store virksomheter i dag gjerne har virksomhetsdata lagret distribuert og gjerne fordelt mellom systemer som kjører på lokale servere (on-premise) og i skybaserte-løsninger. &#xD;
 &#xD;
-Det sterke politiske fokuset på deling av data gjennom orden i eget hus og nasjonale og sektorvise digitaliseringsstrategier understøtter også behovet for et API Management regime som understøtter deling av data til 3. part for innovasjon, og fokus på sammenhengende brukerreiser (eksemplifisert ved de syv livshendelser og tjenestekjeder) som forutsetter at data kan deles mellom virksomheter som betjener slike brukerreiser. &#xD;
+Det er et sterkt politisk fokus på deling av data mellom domener. Flere initiativer, som &quot;orden i eget hus&quot; og nasjonale og sektorvise digitaliseringsstrategier skal understøtte dette fokuset på deling av data. I en slik sammenheng ser vi behovet for et felles API Management-regime i kunnskapssektoren.&#xD;
 &#xD;
-Virksomhetene i UH/F har mange fellestrekk og noen fellestjenester på tvers, men deres autonomi gjør at de også er ulike på enkelte områder, f.eks. når det gjelder teknisk infrastruktur. Dette understreker behovet for en føderert API Management løsning som er mer fleksibel mtp. tekniske løsninger og produktvalg lokalt.  &#xD;
+Et slikt regime muliggjør deling av data for å oppnå sammenhengende brukerreiser, eksemplifisert ved de syv livshendelser og tjenestekjeder.  Det er en forutsetning at data kan deles mellom virksomheter som betjener slike brukerreiser.&#xD;
 &#xD;
-Designen avbildet er laget for å støtte følgende karakteristikk:&#xD;
+3.parts aktører kan bruke data fra sektoren for innovasjon. API management kan medvirke til deling av data til 3. part ved å gjøre data gjenfinnbart, tilgjengelig og dokumentert.&#xD;
 &#xD;
-* Intstitusjonene er sikret råderett over egne data gjennom tilgangstjeneste i resssursportalen og API gateway hos institusjonen som kan styre og holde oversikt over datatilgang&#xD;
-* Institusjonene har valgfrihet over API Gateway såfremt funksjoner og grensesnitt er ivaretatt&#xD;
-* Deling av data på tvers av institusjoner er støttet gjennom felles ressursportal&#xD;
+Virksomhetene i Universiteter, Høyskoler og Forskning har mange fellestrekk og noen fellestjenester på tvers. Deres autonomi gjør likevel at de er ulike på enkelte områder, for eksempel når det gjelder teknisk infrastruktur.  Disse likhetene og forskjellene understreker behovet for en føderert API Management-løsning.  En slik løsning er mer fleksibel med tanke på tekniske løsninger og produktvalg lokalt.&#xD;
 &#xD;
+Designen avbildet er laget for å støtte følgende karakteristikk: &#xD;
+&#xD;
+* Intstitusjonene er sikret råderett over egne data gjennom tilgangstjeneste i ressursportalen og API gateway hos institusjonen som kan styre og holde oversikt over datatilgang &#xD;
+* Institusjonene har valgfrihet over API Gateway såfremt funksjoner og grensesnitt er ivaretatt &#xD;
+*	 Deling av data på tvers av institusjoner er støttet gjennom felles ressursportal  &#xD;
 </documentation>
             <property key="difi:namespace" value="unit"/>
           </element>
-          <element xsi:type="archimate:ArchimateDiagramModel" name="Publiser API  UHF" id="id-d1e9f3ae7fdd49bc91f84309b3071350">
+          <element xsi:type="archimate:ArchimateDiagramModel" name="Publiser API" id="id-d1e9f3ae7fdd49bc91f84309b3071350">
             <child xsi:type="archimate:DiagramObject" id="id-4f5dee61ef874b13b88634c1f35a4f54" targetConnections="id-7f1fe5ed057644afbd1dad1341fd71af id-67070bc68b0c4086b863cb1f9dc4f802 id-c0bc90afcbdc428daec4b1158818d34a" textPosition="1" archimateElement="743ee89e-49b3-4b4b-b93b-c7e6f4e0700f">
               <bounds x="708" y="349" width="133" height="70"/>
             </child>
@@ -35422,6 +35069,8 @@ Designen avbildet er laget for å støtte følgende karakteristikk:&#xD;
               </child>
             </child>
             <documentation>En prosessflyt som datatilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom kataloger og søkeløsninger. Metadata om APIet blir registrert i API-katalogen. Metadata inkluderer begreper og datamodeller omfattet av datasettet som APIet tilgjengeliggjør, samt tilganger (scopes) knyttet til APIet som kan tildeles konsumenter.&#xD;
+&#xD;
+APIet registrert i UHF API katalog blir høstet inn i Felles API katalog. Vi ønsker at tilganger (scopes) skal i tillegg registreres i Maskinporten slik at konsumenter utenfor UHF sektoren kan oppdage APIet og be om tilgang på et senere tidspunkt.&#xD;
 </documentation>
             <property key="difi:antoraViewImagePath"/>
             <property key="difi:antoraViewPath"/>
@@ -35568,35 +35217,58 @@ Figuren viser kun kobling til maskinporten direkte som er mulig i dag.  Det er p
               <bounds x="384" y="96" width="133" height="71"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-d74e19eafbec4cafbab27b3fb512858c" source="id-0602dbbbb3c749ee952787b3371ef40d" target="id-1ad776c2aa6b4b6f84316f0d2c39a5c7" archimateRelationship="id-e71d4a60fef64ce0829c190a26594598"/>
             </child>
-            <documentation>Infrastruktur for Identitetshåndtering og tilgangsstyring (IAM) utfyller API management og må fungere sammen. IAM utføres av komponenter i den øvre delen av viewet. API managaement utføres av kompontenter i den nedre delen av viewet. Ressursportalen og tjenesten for tildeling av rettigheter til klienter deltar i begge funksjoner. &#xD;
+            <documentation>Infrastruktur for identitetshåndtering og tilgangsstyring (IAM) utfyller API management og må &#xD;
+fungere sammen. &#xD;
 &#xD;
-IAM styrer sluttbrukeres tilgang til tjenester, basert på både autentisering av deres identitet og deres roller hos institusjoner. API management styrer tilgang til data gjennom API basert på policy eller godkjenning fra dataforvalter. Avgjørelsen om å godkjenne tilgang til data kan godt være basert på en sluttbrukers rolle hos en institusjon.​</documentation>
+Autentisering er det som sjekker at brukeren er kjent for virksomhenten og forsikrer &#xD;
+at brukeren er den vedkommende gir seg ut for å være når brukeren ber om tilgang til ressurser.&#xD;
+&#xD;
+Autorisering identifiserer hvilke tilganger en bruker skal ha til virksomhetens ressurser.&#xD;
+Autorisasjon kan tildeles roller. Brukere kan tildeles roller og gjennom dette få&#xD;
+autorisasjon til virksomhetens ressurser som er knyttet til rollen.&#xD;
+&#xD;
+IAM utfører autentisering ved bruk av komponenter i den øvre delen av viewet. &#xD;
+&#xD;
+API management utføres av komponenter i den nedre delen av viewet. &#xD;
+&#xD;
+Ressursportalen og tjenesten for tildeling av rettigheter til klienter deltar i begge funksjoner.&#xD;
+&#xD;
+IAM autoriserer sluttbrukeres tilgang til tjenester. Dette er basert på både autentisering &#xD;
+av deres identitet, det vil si hvem brukeren er, og de roller brukeren er tildelt hos en &#xD;
+eller flere institusjoner. &#xD;
+&#xD;
+API management styrer tilgang til data gjennom API basert på policy eller godkjenning &#xD;
+fra dataforvalter. Brukers tilgang til beskyttet tjeneste hos datakonsument kan være &#xD;
+tilstrekkelig til at bruker ikke trenger å autoriseres eksplisitt hos datatilbyder. Avgjørelsen om å godkjenne tilgang til data kan godt være basert på &#xD;
+en sluttbrukers rolle hos en institusjon.&#xD;
+​</documentation>
             <property key="difi:namespace" value="unit"/>
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Felleskomponenter" id="id-0ca2215fc0c54bae9529896c8e00832c" viewpoint="application_cooperation">
             <child xsi:type="archimate:DiagramObject" id="id-e45b8440b1834c94afdb5b6e1590a7d7" archimateElement="44ced331-4cf1-4599-a2e6-d5be20b80a6d" type="1">
-              <bounds x="24" y="12" width="133" height="71"/>
+              <bounds x="96" y="82" width="133" height="71"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-a6478ba927d445009eb72d210d4865d4" archimateElement="id-46f10831ae0b41d292a6f0c8e89f9db0">
-              <bounds x="24" y="96" width="133" height="71"/>
+              <bounds x="768" y="82" width="193" height="133"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c879866a9dd147e89d033e07b1d42be2" source="id-a6478ba927d445009eb72d210d4865d4" target="id-a4000106963342e0b226088f7a9f3938" archimateRelationship="id-b7889b4b2a8e47b6ad70052f4882ca92"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-a4000106963342e0b226088f7a9f3938" targetConnections="id-c879866a9dd147e89d033e07b1d42be2" archimateElement="id-79d5bb2a2ac64ca2a82207bcfd2945b6">
-              <bounds x="132" y="192" width="133" height="71"/>
+              <child xsi:type="archimate:DiagramObject" id="id-a4000106963342e0b226088f7a9f3938" targetConnections="id-c879866a9dd147e89d033e07b1d42be2" archimateElement="id-79d5bb2a2ac64ca2a82207bcfd2945b6">
+                <bounds x="36" y="48" width="133" height="71"/>
+              </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-7b6f209af2fc41ff98fe14134c5d5179" archimateElement="id-96514499518349619a8e277dfafc274b">
-              <bounds x="24" y="276" width="133" height="71"/>
+              <bounds x="312" y="96" width="133" height="71"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-ff49b9d50f64484da3509ab88f472bda" archimateElement="id-790edbc925b24187adbccb11b66a37b4">
-              <bounds x="24" y="360" width="133" height="71"/>
+              <bounds x="504" y="82" width="205" height="133"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-05fa8c60800843879391c80f048b1786" source="id-ff49b9d50f64484da3509ab88f472bda" target="id-caf62c1a3109473781c5f7e0fc01e7e5" archimateRelationship="id-abadb2fa079340a1b5ac51754140738d"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-caf62c1a3109473781c5f7e0fc01e7e5" targetConnections="id-05fa8c60800843879391c80f048b1786" archimateElement="id-51e6a038ba824aacac9a13d7eef336aa">
-              <bounds x="108" y="456" width="133" height="71"/>
+              <child xsi:type="archimate:DiagramObject" id="id-caf62c1a3109473781c5f7e0fc01e7e5" targetConnections="id-05fa8c60800843879391c80f048b1786" archimateElement="id-51e6a038ba824aacac9a13d7eef336aa">
+                <bounds x="48" y="48" width="133" height="71"/>
+              </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-d3ff07eaae3c4217b90c70c53023064c" archimateElement="id-1ee0cb3bc8544277a1f57a204a7031d3">
-              <bounds x="36" y="576" width="133" height="71"/>
+              <bounds x="108" y="166" width="133" height="71"/>
             </child>
+            <documentation>Tekst fra viewet felleskomponenter</documentation>
           </element>
         </folder>
         <folder name="Løsningsmønster forespørsel IntArk" id="id-8dbd806d6740453f81c55dd0e3c06789">
@@ -36904,35 +36576,7 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
     </folder>
     <folder name="Autobook: Referansearkitektur for deling av data i høyere utdanning og forsking" id="id-6542f879189e40089e4b6610aed6478b">
       <folder name="Kapabiliteter" id="id-840d231915304d4496b877fbc7546933">
-        <element xsi:type="archimate:ArchimateDiagramModel" name="Kapabiliteter" id="id-1483db946250417d8e13781139bb2dff">
-          <child xsi:type="archimate:DiagramObject" id="id-a49386ae9b8e4112a989836d4724be3e" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="id-6479f79835e84429b3140bb2c10c29eb">
-            <bounds x="71" y="73" width="764" height="144"/>
-            <feature name="gradient" value="1"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-a72399a2eb4741f4bb6f350ec0667dad" source="id-a49386ae9b8e4112a989836d4724be3e" target="id-204e1fc682314cdfa1cac59476c45ad4" archimateRelationship="id-1594a964529f4cd3aff205485fb85b81"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-2e238fa0f82d4c55b2e528f631cb7276" source="id-a49386ae9b8e4112a989836d4724be3e" target="id-7a0ae97fc9ff4b549597f1befb75230b" archimateRelationship="id-5f12da76567a4e0097dcec72833fc418"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-94d137fede4c4ef0997534dcb1d5171b" source="id-a49386ae9b8e4112a989836d4724be3e" target="id-3ae8d381fde549f181303829a28e5853" archimateRelationship="id-17ee2083411146fca2c3193b8d3ef0b6"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-5b5689654c1e4d178594ef5819eedabb" source="id-a49386ae9b8e4112a989836d4724be3e" target="id-78beeab858474c65977262109673584f" archimateRelationship="id-0047ac45377748a2b71133b789fe60e9"/>
-            <child xsi:type="archimate:DiagramObject" id="id-7a0ae97fc9ff4b549597f1befb75230b" targetConnections="id-2e238fa0f82d4c55b2e528f631cb7276" textPosition="1" archimateElement="id-b535d5d525e44c80835822bf75a04ceb">
-              <bounds x="42" y="42" width="137" height="71"/>
-              <feature name="gradient" value="1"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-393a008823af41c5a123cf99f4e14287" source="id-7a0ae97fc9ff4b549597f1befb75230b" target="id-3ae8d381fde549f181303829a28e5853" archimateRelationship="id-72f4d33491c04a5ea594609069a80b04"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-78beeab858474c65977262109673584f" targetConnections="id-83c2074a44ea476685682139d2a63fe4 id-5b5689654c1e4d178594ef5819eedabb" textPosition="1" archimateElement="id-3d1e418d46ce4be0b99c25d1cfbbf3af">
-              <bounds x="528" y="42" width="137" height="71"/>
-              <feature name="gradient" value="1"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-204e1fc682314cdfa1cac59476c45ad4" targetConnections="id-985d45e9986743bf97c621a3ab72453b id-a72399a2eb4741f4bb6f350ec0667dad" textPosition="1" archimateElement="id-068ad146f0794295ac49c03943992a5f">
-              <bounds x="366" y="42" width="137" height="71"/>
-              <feature name="gradient" value="1"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-83c2074a44ea476685682139d2a63fe4" source="id-204e1fc682314cdfa1cac59476c45ad4" target="id-78beeab858474c65977262109673584f" archimateRelationship="id-53b96ccfe4ca4e0399df64e7300a7a5d"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-3ae8d381fde549f181303829a28e5853" targetConnections="id-393a008823af41c5a123cf99f4e14287 id-94d137fede4c4ef0997534dcb1d5171b" textPosition="1" archimateElement="id-525a82f5fe00413eaf52a451ea2e2d7e">
-              <bounds x="204" y="42" width="137" height="71"/>
-              <feature name="gradient" value="1"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-985d45e9986743bf97c621a3ab72453b" source="id-3ae8d381fde549f181303829a28e5853" target="id-204e1fc682314cdfa1cac59476c45ad4" archimateRelationship="id-0644a80ef69e4dfd8fd82db7af7647b1"/>
-            </child>
-          </child>
-        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="Kapabiliteter" id="id-1483db946250417d8e13781139bb2dff"/>
       </folder>
       <folder name="Datautveksling" id="id-b14e8ad517cb4d40856f5e038bbdf642">
         <folder name="Datautveksling ved oppslag" id="id-81d5bde4b0a543c9be43f1b6f527e7e9">
@@ -37028,75 +36672,50 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
         </element>
       </folder>
       <folder name="Modeller for datadeling" id="id-e2a8e9214fe647f9bc12786b3efd00fb">
-        <element xsi:type="archimate:ArchimateDiagramModel" name="Modeller for datadeling" id="id-6c5481d5c5684c87b04904d4cfdf14d6">
-          <child xsi:type="archimate:DiagramObject" id="id-14a2a45c6dce4d7dabb722494ef519a3" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="id-b20e03439e5540c7b0dbde34b33c631c">
-            <bounds x="37" y="56" width="264" height="191"/>
-            <feature name="gradient" value="1"/>
-          </child>
-        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="Modeller for datadeling" id="id-6c5481d5c5684c87b04904d4cfdf14d6"/>
       </folder>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Referansearkitektur for deling av data i høyere utdanning og forsking" id="id-67efac9af26d4e9d9365f15392948f11">
         <child xsi:type="archimate:DiagramObject" id="id-4e2d426a7d7c42b99800ae19f519c3d8" font="1|Segoe UI|18.0|1|WINDOWS|1|-30|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-4ba1495ee9074380a2bf896da41834f3">
-          <bounds x="60" y="-24" width="1171" height="841"/>
+          <bounds x="-36" y="24" width="1171" height="1261"/>
           <feature name="gradient" value="1"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-f100d6551a6348e5ba62bf5aeaf736e5" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-28c8cd553fe64416b8a2a2a48cb3ef48" archimateRelationship="id-25fc4716b922408885cb98379a52cc5e"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-40ee104a223f47fc83585489613aafc5" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-732ee16abc48436d8f883ad8ac835778" archimateRelationship="id-d1cf142968a54a4a8a50faf22436b974"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-ac6b337657574bba8c5c52a7ff60ee61" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-30b8171c51774eb198edf4204c205576" archimateRelationship="id-0917047ce4bc4185b57ad4c29d2557f2"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-33fed020f31f4f358726415672995a51" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-136a7141aed64092ae0cfcc1872ade3b" archimateRelationship="id-222f337819b5431cbeb2b73a85a12c1e"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-69e3de38aa004cca9eb0ebe2a4cf50ec" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-a67dd0e192d5465bbf4ea4b3a944ba55" archimateRelationship="id-3a3c955ce34a407c85749aaab7bc7ee1"/>
-          <child xsi:type="archimate:DiagramObject" id="id-30b8171c51774eb198edf4204c205576" targetConnections="id-dc5497ffb74446d8bb6dfc88d0f38c43 id-ac6b337657574bba8c5c52a7ff60ee61" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-ed01a21019c94c459b98713ff4522e5a">
-            <bounds x="36" y="216" width="1093" height="127"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-4ffd0e9e4574409c9ccac89240335196" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-892861f05f914c3895460bddfc000ae7" archimateRelationship="id-ec9deb8e5dfd47f080c3f6b566e05752"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-33fed020f31f4f358726415672995a51" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-136a7141aed64092ae0cfcc1872ade3b" archimateRelationship="id-222f337819b5431cbeb2b73a85a12c1e"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c34991dfcb8946a0afa923d750a52dca" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-1d92c372c0ed417b9770a083121289d4" archimateRelationship="id-78c1fbb6be06460b8ef136a45c2d80dd"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-a9e7c062f38f4891a8669856a5c5994b" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-8174885164084c6abc4c2d688f1bbf66" archimateRelationship="id-b94ae55dc6ac4b41822411bc4bc10c12"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-95af7a75fec0470fbfd5753f879486f3" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-f2e5c87d4e0c436b807eef924caeec65" archimateRelationship="id-7ccd15ad928b49c0a056d837b7a288c7"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-40ee104a223f47fc83585489613aafc5" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-732ee16abc48436d8f883ad8ac835778" archimateRelationship="id-d1cf142968a54a4a8a50faf22436b974"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-f100d6551a6348e5ba62bf5aeaf736e5" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-28c8cd553fe64416b8a2a2a48cb3ef48" archimateRelationship="id-25fc4716b922408885cb98379a52cc5e"/>
+          <child xsi:type="archimate:DiagramObject" id="id-30b8171c51774eb198edf4204c205576" targetConnections="id-ac6b337657574bba8c5c52a7ff60ee61 id-2553546108cb47b7abc394edff672c38" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-ed01a21019c94c459b98713ff4522e5a">
+            <bounds x="24" y="372" width="1093" height="127"/>
             <feature name="gradient" value="1"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-cbb73408cf0643b0a01ab6cba09f6611" source="id-30b8171c51774eb198edf4204c205576" target="id-ca5e68958f6e4470bbb5344d08e1662e" archimateRelationship="id-e9295454b67c4b488767a4a2bcbc3111"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-21792216e24740e99942af9736bd6474" source="id-30b8171c51774eb198edf4204c205576" target="id-34203c586f014690bf20a41ff1fb993f" archimateRelationship="id-cc639b1f04304bffbd9fa4924d3251c7"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-bf7b3283cc2e4d23ac05cb5e9e0aa322" source="id-30b8171c51774eb198edf4204c205576" target="id-70e07bba141f43928f121b13c6ef2798" archimateRelationship="id-e5f056a40b6542818102f52972f31774"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-0e6fd81b9a8d45a2b4dfd2623756ffcb" source="id-30b8171c51774eb198edf4204c205576" target="id-9d562c99ebc2408fa5bd5687896cb8cf" archimateRelationship="id-76bdca816c5f4d60b7370d01a5422b56"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-429008659e6444fa94796bd4cdbab1c1" source="id-30b8171c51774eb198edf4204c205576" target="id-2ef86ea34baa4d8094c6a6406e111577" archimateRelationship="id-aa645d61cdca4e5da675233e65d77b77"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-77721c58b5354431a72a773ae9b5f581" source="id-30b8171c51774eb198edf4204c205576" target="id-2b818e91fc0c4328a655d2b9b0699ab0" archimateRelationship="id-8d6cd6a42e9044979eba3f5094bf8d38"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-729a8fee6927403aa7614813c18a6f96" source="id-30b8171c51774eb198edf4204c205576" target="id-03a6a7d38cc54035b9d2aecd80f332fd" archimateRelationship="id-c91de8251880424ebc0168391a799704"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-7b58d3f5080a434ebfe0d7d61f5c709f" source="id-30b8171c51774eb198edf4204c205576" target="id-136a7141aed64092ae0cfcc1872ade3b" archimateRelationship="id-12f12a3dee764847bea7a1b19908e7b9"/>
-            <child xsi:type="archimate:DiagramObject" id="id-2ef86ea34baa4d8094c6a6406e111577" targetConnections="id-429008659e6444fa94796bd4cdbab1c1 id-23b13fc3bd1942c08211ba41cf4e900c" textPosition="1" archimateElement="id-441dccdd98b0431c91b11d7d29c2f26b">
-              <bounds x="630" y="42" width="137" height="71"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-0e6fd81b9a8d45a2b4dfd2623756ffcb" source="id-30b8171c51774eb198edf4204c205576" target="id-9d562c99ebc2408fa5bd5687896cb8cf" archimateRelationship="id-76bdca816c5f4d60b7370d01a5422b56"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-21792216e24740e99942af9736bd6474" source="id-30b8171c51774eb198edf4204c205576" target="id-34203c586f014690bf20a41ff1fb993f" archimateRelationship="id-cc639b1f04304bffbd9fa4924d3251c7"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-429008659e6444fa94796bd4cdbab1c1" source="id-30b8171c51774eb198edf4204c205576" target="id-2ef86ea34baa4d8094c6a6406e111577" archimateRelationship="id-aa645d61cdca4e5da675233e65d77b77"/>
+            <child xsi:type="archimate:DiagramObject" id="id-2ef86ea34baa4d8094c6a6406e111577" targetConnections="id-429008659e6444fa94796bd4cdbab1c1" textPosition="1" archimateElement="id-441dccdd98b0431c91b11d7d29c2f26b">
+              <bounds x="36" y="36" width="137" height="71"/>
               <feature name="gradient" value="1"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-680bf5886f10413ab19344cead8f05ce" source="id-2ef86ea34baa4d8094c6a6406e111577" target="id-34203c586f014690bf20a41ff1fb993f" archimateRelationship="id-4b94c0eeff544ffca8f5a7399fd6ff67"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-2b818e91fc0c4328a655d2b9b0699ab0" targetConnections="id-77721c58b5354431a72a773ae9b5f581 id-1e1dc2a454284a8da4d06f3725cd2d26" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" archimateElement="id-6479f79835e84429b3140bb2c10c29eb">
-              <bounds x="477" y="42" width="124" height="71"/>
-              <feature name="gradient" value="1"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-23b13fc3bd1942c08211ba41cf4e900c" source="id-2b818e91fc0c4328a655d2b9b0699ab0" target="id-2ef86ea34baa4d8094c6a6406e111577" archimateRelationship="id-53287f00f8a3474ba3edeb40f723a4b4"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-70e07bba141f43928f121b13c6ef2798" targetConnections="id-bf7b3283cc2e4d23ac05cb5e9e0aa322" textPosition="1" archimateElement="id-4d6cbb6e37fa4cb7a63edc46993d12b9">
-              <bounds x="18" y="42" width="137" height="71"/>
-              <feature name="gradient" value="1"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-489f15bb940940af820ef97462b95ce9" source="id-70e07bba141f43928f121b13c6ef2798" target="id-03a6a7d38cc54035b9d2aecd80f332fd" archimateRelationship="id-a5ae0cf23d5e41f1b3cdb64f457df7f9"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-03a6a7d38cc54035b9d2aecd80f332fd" targetConnections="id-729a8fee6927403aa7614813c18a6f96 id-489f15bb940940af820ef97462b95ce9" textPosition="1" archimateElement="id-66c46c1d186a4cde83b98bfbf3b54e33">
-              <bounds x="171" y="42" width="137" height="71"/>
-              <feature name="gradient" value="1"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-adb2dda767c54fbab8530d70d2fb18db" source="id-03a6a7d38cc54035b9d2aecd80f332fd" target="id-ca5e68958f6e4470bbb5344d08e1662e" archimateRelationship="id-063494dd588a4bb8b3fc78bd6072461d"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-ca5e68958f6e4470bbb5344d08e1662e" targetConnections="id-cbb73408cf0643b0a01ab6cba09f6611 id-adb2dda767c54fbab8530d70d2fb18db" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" archimateElement="id-b20e03439e5540c7b0dbde34b33c631c">
-              <bounds x="324" y="42" width="137" height="71"/>
-              <feature name="gradient" value="1"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-1e1dc2a454284a8da4d06f3725cd2d26" source="id-ca5e68958f6e4470bbb5344d08e1662e" target="id-2b818e91fc0c4328a655d2b9b0699ab0" archimateRelationship="id-6bf27ca5bb414412b25c49fdb2298a99"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-34203c586f014690bf20a41ff1fb993f" targetConnections="id-21792216e24740e99942af9736bd6474 id-680bf5886f10413ab19344cead8f05ce" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" archimateElement="id-f3ad82668384458f939a9911ddb3e749">
-              <bounds x="783" y="42" width="137" height="71"/>
+            <child xsi:type="archimate:DiagramObject" id="id-34203c586f014690bf20a41ff1fb993f" targetConnections="id-680bf5886f10413ab19344cead8f05ce id-21792216e24740e99942af9736bd6474" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" archimateElement="id-f3ad82668384458f939a9911ddb3e749">
+              <bounds x="204" y="36" width="137" height="71"/>
               <feature name="gradient" value="1"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-f772e0dbc2584c19a422d5b3195588a4" source="id-34203c586f014690bf20a41ff1fb993f" target="id-9d562c99ebc2408fa5bd5687896cb8cf" archimateRelationship="id-8545f5bce4a64480a83498f0d367fd3f"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-9d562c99ebc2408fa5bd5687896cb8cf" targetConnections="id-0e6fd81b9a8d45a2b4dfd2623756ffcb id-f772e0dbc2584c19a422d5b3195588a4" textPosition="1" archimateElement="id-33a69e5d6f274b348ab3734308a3d946">
-              <bounds x="930" y="42" width="137" height="71"/>
+            <child xsi:type="archimate:DiagramObject" id="id-9d562c99ebc2408fa5bd5687896cb8cf" targetConnections="id-f772e0dbc2584c19a422d5b3195588a4 id-0e6fd81b9a8d45a2b4dfd2623756ffcb" textPosition="1" archimateElement="id-33a69e5d6f274b348ab3734308a3d946">
+              <bounds x="372" y="36" width="137" height="71"/>
               <feature name="gradient" value="1"/>
             </child>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-136a7141aed64092ae0cfcc1872ade3b" targetConnections="id-33fed020f31f4f358726415672995a51 id-7b58d3f5080a434ebfe0d7d61f5c709f" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-a2b10750237141dd885d374f1cb067fd">
-            <bounds x="36" y="372" width="1093" height="127"/>
+            <bounds x="24" y="528" width="1093" height="127"/>
             <feature name="gradient" value="1"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-91165369ed0149128d1b5e5bbcbda2c2" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-0bb098ecf1a94db380ad9b769d0c0b08" archimateRelationship="id-0f1ee5419722496abecb97f0b74a0484"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-318bc0a49838422793ab6b6254f8046a" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-97a3625ac89f402a860d2fb67f99eac0" archimateRelationship="id-19441c7ed82248da8076dc8262495fc3"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-c28d361b0751434891f503ddaf08e2de" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-a67dd0e192d5465bbf4ea4b3a944ba55" archimateRelationship="id-a27f8ea1cb9c4ed699fdd79204a6dcb1"/>
-            <child xsi:type="archimate:DiagramObject" id="id-0bb098ecf1a94db380ad9b769d0c0b08" targetConnections="id-91165369ed0149128d1b5e5bbcbda2c2 id-b656d61316794f09aae95baaa58e6a9c" textPosition="1" archimateElement="id-f250d1d6d79d4bf3bee89a8b47dfe1a4">
+            <sourceConnection xsi:type="archimate:Connection" id="id-318bc0a49838422793ab6b6254f8046a" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-97a3625ac89f402a860d2fb67f99eac0" archimateRelationship="id-19441c7ed82248da8076dc8262495fc3"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-91165369ed0149128d1b5e5bbcbda2c2" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-0bb098ecf1a94db380ad9b769d0c0b08" archimateRelationship="id-0f1ee5419722496abecb97f0b74a0484"/>
+            <child xsi:type="archimate:DiagramObject" id="id-0bb098ecf1a94db380ad9b769d0c0b08" targetConnections="id-b656d61316794f09aae95baaa58e6a9c id-91165369ed0149128d1b5e5bbcbda2c2" textPosition="1" archimateElement="id-f250d1d6d79d4bf3bee89a8b47dfe1a4">
               <bounds x="174" y="36" width="137" height="71"/>
               <feature name="gradient" value="1"/>
             </child>
@@ -37107,51 +36726,91 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
             </child>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-a67dd0e192d5465bbf4ea4b3a944ba55" targetConnections="id-69e3de38aa004cca9eb0ebe2a4cf50ec id-c28d361b0751434891f503ddaf08e2de" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-142edeb394bb42478e6d6b85d5228d86">
-            <bounds x="36" y="534" width="1093" height="127"/>
+            <bounds x="24" y="672" width="1093" height="73"/>
             <feature name="gradient" value="1"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-1b5d52fdd4cb47f282370751a8770e4c" source="id-a67dd0e192d5465bbf4ea4b3a944ba55" target="id-28c8cd553fe64416b8a2a2a48cb3ef48" archimateRelationship="id-373c2ac49e1249478c2b110bcb7728aa"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-28c8cd553fe64416b8a2a2a48cb3ef48" targetConnections="id-f100d6551a6348e5ba62bf5aeaf736e5 id-1b5d52fdd4cb47f282370751a8770e4c" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-1443b0bf650f4e90b3b7e831fb3df794">
-            <bounds x="42" y="684" width="1093" height="127"/>
+            <bounds x="30" y="768" width="1093" height="127"/>
             <feature name="gradient" value="1"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-3b97a4fa043449b0b31fcc317d258e7d" source="id-28c8cd553fe64416b8a2a2a48cb3ef48" target="id-8be4580d3cdc4796a07e5fc52dea46ff" archimateRelationship="id-0de4dc3287fe45f29e87c2f141147810"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-08dff30e40b544928df18b12ea21abca" source="id-28c8cd553fe64416b8a2a2a48cb3ef48" target="id-892861f05f914c3895460bddfc000ae7" archimateRelationship="id-30ed9fa2938247589af6292fe15ea0d3"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-a25b15e33e7a43cdb080665143f7c279" source="id-28c8cd553fe64416b8a2a2a48cb3ef48" target="id-b61f8e19f444449188b6280053579add" archimateRelationship="id-2521ed154a934eafa7aa982c09eaf1d3"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-3b97a4fa043449b0b31fcc317d258e7d" source="id-28c8cd553fe64416b8a2a2a48cb3ef48" target="id-8be4580d3cdc4796a07e5fc52dea46ff" archimateRelationship="id-0de4dc3287fe45f29e87c2f141147810"/>
             <child xsi:type="archimate:DiagramObject" id="id-8be4580d3cdc4796a07e5fc52dea46ff" targetConnections="id-3b97a4fa043449b0b31fcc317d258e7d" textPosition="1" archimateElement="id-981c0fa360d14aaa8e8627a6014dbc04">
               <bounds x="18" y="42" width="137" height="71"/>
               <feature name="gradient" value="1"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-4a2af209c87848dab7e4712df8686154" source="id-8be4580d3cdc4796a07e5fc52dea46ff" target="id-b61f8e19f444449188b6280053579add" archimateRelationship="id-253568efa1204fb0a478923b018a9cce"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-b61f8e19f444449188b6280053579add" targetConnections="id-4a2af209c87848dab7e4712df8686154 id-a25b15e33e7a43cdb080665143f7c279" textPosition="1" archimateElement="id-9aa244a872de48318bd547d96d5bb7d4">
+            <child xsi:type="archimate:DiagramObject" id="id-b61f8e19f444449188b6280053579add" targetConnections="id-a25b15e33e7a43cdb080665143f7c279 id-4a2af209c87848dab7e4712df8686154" textPosition="1" archimateElement="id-9aa244a872de48318bd547d96d5bb7d4">
               <bounds x="171" y="42" width="137" height="71"/>
               <feature name="gradient" value="1"/>
             </child>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-732ee16abc48436d8f883ad8ac835778" targetConnections="id-40ee104a223f47fc83585489613aafc5" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-61082551b4ce4ae9a2aa38dfe4857ca9">
-            <bounds x="42" y="60" width="1093" height="127"/>
+            <bounds x="14" y="72" width="1093" height="127"/>
             <feature name="gradient" value="1"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-dc5497ffb74446d8bb6dfc88d0f38c43" source="id-732ee16abc48436d8f883ad8ac835778" target="id-30b8171c51774eb198edf4204c205576" archimateRelationship="id-d9b1d8cb5c8b419d8196a726f2486767"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-032df53f922c4a85b3ed3a2a48747fb1" source="id-732ee16abc48436d8f883ad8ac835778" target="id-1f52a214c9b14b3c98ef491e34350a16" archimateRelationship="id-d73f33bf9de44f03bb8b192ffd5598e8"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-dc5497ffb74446d8bb6dfc88d0f38c43" source="id-732ee16abc48436d8f883ad8ac835778" target="id-8174885164084c6abc4c2d688f1bbf66" archimateRelationship="id-d9b1d8cb5c8b419d8196a726f2486767"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-addb33fac61a4cec8277f1bf528c2815" source="id-732ee16abc48436d8f883ad8ac835778" target="id-e1109d5053ba40049bf43fbc6e33910a" archimateRelationship="id-4dd60faedeaa4d51a448055090b684d8"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-3b4b5c2ae6ab43b7914716d33d85252e" source="id-732ee16abc48436d8f883ad8ac835778" target="id-befb84f980eb41ae97bf0c80603d520f" archimateRelationship="id-e50245406a294352b37a8c2f003970df"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-da6fd9a079f64c9faf5783508f659087" source="id-732ee16abc48436d8f883ad8ac835778" target="id-b6eafa6b66574f3d919985117dee7f1c" archimateRelationship="id-a401cab795924f05b9a2c8f54ae8128d"/>
-            <child xsi:type="archimate:DiagramObject" id="id-1f52a214c9b14b3c98ef491e34350a16" targetConnections="id-b68945eb474f46aabd54f11d49e4fb5d id-032df53f922c4a85b3ed3a2a48747fb1" textPosition="1" archimateElement="id-620fadc88bbc4cd5afc57eb614c67ad0">
-              <bounds x="174" y="36" width="137" height="71"/>
-              <feature name="gradient" value="1"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-de65c26c80c7470da2b9ffade2bdae22" source="id-1f52a214c9b14b3c98ef491e34350a16" target="id-e1109d5053ba40049bf43fbc6e33910a" archimateRelationship="id-b1bc1e101c4f4564871487cb03478a47"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-befb84f980eb41ae97bf0c80603d520f" targetConnections="id-c24d11cc176a415e8b3c55be74b5d8e9 id-3b4b5c2ae6ab43b7914716d33d85252e" textPosition="1" archimateElement="id-6efbf826bcc342938ab0e9bc18ee335a">
-              <bounds x="480" y="36" width="137" height="71"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-032df53f922c4a85b3ed3a2a48747fb1" source="id-732ee16abc48436d8f883ad8ac835778" target="id-1f52a214c9b14b3c98ef491e34350a16" archimateRelationship="id-d73f33bf9de44f03bb8b192ffd5598e8"/>
+            <child xsi:type="archimate:DiagramObject" id="id-1f52a214c9b14b3c98ef491e34350a16" targetConnections="id-032df53f922c4a85b3ed3a2a48747fb1 id-350693e739cd45fbb9afda3484b963dd" textPosition="1" archimateElement="id-620fadc88bbc4cd5afc57eb614c67ad0">
+              <bounds x="420" y="36" width="137" height="71"/>
               <feature name="gradient" value="1"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-b6eafa6b66574f3d919985117dee7f1c" targetConnections="id-da6fd9a079f64c9faf5783508f659087" textPosition="1" archimateElement="id-239051e6402244fcaafee61373157e5a">
               <bounds x="21" y="36" width="137" height="71"/>
               <feature name="gradient" value="1"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-b68945eb474f46aabd54f11d49e4fb5d" source="id-b6eafa6b66574f3d919985117dee7f1c" target="id-1f52a214c9b14b3c98ef491e34350a16" archimateRelationship="id-e495086591f24cf58c4777fa674a9d71"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-b68945eb474f46aabd54f11d49e4fb5d" source="id-b6eafa6b66574f3d919985117dee7f1c" target="id-e1109d5053ba40049bf43fbc6e33910a" archimateRelationship="id-e495086591f24cf58c4777fa674a9d71"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="id-e1109d5053ba40049bf43fbc6e33910a" targetConnections="id-de65c26c80c7470da2b9ffade2bdae22 id-addb33fac61a4cec8277f1bf528c2815" textPosition="1" archimateElement="id-e738ffecb0554b978c6cc32388e331a1">
-              <bounds x="327" y="36" width="137" height="71"/>
+            <child xsi:type="archimate:DiagramObject" id="id-e1109d5053ba40049bf43fbc6e33910a" targetConnections="id-addb33fac61a4cec8277f1bf528c2815 id-b68945eb474f46aabd54f11d49e4fb5d" textPosition="1" archimateElement="id-e738ffecb0554b978c6cc32388e331a1">
+              <bounds x="228" y="36" width="137" height="71"/>
               <feature name="gradient" value="1"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-c24d11cc176a415e8b3c55be74b5d8e9" source="id-e1109d5053ba40049bf43fbc6e33910a" target="id-befb84f980eb41ae97bf0c80603d520f" archimateRelationship="id-3c1ee6729e174c06b892f24165b97c69"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-350693e739cd45fbb9afda3484b963dd" source="id-e1109d5053ba40049bf43fbc6e33910a" target="id-1f52a214c9b14b3c98ef491e34350a16" archimateRelationship="id-f39a1593e31c406e8ad44eebbff31c0e"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-8174885164084c6abc4c2d688f1bbf66" targetConnections="id-a9e7c062f38f4891a8669856a5c5994b id-dc5497ffb74446d8bb6dfc88d0f38c43" archimateElement="id-7211fe4a63a0483ebd342852bbba4ef9">
+            <bounds x="14" y="204" width="1093" height="145"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-7ad655bf62124696ade45fef007f2a44" source="id-8174885164084c6abc4c2d688f1bbf66" target="id-980e6bd4030c41618545cf3de91a0144" archimateRelationship="id-388b67fd5cb943928cfff385a2a1e538"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-fa818eb0002d4144808079bfb4ca385e" source="id-8174885164084c6abc4c2d688f1bbf66" target="id-5630e1360d73477db0ece8eea6a4a5ea" archimateRelationship="id-70741a3f70bf49b7bd508d9910c50328"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-40f2e184f6184688896694bdf0f75494" source="id-8174885164084c6abc4c2d688f1bbf66" target="id-03a6a7d38cc54035b9d2aecd80f332fd" archimateRelationship="id-e800737b53db4fe0adae01839c690342"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-2553546108cb47b7abc394edff672c38" source="id-8174885164084c6abc4c2d688f1bbf66" target="id-30b8171c51774eb198edf4204c205576" archimateRelationship="id-765952ffb5cd40d1b83d91be0b341cb9"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-1edb86c223b243d5b8c9f5d46b0dc218" source="id-8174885164084c6abc4c2d688f1bbf66" target="id-7712858f9c1d41eeabb9ed76f4144905" archimateRelationship="id-21d7d8bed989443388dd5a9bcf3fd666"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-533c36d2e9ac4e95ac41ca567571d94e" source="id-8174885164084c6abc4c2d688f1bbf66" target="id-a204e521e70f4f87908d93c9d57704f0" archimateRelationship="id-4d3a3cd55b0a48f2b96e0ba8d71ff28f"/>
+            <child xsi:type="archimate:DiagramObject" id="id-03a6a7d38cc54035b9d2aecd80f332fd" targetConnections="id-40f2e184f6184688896694bdf0f75494" textPosition="1" archimateElement="id-66c46c1d186a4cde83b98bfbf3b54e33">
+              <bounds x="36" y="36" width="137" height="71"/>
+              <feature name="gradient" value="1"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-69e32a07f3124e4bb1f8108ee3d9770a" source="id-03a6a7d38cc54035b9d2aecd80f332fd" target="id-a204e521e70f4f87908d93c9d57704f0" archimateRelationship="id-286f61d0b28e4fd4ad09f39320d8e2ff"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-5630e1360d73477db0ece8eea6a4a5ea" targetConnections="id-fa818eb0002d4144808079bfb4ca385e id-23a9f81691ec492ab210295bea9f939e" archimateElement="id-068ad146f0794295ac49c03943992a5f">
+              <bounds x="360" y="44" width="133" height="71"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-da690f9cf3a149a8b2b8853b8fa10b2f" source="id-5630e1360d73477db0ece8eea6a4a5ea" target="id-980e6bd4030c41618545cf3de91a0144" archimateRelationship="id-53b96ccfe4ca4e0399df64e7300a7a5d"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-980e6bd4030c41618545cf3de91a0144" targetConnections="id-7ad655bf62124696ade45fef007f2a44 id-da690f9cf3a149a8b2b8853b8fa10b2f" archimateElement="id-3d1e418d46ce4be0b99c25d1cfbbf3af">
+              <bounds x="528" y="44" width="193" height="71"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-524aaf54549d48febb594a3b50cda61f" source="id-980e6bd4030c41618545cf3de91a0144" target="id-7712858f9c1d41eeabb9ed76f4144905" archimateRelationship="id-fe18910d8a6f437a87a0483d120d5d5d"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-7712858f9c1d41eeabb9ed76f4144905" targetConnections="id-1edb86c223b243d5b8c9f5d46b0dc218 id-524aaf54549d48febb594a3b50cda61f" archimateElement="id-708123eb06814b4994b9637289bbf979">
+              <bounds x="780" y="44" width="133" height="71"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-a204e521e70f4f87908d93c9d57704f0" targetConnections="id-533c36d2e9ac4e95ac41ca567571d94e id-69e32a07f3124e4bb1f8108ee3d9770a" archimateElement="id-f8fa3c3726664e769876bfaf77c3bbd5">
+              <bounds x="192" y="36" width="133" height="71"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-23a9f81691ec492ab210295bea9f939e" source="id-a204e521e70f4f87908d93c9d57704f0" target="id-5630e1360d73477db0ece8eea6a4a5ea" archimateRelationship="id-7b23f021bf0941c7b8885200bff72026"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-892861f05f914c3895460bddfc000ae7" targetConnections="id-4ffd0e9e4574409c9ccac89240335196 id-08dff30e40b544928df18b12ea21abca" archimateElement="id-2f10c7bb317f42a48698a7133ed39644">
+            <bounds x="27" y="924" width="1087" height="97"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-93a75c0e619e40fbba34d9d9e97977a7" source="id-892861f05f914c3895460bddfc000ae7" target="id-f2e5c87d4e0c436b807eef924caeec65" archimateRelationship="id-0140bbf187f54b5f96306bccce44b23b"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-f2e5c87d4e0c436b807eef924caeec65" targetConnections="id-95af7a75fec0470fbfd5753f879486f3 id-93a75c0e619e40fbba34d9d9e97977a7" archimateElement="id-484103d09e9a4312b6b36eca5644ec57">
+            <bounds x="35" y="1044" width="1072" height="85"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-f170d322513b4751ad996aacc55e5e57" source="id-f2e5c87d4e0c436b807eef924caeec65" target="id-1d92c372c0ed417b9770a083121289d4" archimateRelationship="id-f98c97c210c64167b66ad54c2405f433"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-1d92c372c0ed417b9770a083121289d4" targetConnections="id-c34991dfcb8946a0afa923d750a52dca id-f170d322513b4751ad996aacc55e5e57" archimateElement="id-eecdaf9c4f2a418aa4e1a18527b91b77">
+            <bounds x="36" y="1166" width="1071" height="95"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-098b0a45494446b8a96351463e466d97" source="id-1d92c372c0ed417b9770a083121289d4" target="id-70e07bba141f43928f121b13c6ef2798" archimateRelationship="id-9d332d198c8e4316b5fada12549451ee"/>
+            <child xsi:type="archimate:DiagramObject" id="id-70e07bba141f43928f121b13c6ef2798" targetConnections="id-098b0a45494446b8a96351463e466d97" textPosition="1" archimateElement="id-4d6cbb6e37fa4cb7a63edc46993d12b9">
+              <bounds x="36" y="12" width="137" height="71"/>
+              <feature name="gradient" value="1"/>
             </child>
           </child>
         </child>
