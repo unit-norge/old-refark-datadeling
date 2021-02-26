@@ -5950,8 +5950,8 @@ https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2017/06/28/CEN+Publishes
       <property key="modelx:author_name"/>
       <property key="modelx:author_email"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Forvaltning av målarkitekturen" id="id-a2b10750237141dd885d374f1cb067fd">
-      <documentation>Tekst forvaltning av målarkitekturen&#xD;
+    <element xsi:type="archimate:Representation" name="Rutiner" id="id-a2b10750237141dd885d374f1cb067fd">
+      <documentation>Tekst for rutiner&#xD;
 &#xD;
 #Tekst om overgangen fra kapabilitetene og løsningene beskrevet&#xD;
 over til informasjonsforvaltning og definisjon av datasett.#&#xD;
@@ -5965,7 +5965,7 @@ definert ut fra en dyp forståelse av sektorenes funksjon og vil typisk&#xD;
 være forholdsvis stabile over tid. Definisjon av …[mer tekst her]</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-forvaltning"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-rutiner"/>
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:guid" value="id-a2b10750237141dd885d374f1cb067fd"/>
       <property key="difi:metaLevel" value="undefined"/>
@@ -6164,32 +6164,11 @@ for *_deling og innhenting av data og hendelser_*.&#xD;
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Felleskomponenter" id="id-441dccdd98b0431c91b11d7d29c2f26b">
-      <documentation>Tekst felleskomponenter&#xD;
-&#xD;
-#(i sektoren hittil har «felles» betyd både at alle bruker samme instans,&#xD;
-eller at alle har identiske instanser – vi må presisere hva som er&#xD;
-hva etter hvert)#&#xD;
-&#xD;
- &#xD;
-&#xD;
-Innledende tekst om hva slags funksjonalitet vi trenger i&#xD;
-felleskomponenter og hvorfor, motivert fra kapabilitetene over.&#xD;
-&#xD;
-//Erik&#xD;
-#Jeg har laget et Archimate view som heter «Felleskomponenter»,&#xD;
-men jeg vil ikke ha bildet, bare teksten som står i beskrivelse av&#xD;
-kompontenene#&#xD;
-&#xD;
-* Autentiseringstjeneste​&#xD;
-* API manager​&#xD;
-* API katalog / datakatalog ​&#xD;
-* API gateway​&#xD;
-* Autorisasjonstjeneste / Nøkkelutsteder ​&#xD;
-* Klient register​&#xD;
-* Identity Governance Administration (IGA)​&#xD;
+      <documentation>Innledende tekst om hva slags funksjonalitet vi trenger i&#xD;
+felleskomponenter og hvorfor, motivert fra kapabilitetene.&#xD;
 &#xD;
 &#xD;
-#Heidi NB: mangler komponenter for hendelsesstrømming/-publisering#</documentation>
+#Heidi NB: mangler komponenter for hendelsesstrømming/-publisering og input om komponentene fra IAM projsektet#</documentation>
       <property key="dct:type" value="modelx:archimate_view"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
@@ -6313,7 +6292,9 @@ utover vedlikeholdbarheten til API-ene.» Gartner bruker også den.  </docu
       <property key="difi:notes"/>
     </element>
     <element xsi:type="archimate:Representation" name="Roller og ansvar for informasjonsforvaltning" id="id-f250d1d6d79d4bf3bee89a8b47dfe1a4">
-      <documentation>Vi mener at følgende roller, dekker behovene samt holder kompleksiteten&#xD;
+      <documentation>Tekst for roller og ansvar&#xD;
+&#xD;
+Vi mener at følgende roller, dekker behovene samt holder kompleksiteten&#xD;
 på et håndterbart nivå når det gjelder informasjonsforvaltning ved&#xD;
 deling av data:&#xD;
 &#xD;
@@ -6508,7 +6489,7 @@ Konsumenter med sammenfallende behov har ansvar for å samordne seg.&#xD;
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-forvaltning"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-roller"/>
       <property key="modelx:guid" value="id-f250d1d6d79d4bf3bee89a8b47dfe1a4"/>
       <property key="difi:metaLevel" value="undefined"/>
       <property key="difi:namespace" value="-"/>
@@ -6778,36 +6759,31 @@ resultatene fra tidligere steg.</documentation>
       <property key="modelx:view_reference" value="id-3b92345f88bd44ce8224c6f19063a5ea"/>
       <property key="drill down" value="id-3b92345f88bd44ce8224c6f19063a5ea"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Dataobjekter eOppslag UHF" id="id-703aeda277ba4d1dbf3c5d1ef33fe5fb">
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-målarkitekturen"/>
-      <property key="dct:type" value="modelx:archimate_view"/>
-      <property key="modelx:view_reference" value="id-5a3b9d77bc78480aa5dafee567a9cf97"/>
-      <property key="drill down" value="id-5a3b9d77bc78480aa5dafee567a9cf97"/>
-    </element>
     <element xsi:type="archimate:Representation" name="Metode" id="id-7211fe4a63a0483ebd342852bbba4ef9">
       <property key="dct:type" value="modelx:section"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_module" value="unit-ra-datadeling-metode"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Vedlegg 3 - " id="id-2f10c7bb317f42a48698a7133ed39644">
+    <element xsi:type="archimate:Representation" name="Vedlegg 3 - Muliggjørende økosystem" id="id-2f10c7bb317f42a48698a7133ed39644">
+      <documentation>Tekst muliggjørende økosystem</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-definisjoner"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-muliggjørende-økosystem"/>
       <property key="dct:type" value="modelx:section"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Vedlegg 4" id="id-484103d09e9a4312b6b36eca5644ec57">
+    <element xsi:type="archimate:Representation" name="Vedlegg 4 - Behov og bruksområder" id="id-484103d09e9a4312b6b36eca5644ec57">
+      <documentation>Tekst behov og bruksområder</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-definisjoner"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-behov-og-bruksområder"/>
       <property key="dct:type" value="modelx:section"/>
     </element>
-    <element xsi:type="archimate:Representation" name="Vedlegg 5" id="id-eecdaf9c4f2a418aa4e1a18527b91b77">
+    <element xsi:type="archimate:Representation" name="Vedlegg 5 - Føringer, pågående og videre arbeid" id="id-eecdaf9c4f2a418aa4e1a18527b91b77">
+      <documentation>Tekst føringer</documentation>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_module" value="unit-ra-datadeling-definisjoner"/>
+      <property key="modelx:antora_module" value="unit-ra-datadeling-føringer"/>
       <property key="dct:type" value="modelx:section"/>
     </element>
     <element xsi:type="archimate:Representation" name="Domener" id="id-708123eb06814b4994b9637289bbf979">
@@ -8300,7 +8276,9 @@ https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eSignature &#xD;
       <property key="dct:type" value="archi:application-service"/>
     </element>
     <element xsi:type="archimate:ApplicationService" name="Autentiseringstjeneste" id="44ced331-4cf1-4599-a2e6-d5be20b80a6d">
-      <documentation>Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.</documentation>
+      <documentation>Tjeneste som benyttes av tilbyder for å autentisere aktuell konsument.&#xD;
+&#xD;
+Avventer input fra IAM projsektet.</documentation>
       <property key="difi:namespace" value="unit"/>
       <property key="modelx:antora_component" value="null"/>
       <property key="modelx:antora_version" value="null"/>
@@ -10105,7 +10083,9 @@ Definisjon av regler for tilgang til et eller flere API</documentation>
       <property key="difi:namespace" value="unit"/>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Identity Goveranance Administration (IGA)" id="id-1ee0cb3bc8544277a1f57a204a7031d3">
-      <documentation>Identitets- og tilgangsstyring (IAM) handler om å gi studenter, forskere og ansatte riktig tilgang til digitale systemer, tjenester og ressurser, samt avslutte tilgang for brukere som ikke lenger skal ha det.</documentation>
+      <documentation>Identitets- og tilgangsstyring (IAM) handler om å gi studenter, forskere og ansatte riktig tilgang til digitale systemer, tjenester og ressurser, samt avslutte tilgang for brukere som ikke lenger skal ha det.&#xD;
+&#xD;
+Avventer input fra IAM prosjektet</documentation>
     </element>
   </folder>
   <folder name="Technology &amp; Physical" id="id-6eed3a8befea4b68ba756aa7f309f0d4" type="technology">
@@ -23189,7 +23169,7 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
       <property key="label" value="${name}"/>
       <property key="difi:notes"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-a27f8ea1cb9c4ed699fdd79204a6dcb1" source="id-a2b10750237141dd885d374f1cb067fd" target="id-142edeb394bb42478e6d6b85d5228d86">
+    <element xsi:type="archimate:AssociationRelationship" id="id-a27f8ea1cb9c4ed699fdd79204a6dcb1" source="id-a2b10750237141dd885d374f1cb067fd" target="id-f250d1d6d79d4bf3bee89a8b47dfe1a4">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:guid" value="id-a27f8ea1cb9c4ed699fdd79204a6dcb1"/>
@@ -23405,42 +23385,6 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
       <property key="label" value="${name}"/>
       <property key="difi:notes"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-5c2c5123ee3f4797b5297d94479c1d11" source="id-c10096bcdd784cd985a921f60c6f0d65" target="id-f250d1d6d79d4bf3bee89a8b47dfe1a4">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-5c2c5123ee3f4797b5297d94479c1d11"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:association-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
-    <element xsi:type="archimate:AggregationRelationship" id="id-0f1ee5419722496abecb97f0b74a0484" source="id-a2b10750237141dd885d374f1cb067fd" target="id-f250d1d6d79d4bf3bee89a8b47dfe1a4">
-      <property key="modelx:antora_version" value="main"/>
-      <property key="modelx:antora_component" value="unit-ra"/>
-      <property key="modelx:guid" value="id-0f1ee5419722496abecb97f0b74a0484"/>
-      <property key="difi:metaLevel" value="undefined"/>
-      <property key="dct:type" value="archi:aggregation-relationship"/>
-      <property key="difi:namespace" value="-"/>
-      <property key="difi:abstractionLevel" value="undefined"/>
-      <property key="digdir:link1"/>
-      <property key="digdir:logo"/>
-      <property key="difi:language" value="no"/>
-      <property key="difi:name_no"/>
-      <property key="difi:name_en"/>
-      <property key="difi:description_no"/>
-      <property key="difi:description_en"/>
-      <property key="label" value="${name}"/>
-      <property key="difi:notes"/>
-    </element>
     <element xsi:type="archimate:AggregationRelationship" id="id-0de4dc3287fe45f29e87c2f141147810" source="id-1443b0bf650f4e90b3b7e831fb3df794" target="id-981c0fa360d14aaa8e8627a6014dbc04">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
@@ -23459,7 +23403,7 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
       <property key="label" value="${name}"/>
       <property key="difi:notes"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-253568efa1204fb0a478923b018a9cce" source="id-981c0fa360d14aaa8e8627a6014dbc04" target="id-9aa244a872de48318bd547d96d5bb7d4" directed="true">
+    <element xsi:type="archimate:AssociationRelationship" id="id-253568efa1204fb0a478923b018a9cce" source="id-981c0fa360d14aaa8e8627a6014dbc04" target="id-9aa244a872de48318bd547d96d5bb7d4">
       <property key="modelx:antora_version" value="main"/>
       <property key="modelx:antora_component" value="unit-ra"/>
       <property key="modelx:guid" value="id-253568efa1204fb0a478923b018a9cce"/>
@@ -23585,13 +23529,10 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     </element>
     <element xsi:type="archimate:CompositionRelationship" id="id-1fe85de2f90344f0bcb7bfcef2fdab88" source="id-465d0ad2236b4b35a7bee699a39d3a71" target="id-2459a873dc2e4d3fb21e713146a06635"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-f32d7a0b7e614efea13a1df6f78d83a5" source="id-2459a873dc2e4d3fb21e713146a06635" target="id-fb98fe17dc9d405597f956516270346f"/>
-    <element xsi:type="archimate:AggregationRelationship" id="id-183ec7ca3105482bb02a65695cce295f" source="id-4bb69d1b82094d9f890a6a1805926030" target="id-703aeda277ba4d1dbf3c5d1ef33fe5fb"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-3ac775b88f4949769f97543953e43620" source="id-703aeda277ba4d1dbf3c5d1ef33fe5fb" target="id-dee14b64b25b4ad3b40615e0721d2dce"/>
     <element xsi:type="archimate:ServingRelationship" id="id-1b44149f5f4843bb99cff3655218d72d" source="id-790edbc925b24187adbccb11b66a37b4" target="id-790edbc925b24187adbccb11b66a37b4"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-b94ae55dc6ac4b41822411bc4bc10c12" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-7211fe4a63a0483ebd342852bbba4ef9"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-765952ffb5cd40d1b83d91be0b341cb9" source="id-7211fe4a63a0483ebd342852bbba4ef9" target="id-ed01a21019c94c459b98713ff4522e5a"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-ec9deb8e5dfd47f080c3f6b566e05752" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-2f10c7bb317f42a48698a7133ed39644"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-30ed9fa2938247589af6292fe15ea0d3" source="id-1443b0bf650f4e90b3b7e831fb3df794" target="id-2f10c7bb317f42a48698a7133ed39644"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-7ccd15ad928b49c0a056d837b7a288c7" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-484103d09e9a4312b6b36eca5644ec57"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0140bbf187f54b5f96306bccce44b23b" source="id-2f10c7bb317f42a48698a7133ed39644" target="id-484103d09e9a4312b6b36eca5644ec57"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-78c1fbb6be06460b8ef136a45c2d80dd" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-eecdaf9c4f2a418aa4e1a18527b91b77"/>
@@ -23606,6 +23547,9 @@ Data gjennom en tjeneste/API kan gi mer avanserte tilganger for spørring i data
     <element xsi:type="archimate:AssociationRelationship" id="id-286f61d0b28e4fd4ad09f39320d8e2ff" source="id-66c46c1d186a4cde83b98bfbf3b54e33" target="id-f8fa3c3726664e769876bfaf77c3bbd5"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-7b23f021bf0941c7b8885200bff72026" source="id-f8fa3c3726664e769876bfaf77c3bbd5" target="id-068ad146f0794295ac49c03943992a5f"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-f39a1593e31c406e8ad44eebbff31c0e" source="id-e738ffecb0554b978c6cc32388e331a1" target="id-620fadc88bbc4cd5afc57eb614c67ad0"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-b335cb7fc9e84a838d3aa3d8cd308ce0" source="id-4ba1495ee9074380a2bf896da41834f3" target="id-f250d1d6d79d4bf3bee89a8b47dfe1a4"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-2b11adafa620405fa15be3235893940a" source="id-f250d1d6d79d4bf3bee89a8b47dfe1a4" target="id-142edeb394bb42478e6d6b85d5228d86"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-858a0ef22d3f40b596bb9e6877664bea" source="id-1443b0bf650f4e90b3b7e831fb3df794" target="id-2f10c7bb317f42a48698a7133ed39644"/>
   </folder>
   <folder name="Views" id="id-0ad38d6c238f4fb9b713e53aa221c21e" type="diagrams">
     <folder name="1. Gjeldende bibliotek" id="074262ac-6dab-4f0f-8f3b-cc81cc2590f1">
@@ -35080,7 +35024,7 @@ Designen avbildet er laget for å støtte følgende karakteristikk: &#xD;
             </child>
             <documentation>En prosessflyt som datatilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom kataloger og søkeløsninger. Metadata om APIet blir registrert i API-katalogen. Metadata inkluderer begreper og datamodeller omfattet av datasettet som APIet tilgjengeliggjør, samt tilganger (scopes) knyttet til APIet som kan tildeles konsumenter.&#xD;
 &#xD;
-APIet registrert i UHF API katalog blir høstet inn i Felles API katalog. Vi ønsker at tilganger (scopes) skal i tillegg registreres i Maskinporten slik at konsumenter utenfor UHF sektoren kan oppdage APIet og be om tilgang på et senere tidspunkt.&#xD;
+APIet registrert i UHF API katalog blir høstet inn i Felles API katalog. Vi ønsker at tilganger (scopes) skal i tillegg kunne registreres i Maskinporten slik at konsumenter utenfor UHF sektoren kan oppdage APIet og be om tilgang på et senere tidspunkt.&#xD;
 </documentation>
             <property key="difi:antoraViewImagePath"/>
             <property key="difi:antoraViewPath"/>
@@ -35256,27 +35200,27 @@ en sluttbrukers rolle hos en institusjon.&#xD;
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Felleskomponenter" id="id-0ca2215fc0c54bae9529896c8e00832c" viewpoint="application_cooperation">
             <child xsi:type="archimate:DiagramObject" id="id-e45b8440b1834c94afdb5b6e1590a7d7" archimateElement="44ced331-4cf1-4599-a2e6-d5be20b80a6d" type="1">
-              <bounds x="24" y="12" width="133" height="71"/>
+              <bounds x="96" y="82" width="133" height="71"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-a6478ba927d445009eb72d210d4865d4" archimateElement="id-46f10831ae0b41d292a6f0c8e89f9db0">
-              <bounds x="24" y="96" width="133" height="71"/>
+              <bounds x="540" y="82" width="193" height="123"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c879866a9dd147e89d033e07b1d42be2" source="id-a6478ba927d445009eb72d210d4865d4" target="id-a4000106963342e0b226088f7a9f3938" archimateRelationship="id-b7889b4b2a8e47b6ad70052f4882ca92"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-a4000106963342e0b226088f7a9f3938" targetConnections="id-c879866a9dd147e89d033e07b1d42be2" archimateElement="id-79d5bb2a2ac64ca2a82207bcfd2945b6">
-              <bounds x="132" y="192" width="133" height="71"/>
+              <child xsi:type="archimate:DiagramObject" id="id-a4000106963342e0b226088f7a9f3938" targetConnections="id-c879866a9dd147e89d033e07b1d42be2" archimateElement="id-79d5bb2a2ac64ca2a82207bcfd2945b6">
+                <bounds x="36" y="36" width="133" height="71"/>
+              </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-7b6f209af2fc41ff98fe14134c5d5179" archimateElement="id-96514499518349619a8e277dfafc274b">
-              <bounds x="24" y="276" width="133" height="71"/>
+              <bounds x="780" y="82" width="133" height="71"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-ff49b9d50f64484da3509ab88f472bda" archimateElement="id-790edbc925b24187adbccb11b66a37b4">
-              <bounds x="24" y="360" width="133" height="71"/>
+              <bounds x="288" y="82" width="205" height="123"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-05fa8c60800843879391c80f048b1786" source="id-ff49b9d50f64484da3509ab88f472bda" target="id-caf62c1a3109473781c5f7e0fc01e7e5" archimateRelationship="id-abadb2fa079340a1b5ac51754140738d"/>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-caf62c1a3109473781c5f7e0fc01e7e5" targetConnections="id-05fa8c60800843879391c80f048b1786" archimateElement="id-51e6a038ba824aacac9a13d7eef336aa">
-              <bounds x="108" y="456" width="133" height="71"/>
+              <child xsi:type="archimate:DiagramObject" id="id-caf62c1a3109473781c5f7e0fc01e7e5" targetConnections="id-05fa8c60800843879391c80f048b1786" archimateElement="id-51e6a038ba824aacac9a13d7eef336aa">
+                <bounds x="48" y="36" width="133" height="71"/>
+              </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-d3ff07eaae3c4217b90c70c53023064c" archimateElement="id-1ee0cb3bc8544277a1f57a204a7031d3">
-              <bounds x="36" y="576" width="133" height="71"/>
+              <bounds x="108" y="166" width="133" height="71"/>
             </child>
             <documentation>Tekst fra viewet felleskomponenter</documentation>
           </element>
@@ -35875,20 +35819,20 @@ en sluttbrukers rolle hos en institusjon.&#xD;
           </element>
           <element xsi:type="archimate:ArchimateDiagramModel" name="Helhetsbilde" id="id-354c72d10aef41fca2ff5cc73a6127d0">
             <child xsi:type="archimate:DiagramObject" id="id-89a564d298b9402996841f7d84f94663" archimateElement="id-36fa645e01d141c1b807889d42774f7d">
-              <bounds x="424" y="456" width="193" height="40"/>
+              <bounds x="496" y="156" width="193" height="40"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-855ad39c20c247d1b4e27719c6d13bd2" source="id-89a564d298b9402996841f7d84f94663" target="id-4894c783f26241449b8f64a863200aea" archimateRelationship="id-735b36a025304c7fb642c495f60f90a9"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c5fd78e687d84e4f9dbcf3a9ddb668b4" source="id-89a564d298b9402996841f7d84f94663" target="id-b5cae40116824e2584aa0520c84770c7" archimateRelationship="id-7e0f415d330e4f10969ec96b6aef832d"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-92a1c9edd8a646b7bfe7fec3fd447917" archimateElement="id-e2971bd88daa49b38e81f184294330a7">
-              <bounds x="461" y="540" width="120" height="55"/>
+              <bounds x="533" y="240" width="120" height="55"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-64bc186c9b8242428faa9eee571964ac" source="id-92a1c9edd8a646b7bfe7fec3fd447917" target="id-7b5b16689f034066a507caddf7f2ae17" archimateRelationship="id-4c4c9e997e384e1892eb568a44882f9d"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-f608285577fa45ea968a517fde849b62" source="id-92a1c9edd8a646b7bfe7fec3fd447917" target="id-20a62c10ef1749ecb9d5241addfe3588" archimateRelationship="id-d67bfe94f6274277bc8321f7176611c0"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-1febb156355b4f0794b8a3ebb00b9185" targetConnections="id-670fdaf868e14ba887f4c5cd0423f04f" archimateElement="id-be9efa485f4743029c068ea7f7833e97">
-              <bounds x="450" y="739" width="205" height="25"/>
+              <bounds x="522" y="439" width="205" height="25"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-77883b6993c54dc6ad30b822337b06e1" archimateElement="id-635cc05dc0794c25add2597e49ecc28c">
-              <bounds x="48" y="432" width="325" height="181"/>
+              <bounds x="120" y="132" width="325" height="181"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-5a1a20e3707f476bbe1ed057ee8401f1" source="id-77883b6993c54dc6ad30b822337b06e1" target="id-5456ee689b744928a0a29ceac06d9e1f" archimateRelationship="id-332a319305b54154af604accaad19fe6"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-436212749e094960a985666d20c20fe6" source="id-77883b6993c54dc6ad30b822337b06e1" target="id-4894c783f26241449b8f64a863200aea" archimateRelationship="id-4768a8128d3646489adf4ebe9e1c3ae3"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-c384461cab6f4d5f824ba3650cf21e04" source="id-77883b6993c54dc6ad30b822337b06e1" target="id-af08f58746994cfd87b87560d9bcf916" archimateRelationship="id-2a7b9ac3187f4ff4920ce561f48bed20"/>
@@ -35910,12 +35854,12 @@ en sluttbrukers rolle hos en institusjon.&#xD;
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-799f87f0142c46f9ac47018bdcc66027" archimateElement="id-a0f33c37cc604fb181d8c6e9bf543d61">
-              <bounds x="-108" y="495" width="120" height="55"/>
+              <bounds x="-36" y="195" width="120" height="55"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-ed556c6ac6754d638e0d495e7d23b6b8" source="id-799f87f0142c46f9ac47018bdcc66027" target="id-5456ee689b744928a0a29ceac06d9e1f" archimateRelationship="id-82ec8b5756c2495cb176f3f242228cd9"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-fed15428e2184a6fa0aca9911b03b369" source="id-799f87f0142c46f9ac47018bdcc66027" target="id-af08f58746994cfd87b87560d9bcf916" archimateRelationship="id-04cbada913584747a33853634ec4e42c"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-24ceaefd1a6b474fb88f66112fa090b0" archimateElement="id-6abe43b6de2e4f4ca08a3802a8ada081">
-              <bounds x="708" y="384" width="169" height="313"/>
+              <bounds x="780" y="84" width="169" height="313"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-b79efc1d25464a9b926917efe410c368" source="id-24ceaefd1a6b474fb88f66112fa090b0" target="id-b5cae40116824e2584aa0520c84770c7" archimateRelationship="id-ffc000d82d0b41e09e7694b50489c806"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-f4c33e63e4e5429eb428be34caabb20b" source="id-24ceaefd1a6b474fb88f66112fa090b0" target="id-20a62c10ef1749ecb9d5241addfe3588" archimateRelationship="id-a3675541a60f47e7b712a656181b758e"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-3a1b3634f0dd4fd281065781f63dbfcb" source="id-24ceaefd1a6b474fb88f66112fa090b0" target="id-cc81fc099e9f419497fa957d76143533" archimateRelationship="id-c242817790064c24bdc0769292342f4b"/>
@@ -35933,7 +35877,7 @@ en sluttbrukers rolle hos en institusjon.&#xD;
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-e7716506ac264ca2bfddea0f6cf2ab9c" targetConnections="id-e0e9daafe9e947a0860c4ed8b02abd54" archimateElement="id-d7b2302f9ead4980bf47ebf1b5ab9de9">
-              <bounds x="733" y="724" width="120" height="55"/>
+              <bounds x="805" y="424" width="120" height="55"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-670fdaf868e14ba887f4c5cd0423f04f" source="id-e7716506ac264ca2bfddea0f6cf2ab9c" target="id-1febb156355b4f0794b8a3ebb00b9185" archimateRelationship="id-88e95e0402b04236bbf9fd400c82ab8e"/>
             </child>
             <property key="difi:namespace" value="unit"/>
@@ -36686,7 +36630,7 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
       </folder>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Referansearkitektur for deling av data i høyere utdanning og forsking" id="id-67efac9af26d4e9d9365f15392948f11">
         <child xsi:type="archimate:DiagramObject" id="id-4e2d426a7d7c42b99800ae19f519c3d8" font="1|Segoe UI|18.0|1|WINDOWS|1|-30|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-4ba1495ee9074380a2bf896da41834f3">
-          <bounds x="-36" y="24" width="1171" height="1261"/>
+          <bounds x="-36" y="12" width="1171" height="1393"/>
           <feature name="gradient" value="1"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-ac6b337657574bba8c5c52a7ff60ee61" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-30b8171c51774eb198edf4204c205576" archimateRelationship="id-0917047ce4bc4185b57ad4c29d2557f2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-69e3de38aa004cca9eb0ebe2a4cf50ec" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-a67dd0e192d5465bbf4ea4b3a944ba55" archimateRelationship="id-3a3c955ce34a407c85749aaab7bc7ee1"/>
@@ -36697,6 +36641,7 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
           <sourceConnection xsi:type="archimate:Connection" id="id-95af7a75fec0470fbfd5753f879486f3" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-f2e5c87d4e0c436b807eef924caeec65" archimateRelationship="id-7ccd15ad928b49c0a056d837b7a288c7"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-40ee104a223f47fc83585489613aafc5" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-732ee16abc48436d8f883ad8ac835778" archimateRelationship="id-d1cf142968a54a4a8a50faf22436b974"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-f100d6551a6348e5ba62bf5aeaf736e5" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-28c8cd553fe64416b8a2a2a48cb3ef48" archimateRelationship="id-25fc4716b922408885cb98379a52cc5e"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9c6868996eb6456d998dbe1132a14621" source="id-4e2d426a7d7c42b99800ae19f519c3d8" target="id-0bb098ecf1a94db380ad9b769d0c0b08" archimateRelationship="id-b335cb7fc9e84a838d3aa3d8cd308ce0"/>
           <child xsi:type="archimate:DiagramObject" id="id-30b8171c51774eb198edf4204c205576" targetConnections="id-ac6b337657574bba8c5c52a7ff60ee61 id-2553546108cb47b7abc394edff672c38" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-ed01a21019c94c459b98713ff4522e5a">
             <bounds x="24" y="372" width="1093" height="127"/>
             <feature name="gradient" value="1"/>
@@ -36720,32 +36665,26 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
             </child>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-136a7141aed64092ae0cfcc1872ade3b" targetConnections="id-33fed020f31f4f358726415672995a51 id-7b58d3f5080a434ebfe0d7d61f5c709f" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-a2b10750237141dd885d374f1cb067fd">
-            <bounds x="24" y="528" width="1093" height="127"/>
+            <bounds x="24" y="516" width="1093" height="127"/>
             <feature name="gradient" value="1"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-c28d361b0751434891f503ddaf08e2de" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-a67dd0e192d5465bbf4ea4b3a944ba55" archimateRelationship="id-a27f8ea1cb9c4ed699fdd79204a6dcb1"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-318bc0a49838422793ab6b6254f8046a" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-97a3625ac89f402a860d2fb67f99eac0" archimateRelationship="id-19441c7ed82248da8076dc8262495fc3"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-91165369ed0149128d1b5e5bbcbda2c2" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-0bb098ecf1a94db380ad9b769d0c0b08" archimateRelationship="id-0f1ee5419722496abecb97f0b74a0484"/>
-            <child xsi:type="archimate:DiagramObject" id="id-0bb098ecf1a94db380ad9b769d0c0b08" targetConnections="id-b656d61316794f09aae95baaa58e6a9c id-91165369ed0149128d1b5e5bbcbda2c2" textPosition="1" archimateElement="id-f250d1d6d79d4bf3bee89a8b47dfe1a4">
-              <bounds x="174" y="36" width="137" height="71"/>
-              <feature name="gradient" value="1"/>
-            </child>
+            <sourceConnection xsi:type="archimate:Connection" id="id-c28d361b0751434891f503ddaf08e2de" source="id-136a7141aed64092ae0cfcc1872ade3b" target="id-0bb098ecf1a94db380ad9b769d0c0b08" archimateRelationship="id-a27f8ea1cb9c4ed699fdd79204a6dcb1"/>
             <child xsi:type="archimate:DiagramObject" id="id-97a3625ac89f402a860d2fb67f99eac0" targetConnections="id-318bc0a49838422793ab6b6254f8046a" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" archimateElement="id-c10096bcdd784cd985a921f60c6f0d65">
               <bounds x="18" y="36" width="137" height="71"/>
               <feature name="gradient" value="1"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-b656d61316794f09aae95baaa58e6a9c" source="id-97a3625ac89f402a860d2fb67f99eac0" target="id-0bb098ecf1a94db380ad9b769d0c0b08" archimateRelationship="id-5c2c5123ee3f4797b5297d94479c1d11"/>
             </child>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-a67dd0e192d5465bbf4ea4b3a944ba55" targetConnections="id-69e3de38aa004cca9eb0ebe2a4cf50ec id-c28d361b0751434891f503ddaf08e2de" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-142edeb394bb42478e6d6b85d5228d86">
-            <bounds x="24" y="672" width="1093" height="73"/>
+          <child xsi:type="archimate:DiagramObject" id="id-a67dd0e192d5465bbf4ea4b3a944ba55" targetConnections="id-69e3de38aa004cca9eb0ebe2a4cf50ec id-4503d6a59c9d4d08806b2b99e23debeb" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-142edeb394bb42478e6d6b85d5228d86">
+            <bounds x="15" y="792" width="1093" height="73"/>
             <feature name="gradient" value="1"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-1b5d52fdd4cb47f282370751a8770e4c" source="id-a67dd0e192d5465bbf4ea4b3a944ba55" target="id-28c8cd553fe64416b8a2a2a48cb3ef48" archimateRelationship="id-373c2ac49e1249478c2b110bcb7728aa"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-28c8cd553fe64416b8a2a2a48cb3ef48" targetConnections="id-f100d6551a6348e5ba62bf5aeaf736e5 id-1b5d52fdd4cb47f282370751a8770e4c" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" archimateElement="id-1443b0bf650f4e90b3b7e831fb3df794">
-            <bounds x="30" y="768" width="1093" height="127"/>
+            <bounds x="14" y="888" width="1093" height="127"/>
             <feature name="gradient" value="1"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-08dff30e40b544928df18b12ea21abca" source="id-28c8cd553fe64416b8a2a2a48cb3ef48" target="id-892861f05f914c3895460bddfc000ae7" archimateRelationship="id-30ed9fa2938247589af6292fe15ea0d3"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-a25b15e33e7a43cdb080665143f7c279" source="id-28c8cd553fe64416b8a2a2a48cb3ef48" target="id-b61f8e19f444449188b6280053579add" archimateRelationship="id-2521ed154a934eafa7aa982c09eaf1d3"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-3b97a4fa043449b0b31fcc317d258e7d" source="id-28c8cd553fe64416b8a2a2a48cb3ef48" target="id-8be4580d3cdc4796a07e5fc52dea46ff" archimateRelationship="id-0de4dc3287fe45f29e87c2f141147810"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-0e55e8fe9bc249969b4bda0f1bb91505" source="id-28c8cd553fe64416b8a2a2a48cb3ef48" target="id-892861f05f914c3895460bddfc000ae7" archimateRelationship="id-858a0ef22d3f40b596bb9e6877664bea"/>
             <child xsi:type="archimate:DiagramObject" id="id-8be4580d3cdc4796a07e5fc52dea46ff" targetConnections="id-3b97a4fa043449b0b31fcc317d258e7d" textPosition="1" archimateElement="id-981c0fa360d14aaa8e8627a6014dbc04">
               <bounds x="18" y="42" width="137" height="71"/>
               <feature name="gradient" value="1"/>
@@ -36807,21 +36746,26 @@ Ref: https://difi.github.io/felleslosninger/maskinporten_guide_apitilbyder.html&
               <sourceConnection xsi:type="archimate:Connection" id="id-23a9f81691ec492ab210295bea9f939e" source="id-a204e521e70f4f87908d93c9d57704f0" target="id-5630e1360d73477db0ece8eea6a4a5ea" archimateRelationship="id-7b23f021bf0941c7b8885200bff72026"/>
             </child>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-892861f05f914c3895460bddfc000ae7" targetConnections="id-4ffd0e9e4574409c9ccac89240335196 id-08dff30e40b544928df18b12ea21abca" archimateElement="id-2f10c7bb317f42a48698a7133ed39644">
-            <bounds x="27" y="924" width="1087" height="97"/>
+          <child xsi:type="archimate:DiagramObject" id="id-892861f05f914c3895460bddfc000ae7" targetConnections="id-4ffd0e9e4574409c9ccac89240335196 id-0e55e8fe9bc249969b4bda0f1bb91505" archimateElement="id-2f10c7bb317f42a48698a7133ed39644">
+            <bounds x="17" y="1044" width="1087" height="97"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-93a75c0e619e40fbba34d9d9e97977a7" source="id-892861f05f914c3895460bddfc000ae7" target="id-f2e5c87d4e0c436b807eef924caeec65" archimateRelationship="id-0140bbf187f54b5f96306bccce44b23b"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-f2e5c87d4e0c436b807eef924caeec65" targetConnections="id-95af7a75fec0470fbfd5753f879486f3 id-93a75c0e619e40fbba34d9d9e97977a7" archimateElement="id-484103d09e9a4312b6b36eca5644ec57">
-            <bounds x="35" y="1044" width="1072" height="85"/>
+            <bounds x="25" y="1152" width="1072" height="85"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-f170d322513b4751ad996aacc55e5e57" source="id-f2e5c87d4e0c436b807eef924caeec65" target="id-1d92c372c0ed417b9770a083121289d4" archimateRelationship="id-f98c97c210c64167b66ad54c2405f433"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-1d92c372c0ed417b9770a083121289d4" targetConnections="id-c34991dfcb8946a0afa923d750a52dca id-f170d322513b4751ad996aacc55e5e57" archimateElement="id-eecdaf9c4f2a418aa4e1a18527b91b77">
-            <bounds x="36" y="1166" width="1071" height="95"/>
+            <bounds x="26" y="1274" width="1071" height="95"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-098b0a45494446b8a96351463e466d97" source="id-1d92c372c0ed417b9770a083121289d4" target="id-70e07bba141f43928f121b13c6ef2798" archimateRelationship="id-9d332d198c8e4316b5fada12549451ee"/>
             <child xsi:type="archimate:DiagramObject" id="id-70e07bba141f43928f121b13c6ef2798" targetConnections="id-098b0a45494446b8a96351463e466d97" textPosition="1" archimateElement="id-4d6cbb6e37fa4cb7a63edc46993d12b9">
               <bounds x="36" y="12" width="137" height="71"/>
               <feature name="gradient" value="1"/>
             </child>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-0bb098ecf1a94db380ad9b769d0c0b08" targetConnections="id-9c6868996eb6456d998dbe1132a14621 id-c28d361b0751434891f503ddaf08e2de" textPosition="1" archimateElement="id-f250d1d6d79d4bf3bee89a8b47dfe1a4">
+            <bounds x="15" y="696" width="1092" height="71"/>
+            <feature name="gradient" value="1"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-4503d6a59c9d4d08806b2b99e23debeb" source="id-0bb098ecf1a94db380ad9b769d0c0b08" target="id-a67dd0e192d5465bbf4ea4b3a944ba55" archimateRelationship="id-2b11adafa620405fa15be3235893940a"/>
           </child>
         </child>
         <property key="modelx:guid" value="id-67efac9af26d4e9d9365f15392948f11"/>
