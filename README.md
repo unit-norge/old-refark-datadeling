@@ -1,1 +1,2 @@
-tom readme
+Archimate modellen i denne repository beskriver en sektorarkitektur som er en spesialisering av digitaliseringsdirektoratets referansemodell for datautveksling publisert her: https://doc.difi.no/nasjonal-arkitektur/nab_referanse_arkitekturer_datautveksling/ 
+Se denne siden fra digitaliseringsdirektoratet for tips om installasjon og konfigurering av relaterte verktøy: https://doc.difi.no/nasjonal-arkitektur/plattform_om-plattformen/
